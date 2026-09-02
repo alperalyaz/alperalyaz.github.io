@@ -1,0 +1,149 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+#
+# ─── BLOG YÖNETİM PANELİ AYARLARI ────────────────────────────────────────
+#
+# Panelin adresi:  https://alperalyaz.github.io/admin/
+#
+# Bu dosya panelin nasıl görüneceğini anlatır. Panel yazıyı kaydettiğinde
+# doğrudan GitHub'a commit atar; GitHub Actions siteyi yeniden derler.
+# Yani "Kaydet" demekten ~2 dakika sonra yazı canlıda olur.
+#
+# Bir alan eklemek istersen: aşağıdaki "fields" listesine ekle AMA aynısını
+# src/content.config.ts dosyasına da ekle. Orada tanımlı olmayan bir alan
+# derlemeyi hataya düşürür.
+
+backend:
+  name: github
+  repo: alperalyaz/alperalyaz.github.io
+  # "branch" bilerek yazılmadı: GitHub'daki varsayılan dal kullanılır.
+  # Dalı ileride "main" diye yeniden adlandırırsan burada bir şey değişmez.
+  commit_messages:
+    create: 'Yeni yazı: {{slug}}'
+    update: 'Yazı güncellendi: {{slug}}'
+    delete: 'Yazı silindi: {{slug}}'
+    uploadMedia: 'Görsel eklendi: {{path}}'
+    deleteMedia: 'Görsel silindi: {{path}}'
+
+# ─── ADRES (URL) KURALLARI ───────────────────────────────────────────────
+# Yazının adresini sen yazacaksın (aşağıdaki "slug" ayarı). Yine de yanlışlıkla
+# Türkçe karakter girersen burada temizlenir.
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: '-'
+
+# ─── DOSYAYA YAZMA BİÇİMİ ────────────────────────────────────────────────
+output:
+  # Boş bıraktığın isteğe bağlı alanlar dosyaya HİÇ yazılmasın.
+  # Şart: boş bir "cover:" satırı, kapak üreten betiği yanıltıyor.
+  omit_empty_optional_fields: true
+  yaml:
+    # Mevcut 86 yazıdaki yazım biçimiyle aynı olsun diye çift tırnak.
+    quote: double
+
+# ─── GÖRSELLER ───────────────────────────────────────────────────────────
+media_folder: /public/gorseller   # depoda nereye konacak
+public_folder: /gorseller         # sayfada hangi adresle görünecek
+
+media_libraries:
+  all:
+    # Dosya adındaki boşluk ve Türkçe karakterleri temizle.
+    slugify_filename: true
+    # Telefondan çektiğin 5 MB'lık fotoğrafı tarayıcıda küçültüp WebP yapar.
+    # Yükleme öncesi olur, yani depoya zaten küçülmüş hâli gider.
+    transformations:
+      raster_image:
+        format: webp
+        quality: 82
+        width: 1600
+        height: 1600
+      svg:
+        optimize: true
+
+collections:
+  - name: yazilar
+    label: Yazılar
+    label_singular: Yazı
+    description: Blogdaki bütün yazılar. Yeni yazı için sağ üstteki düğme.
+    folder: /src/content/blog
+    create: true
+    format: yaml-frontmatter
+    extension: md
+    # Dosya adı = yazının adresi. Bunu SEN yazacaksın; yeni yazı açarken
+    # en üstte "Slug" diye bir kutu çıkar. Sebebi: otomatik çevirim
+    # "üç" kelimesini "uec" yapıyor, mevcut 86 adresle uyuşmuyor.
+    slug: '{{fields._slug}}'
+    summary: '{{title}}'
+    sortable_fields: [date, title, slug]
+    thumbnail: cover
+
+    fields:
+      - name: title
+        label: Başlık
+        widget: string
+        required: true
+        hint: Google sonuçlarında görünen satır. Aranan kelimeyi içersin.
+
+      - name: date
+        label: Tarih
+        widget: datetime
+        type: date
+        required: true
+
+      - name: description
+        label: Özet
+        widget: text
+        required: true
+        hint: >-
+          Google'da başlığın altındaki iki satır. 150 karakteri geçme.
+          Boş bırakma - kapak ve paylaşım kartı bu satıra tutunuyor.
+
+      - name: lang
+        label: Dil
+        widget: select
+        default: tr
+        options:
+          - { label: Türkçe, value: tr }
+          - { label: İngilizce, value: en }
+
+      - name: tags
+        label: Etiketler
+        widget: list
+        required: false
+        default: []
+        hint: >-
+          Bir etiketin kendi sayfası olması için EN AZ İKİ yazıda geçmesi
+          gerekir. Tek yazıda kalan etiket sayfa açmaz, sadece yazıda görünür.
+
+      - name: cover
+        label: Kapak görseli
+        widget: image
+        required: false
+        choose_url: false
+        hint: >-
+          Boş bırakabilirsin. Boşsa yazının içindeki ilk görsel kapak olur;
+          hiç görsel yoksa baş harfli bir kart otomatik üretilir.
+
+      - name: draft
+        label: Taslak
+        widget: boolean
+        default: false
+        hint: Açıkken yazı sitede görünmez. Yayınlamak için kapat.
+
+      - name: body
+        label: Yazı
+        widget: markdown
+        required: true
+        # ÖNEMLİ: "raw" (ham Markdown) önce geliyor, yani varsayılan mod o.
+        # Sebebi: yazıların içinde tablo, kod bloğu ve elle çizilmiş SVG
+        # şemalar var. Zengin metin modu bunları kendi biçimine çevirip
+        # bozabiliyor. Düz yazı yazarken üstteki düğmeden zengin moda
+        # geçebilirsin; ŞEMALI YAZILARDA GEÇME.
+        modes: [raw, rich_text]
+
+      # ── Burada TANIMLANMAYAN alanlar ──
+      # paylasimKarti, categories ve wpUrl bilerek listeye alınmadı.
+      # Sveltia, tanımlanmamış alanları olduğu gibi koruyup geri yazıyor;
+      # yani eski yazılardaki değerleri kaybolmuyor. Tanımlasaydım YENİ
+      # yazılara boş bir 'paylasimKarti: ""' satırı düşerdi ve kart üreten
+      # betik o satırı dolu sanıp gerçeğini hiç yazmazdı.

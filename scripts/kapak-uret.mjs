@@ -13,6 +13,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
+import { fmOku, fmEkle } from './fm.mjs';
 
 const BLOG = 'src/content/blog';
 const IMG  = 'public/gorseller';
@@ -31,11 +32,12 @@ for (const f of files) {
   const body = txt.slice(end + 4);
 
   // Kapak: once frontmatter, yoksa govdedeki ilk gorsel.
-  let cover = fm.match(/^cover:\s*"([^"]+)"/m)?.[1];
+  // fmOku tirnakli da tirnaksiz da okur; /admin/ paneli tirnaksiz yazabilir.
+  let cover = fmOku(fm, 'cover') || undefined;
   if (!cover) {
     cover = body.match(/!\[[^\]]*\]\((\/gorseller\/[^)\s]+)\)/)?.[1];
     if (cover) {
-      fm = `${fm}\ncover: "${cover}"`;
+      fm = fmEkle(fm, 'cover', cover);
       txt = `---\n${fm}\n---${body}`;
       await fs.writeFile(p, txt);
       assigned++;

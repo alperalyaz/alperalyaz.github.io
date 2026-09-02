@@ -16,6 +16,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import satori from 'satori';
 import sharp from 'sharp';
+import { fmOku, fmEkle } from './fm.mjs';
 
 const BLOG  = 'src/content/blog';
 const THUMB = 'public/gorseller/k';
@@ -139,9 +140,11 @@ for (const f of dosyalar) {
   const fm = t.slice(4, son), govde = t.slice(son + 4);
   hepsi.push({
     dosya: f, slug: f.replace(/\.md$/, ''), fm, govde, tam: t, son,
-    baslik: (fm.match(/^title: "(.*)"$/m) || [])[1] || f,
-    tarih: (fm.match(/^date: (\S+)/m) || [])[1] || '',
-    kapak: (fm.match(/^cover: "(.*)"$/m) || [])[1],
+    // fmOku tirnakli da tirnaksiz da okur: yazi elle de yazilabiliyor,
+    // /admin/ panelinden de gelebiliyor ve ikisinin yazim bicimi ayni degil.
+    baslik: fmOku(fm, 'title') || f,
+    tarih: fmOku(fm, 'date') || '',
+    kapak: fmOku(fm, 'cover') || undefined,
     gorselli: /!\[|<iframe/.test(govde),
   });
 }
@@ -178,11 +181,12 @@ for (const [i, y] of hepsi.entries()) {
   // frontmatter'a paylaşım kartını yaz (liste kapağı DEĞİL)
   // İki alan BAĞIMSIZ yazılır. Önceki sürümde ikisi tek koşula bağlıydı;
   // paylasimKarti zaten varsa cover hiç eklenmiyordu.
+  // fmEkle: alan yoksa ekler, bossa doldurur, doluysa dokunmaz.
+  // Onceki surum "description:" satirina tutunuyordu; o satir yoksa ya da
+  // birden fazla satira yayilmissa hicbir sey yazilmiyordu.
   let fm = y.fm;
-  if (!/^cover:/m.test(fm))
-    fm = fm.replace(/^(description:.*)$/m, `$1\ncover: "/gorseller/k/${y.slug}.webp"`);
-  if (!/^paylasimKarti:/m.test(fm))
-    fm = fm.replace(/^(description:.*)$/m, `$1\npaylasimKarti: "/gorseller/kart/${y.slug}.png"`);
+  fm = fmEkle(fm, 'cover', `/gorseller/k/${y.slug}.webp`);
+  fm = fmEkle(fm, 'paylasimKarti', `/gorseller/kart/${y.slug}.png`);
   if (fm !== y.fm) await fs.writeFile(path.join(BLOG, y.dosya), `---\n${fm}\n---${y.govde}`);
   uretilen++;
 }

@@ -7,7 +7,9 @@ export const GET: APIRoute = ({ site }) => {
   const origin = (site ?? new URL('https://example.com')).origin;
   const sitemap = `${origin}${base.replace(/\/$/, '')}/sitemap-index.xml`;
   return new Response(
-    `User-agent: *\nAllow: /\n\nSitemap: ${sitemap}\n`,
+    // /admin/ = Sveltia CMS yonetim paneli. Arama motoru indekslemesin.
+    // Sayfada ayrica <meta name="robots" content="noindex"> var; bu ikinci kilit.
+    `User-agent: *\nAllow: /\nDisallow: /admin/\n\nSitemap: ${sitemap}\n`,
     { headers: { 'Content-Type': 'text/plain; charset=utf-8' } },
   );
 };
