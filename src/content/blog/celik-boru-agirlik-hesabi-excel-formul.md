@@ -15,6 +15,43 @@ Bu yazıda formülün kendisi var. Kopyalayın, kullanın.
 
 ## Boru (içi boş) ağırlığı
 
+<figure class="sema">
+<svg viewBox="0 0 430 252" role="img" aria-label="Çelik boru kesiti: dış çap D, et kalınlığı t" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="celik" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="currentColor" stroke-width="2.4" opacity="0.3"/>
+    </pattern>
+    <marker id="ok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,1 L10,5 L0,9 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <g fill="none" stroke="currentColor">
+    <circle cx="120" cy="108" r="78" fill="url(#celik)" stroke-width="1.7"/>
+    <circle cx="120" cy="108" r="56" fill="var(--paper)" stroke-width="1.7"/>
+    <line x1="28" y1="108" x2="212" y2="108" stroke-width="1" stroke-dasharray="5 4" opacity="0.35"/>
+    <line x1="120" y1="30" x2="120" y2="186" stroke-width="1.1" marker-start="url(#ok)" marker-end="url(#ok)"/>
+    <line x1="176" y1="108" x2="198" y2="108" stroke-width="1.4" marker-start="url(#ok)" marker-end="url(#ok)"/>
+    <line x1="187" y1="102" x2="228" y2="60" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <g fill="currentColor" font-family="ui-monospace, monospace">
+    <rect x="109" y="97" width="22" height="21" fill="var(--paper)"/>
+    <text x="120" y="113" text-anchor="middle" font-size="17">D</text>
+    <rect x="179" y="81" width="16" height="19" fill="var(--paper)"/>
+    <text x="187" y="96" text-anchor="middle" font-size="15">t</text>
+    <g font-size="13">
+      <text x="232" y="64" opacity="0.8">et kalınlığı</text>
+      <text x="232" y="112">D = dış çap (mm)</text>
+      <text x="232" y="132">t = et kalınlığı (mm)</text>
+    </g>
+    <text x="232" y="166" font-size="12.5" opacity="0.75">taralı halka = çelik</text>
+    <text x="14" y="238" font-size="14">kg/m = 0,02466 · t · (D − t)</text>
+  </g>
+</svg>
+<figcaption>Boruda ağırlığı belirleyen şey taralı halkadır: dış daireden iç daire çıkarılınca kalan çelik.</figcaption>
+</figure>
+
 ```
 kg/m = 0,02466 × t × (D − t)
 
