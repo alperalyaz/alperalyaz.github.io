@@ -1,7 +1,7 @@
 ---
 title: "Denizli’nin sırrı ne?"
 date: 2014-11-11
-description: "Endüstriyel kalkınma denilince Türkiye’de belli başlı 10-15 adet şehir sayıyoruz. Bunlardan biri Denizli. Denizli’nin sırrı ne? Neden komşuları Afyon, Uşak gibi"
+description: "Endüstriyel kalkınma denilince Türkiye’de belli başlı 10-15 adet şehir sayıyoruz. Bunlardan biri Denizli. Denizli’nin sırrı ne? Neden komşuları Afyon…"
 tags: ["ahmet nuri sözkesen", "akçakoca akça", "babadağlı girişimciler", "denizli", "denizli büyükşehir mi", "denizli cem sineması", "denizli ekonomisi", "denizli haddehaneleri", "denizli sümerbank", "denizli sırrı ne", "denizli tarihi", "denizli tekstili", "denizli'nin ekonomisi", "denizlili olmak", "denizlinin kalkınması", "nazilli sümerbank", "sümerbank tarihi", "ıspanakçı"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2014/11/11/denizlinin-sirri-ne/"

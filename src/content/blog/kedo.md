@@ -1,7 +1,7 @@
 ---
 title: "Kedo"
 date: 2017-09-12
-description: "Kediyle yaşamak hakkında bir şeyler yazabilirdim. Ancak zaten fazlası ile bu konu işlenmiş durumda. Bu sebeple bir kedi ile yaşamamak hakkında bir şeyler yazaca"
+description: "Kediyle yaşamak hakkında bir şeyler yazabilirdim. Ancak zaten fazlası ile bu konu işlenmiş durumda. Bu sebeple bir kedi ile yaşamamak hakkında bir şeyler…"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2017/09/12/kedo/"

@@ -1,7 +1,7 @@
 ---
 title: "alperalyaz.com çevrimiçi!"
 date: 2011-12-11
-description: "Son sınıf Portfolyo Tasarımı dersinin işleyişi gereğince alınan alperalyaz.com adresi artık çevrimiçi! Çalışmalarımı ücretsiz olarak sunulan standart alanlara a"
+description: "Son sınıf Portfolyo Tasarımı dersinin işleyişi gereğince alınan alperalyaz.com adresi artık çevrimiçi! Çalışmalarımı ücretsiz olarak sunulan standart…"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2011/12/11/alperalyaz-com-cevrimici/"

@@ -1,7 +1,7 @@
 ---
 title: "Vanalarda Yazan “DN” Ne Anlama Geliyor?"
 date: 2014-11-05
-description: "DN Diameter Nominal’in kısaltılmasıdır. Yani nominal çap. Bu birim vananın geçirgenliğini anlamamızı sağlar. DN10, DN15, DN20, DN25, DN32,DN40, DN50…. gibi bir "
+description: "DN Diameter Nominal’in kısaltılmasıdır. Yani nominal çap. Bu birim vananın geçirgenliğini anlamamızı sağlar. DN10, DN15, DN20, DN25, DN32,DN40, DN50……"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2014/11/05/vanalarda-yazan-dn-ne-anlama-geliyor/"

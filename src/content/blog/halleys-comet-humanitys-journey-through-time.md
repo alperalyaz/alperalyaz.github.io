@@ -1,7 +1,7 @@
 ---
 title: "Halley’s Comet: Humanity’s Journey Through Time"
 date: 2024-10-21
-description: "Daha önce bu blogda paylaştığım yazıyı videoya çevirdim. “5 dakikada biter!” diye başlamıştım ama YouTube’un beni 3 gün boyunca esir almasıyla sonuçlandı. Şimdi"
+description: "Daha önce bu blogda paylaştığım yazıyı videoya çevirdim. “5 dakikada biter!” diye başlamıştım ama YouTube’un beni 3 gün boyunca esir almasıyla sonuçlandı…"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2024/10/21/halleys-comet-humanitys-journey-through-time/"

@@ -1,7 +1,7 @@
 ---
 title: "Çöp Kamyonu Tarihi"
 date: 2021-12-21
-description: "Günümüzde temel bir belediye hizmeti olan çöp kamyonu ile çöplerin toplanması işi aslında tarihi en fazla 100 sene olan yeni bir şey. Hepimizin aşina olduğu gün"
+description: "Günümüzde temel bir belediye hizmeti olan çöp kamyonu ile çöplerin toplanması işi aslında tarihi en fazla 100 sene olan yeni bir şey. Hepimizin aşina…"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2021/12/21/cop-kamyonu-tarihi/"

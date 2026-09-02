@@ -1,7 +1,7 @@
 ---
 title: "Claude Code, Cursor, Codex ve Kimi K3"
 date: 2026-07-27
-description: "Ben meslekten bir yazılımcı değilim. Şirketimizdeki projeleri, dijital altyapıları ve iş araçlarını dışarıdaki yazılımcılara emanet edemeyecek kadar mükemmeliye"
+description: "Ben meslekten bir yazılımcı değilim. Şirketimizdeki projeleri, dijital altyapıları ve iş araçlarını dışarıdaki yazılımcılara emanet edemeyecek kadar…"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2026/07/27/claude-code-cursor-codex-ve-kimi-k3/"

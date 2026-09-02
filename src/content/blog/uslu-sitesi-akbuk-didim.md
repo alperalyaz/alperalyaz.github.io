@@ -1,7 +1,7 @@
 ---
 title: "Uslu Sitesi, Akbük, Didim"
 date: 2024-01-23
-description: "Ülkemizin Ege Denizi sahili boyunca yer alan sayısız güzelliklerinden biri olan Mandalya Körfezi’nde bulunan sitemiz 37°24’14.19″ Kuzey , 27°22’17.09″ Doğu kord"
+description: "Ülkemizin Ege Denizi sahili boyunca yer alan sayısız güzelliklerinden biri olan Mandalya Körfezi’nde bulunan sitemiz 37°24’14.19″ Kuzey , 27°22’17.09″…"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2024/01/23/uslu-sitesi-akbuk-didim/"

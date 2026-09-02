@@ -1,7 +1,7 @@
 ---
 title: "Evrenin bugları"
 date: 2021-05-15
-description: "Evrenin artan hızla genişliyor olması sebebi ile şu an ışık hızı ile seyahate başlasak bile görünen evrenin büyük kısmına asla ulaşamayacağız Işık hızı evrenin "
+description: "Evrenin artan hızla genişliyor olması sebebi ile şu an ışık hızı ile seyahate başlasak bile görünen evrenin büyük kısmına asla ulaşamayacağız Işık hızı…"
 tags: ["anti madde", "çift yarık deneyi", "big bang", "evren", "evrenin bugları", "karanlık enerji", "simülasyon teorisi", "universe", "ışık hızı"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2021/05/15/evrenin-buglari/"

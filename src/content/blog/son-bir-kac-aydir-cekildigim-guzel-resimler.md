@@ -1,7 +1,7 @@
 ---
 title: "Son bir kaç aydır çekildiğim güzel resimler"
 date: 2018-11-06
-description: "Kendime ait çok az şey paylaştığımı farkettim. Kastettiğim şey resim falan. Aslında fazla paylaşacak bir şeyim yok. Öyle ki Facebook profil resmim bile 3 yıl ön"
+description: "Kendime ait çok az şey paylaştığımı farkettim. Kastettiğim şey resim falan. Aslında fazla paylaşacak bir şeyim yok. Öyle ki Facebook profil resmim bile 3…"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2018/11/06/son-bir-kac-aydir-cekildigim-guzel-resimler/"

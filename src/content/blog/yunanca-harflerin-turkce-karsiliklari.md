@@ -1,7 +1,7 @@
 ---
 title: "Yunanca harflerin Türkçe karşılıkları"
 date: 2018-07-20
-description: "BÜYÜK HARF küçük harf yunanca okunuş verdiği türkçe ses Α α alfa a Δ δ delta d Ε ε epsilon e Φ φ fi f Γ γ ğama ğ Χ χ hi h Η η ita i Ι ι yota i Υ υ ipsilon i Κ κ"
+description: "BÜYÜK HARF küçük harf yunanca okunuş verdiği türkçe ses Α α alfa a Δ δ delta d Ε ε epsilon e Φ φ fi f Γ γ ğama ğ Χ χ hi h Η η ita i Ι ι yota i Υ υ ipsilon…"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2018/07/20/yunanca-harflerin-turkce-karsiliklari/"

@@ -1,7 +1,7 @@
 ---
 title: "Gelişmekte olan ülkelerin orta gelir tuzağından çıkması için yapması gereken şeyler"
 date: 2018-10-27
-description: "Fikir haklarının kanun ile güvenceye alınması; işleyen bir hak koruma sisteminin mevcudiyeti. 1972 yılında Türkiye,Denizli’de kurulmuş ve markasını ülke çapında"
+description: "Fikir haklarının kanun ile güvenceye alınması; işleyen bir hak koruma sisteminin mevcudiyeti. 1972 yılında Türkiye,Denizli’de kurulmuş ve markasını ülke…"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2018/10/27/gelismekte-olan-ulkelerin-orta-gelir-tuzagindan-cikmasi-icin-yapmasi-gereken-seyler/"

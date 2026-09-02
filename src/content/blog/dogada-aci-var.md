@@ -1,7 +1,7 @@
 ---
 title: "doğada acı var"
 date: 2017-11-07
-description: "mesela düşün. sen bi meyve sineğisin. yaratılış yapacak bir şey yok, öyle yaratılmışsın. lavradan çıktın gözünü açtın kanatlar manatlar her şey on numara.18 tan"
+description: "mesela düşün. sen bi meyve sineğisin. yaratılış yapacak bir şey yok, öyle yaratılmışsın. lavradan çıktın gözünü açtın kanatlar manatlar her şey on…"
 tags: ["acı", "anlam", "ölüm", "doğa", "neden", "trajik", "varlık", "yaşamak"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2017/11/07/dogada-aci-var/"

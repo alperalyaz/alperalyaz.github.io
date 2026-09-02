@@ -1,7 +1,7 @@
 ---
 title: "2021 verimli bir yıl oluyor: Empyrium’un yeni albümü çıktı!"
 date: 2021-02-01
-description: "2020’den kurtulmakla iyi ettiğimizin bir kanıtı daha Empyrium’dan geldi. Yeni albümüne ait 2 şarkıyı yayınlayan Empyirum’a sevenleri (ben) YÜRÜ BEE! dedi. Empyr"
+description: "2020’den kurtulmakla iyi ettiğimizin bir kanıtı daha Empyrium’dan geldi. Yeni albümüne ait 2 şarkıyı yayınlayan Empyirum’a sevenleri (ben) YÜRÜ BEE! dedi…"
 tags: ["über den Sternen", "empyirum", "The Three Flames Sapphire"]
 categories: ["Music"]
 wpUrl: "https://alperaly.wordpress.com/2021/02/01/2021-verimli-bir-yil-oluyor-empyrium-yeni-albumu-cikti/"

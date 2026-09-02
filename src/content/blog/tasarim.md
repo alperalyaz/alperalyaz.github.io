@@ -1,7 +1,7 @@
 ---
 title: "Kavram anlayışı ve tasarım üzerine"
 date: 2011-10-06
-description: "Tasarım, dizayn, yaratış, oluşturma, var etme, kurma, inşa etme… Bir kavram üzerine düşünmek zordur. Çünkü genellikle bizim üzerinde düşünüp kararlaştırmadığımı"
+description: "Tasarım, dizayn, yaratış, oluşturma, var etme, kurma, inşa etme… Bir kavram üzerine düşünmek zordur. Çünkü genellikle bizim üzerinde düşünüp…"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2011/10/06/tasarim/"

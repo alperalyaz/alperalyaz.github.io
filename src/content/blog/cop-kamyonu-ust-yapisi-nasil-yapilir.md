@@ -1,7 +1,7 @@
 ---
 title: "Çöp kamyonu üst yapısı nasıl yapılır?"
 date: 2021-12-30
-description: "Arkadan yüklemeli çöp kamyonu siparişi teknik şartnameye göre işleme alınır. Bu şartnamede her ülkenin kendine ait çok çeşitli varyasyonları yer alıyor olsa da "
+description: "Arkadan yüklemeli çöp kamyonu siparişi teknik şartnameye göre işleme alınır. Bu şartnamede her ülkenin kendine ait çok çeşitli varyasyonları yer alıyor…"
 tags: ["çöp kamyonu", "garbage truck", "garbage truck manufacture", "how is it made garbage truck", "rcv", "refuse compactor"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2021/12/30/cop-kamyonu-ust-yapisi-nasil-yapilir/"

@@ -1,7 +1,7 @@
 ---
 title: "Could Taiwan Ignite World War III? Lessons from Franz Ferdinand and 1914"
 date: 2024-11-29
-description: "No one’s watched this video. Not a single soul.I uploaded it ages ago, and it’s just been sitting there… untouched, unloved.Is the algorithm ghosting me, or am "
+description: "No one’s watched this video. Not a single soul.I uploaded it ages ago, and it’s just been sitting there… untouched, unloved.Is the algorithm ghosting me…"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2024/11/29/could-taiwan-ignite-world-war-iii-lessons-from-franz-ferdinand-and-1914/"

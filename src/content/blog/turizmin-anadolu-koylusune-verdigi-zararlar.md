@@ -1,7 +1,7 @@
 ---
 title: "Turizmin Anadolu köylüsüne verdiği zararlar"
 date: 2018-09-29
-description: "Genel düşünce şudur: Turizm sayesinde kendi köyünden başka hiçbir yer bilmeyen, dünyayı takip etmeyen, dünya ile entegre olamayan, sabit ve kapalı bir kültür si"
+description: "Genel düşünce şudur: Turizm sayesinde kendi köyünden başka hiçbir yer bilmeyen, dünyayı takip etmeyen, dünya ile entegre olamayan, sabit ve kapalı bir…"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2018/09/29/turizmin-anadolu-koylusune-verdigi-zararlar/"

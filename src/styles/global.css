@@ -76,7 +76,10 @@ a:hover { background: var(--accent-bg); }
   color: var(--ink-faint); border-bottom: 1px solid var(--rule);
   padding-bottom: 0.4rem; margin: 2.75rem 0 1.25rem;
 }
-.year-head:first-of-type { margin-top: 0; }
+/* Her yil kendi <section>'i icinde oldugu icin ":first-of-type" hepsine
+   uyuyordu ve tum yil basliklarinin ust bosluğu siliniyordu.
+   Sadece sayfadaki ILK bolumun basligi bosluksuz olmali. */
+section:first-of-type > .year-head { margin-top: 0; }
 
 .entry { padding: 0.9rem 0; border-bottom: 1px solid var(--rule); }
 .entry:last-child { border-bottom: 0; }

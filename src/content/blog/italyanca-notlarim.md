@@ -1,7 +1,7 @@
 ---
 title: "İtalyanca Notlarım"
 date: 2012-03-30
-description: "Pronomi İndiretti ve Pronomi Diretti nesne veya kişilere yönelim anlamı veren, konuşmada kolaylığı sağlayan elemanlar. Birbirinden ayırması, kavraması büyük iş."
+description: "Pronomi İndiretti ve Pronomi Diretti nesne veya kişilere yönelim anlamı veren, konuşmada kolaylığı sağlayan elemanlar. Birbirinden ayırması, kavraması…"
 tags: ["ders", "i pronomi diretti", "i pronomi indiretti", "ital", "italiano", "italyanca", "not", "notlar"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2012/03/30/italyanca-notlarim/"

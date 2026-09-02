@@ -1,7 +1,7 @@
 ---
 title: "Dünya tarihi, kitlesel yok oluşlar, arkeolojik çağlar"
 date: 2023-07-07
-description: "3,8 MİLYAR YIL ÖNCE: Levha tektoniği ortaya çıkıyor, kıtaların hareketi başlıyor. Ayrıca ilk canlılar oluşmaya başlıyor. 2,5 MİLYAR YIL ÖNCE: Bu zamana kadar at"
+description: "3,8 MİLYAR YIL ÖNCE: Levha tektoniği ortaya çıkıyor, kıtaların hareketi başlıyor. Ayrıca ilk canlılar oluşmaya başlıyor. 2,5 MİLYAR YIL ÖNCE: Bu zamana…"
 tags: ["arkeoloji", "evrim", "kitlesel yok oluş", "tarih"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2023/07/07/dunya-tarihi-kitlesel-yok-oluslar-arkeolojik-caglar/"

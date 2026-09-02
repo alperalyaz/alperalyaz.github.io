@@ -1,7 +1,7 @@
 ---
 title: "Samos gezisi – Sisam Adasında Nerede Kalınır, Ne Yapılır?"
 date: 2014-08-13
-description: "SAMOS NEREDEDİR Samos Kuşadası Dilek Yarımadası karşısındaki Yunan adasıdır. Türkçe’de Sisam Adası olarak da geçer. Ada batıdan doğuya 40 km, kuzeyden güneye 20"
+description: "SAMOS NEREDEDİR Samos Kuşadası Dilek Yarımadası karşısındaki Yunan adasıdır. Türkçe’de Sisam Adası olarak da geçer. Ada batıdan doğuya 40 km, kuzeyden…"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2014/08/13/samos-gezisi-sisam-adasinda-nerede-kalinir-ne-yapilir/"

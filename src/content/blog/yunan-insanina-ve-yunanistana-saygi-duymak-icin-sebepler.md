@@ -1,7 +1,7 @@
 ---
 title: "Yunan insanına ve Yunanistan’a saygı duymak için sebepler"
 date: 2021-05-18
-description: "Tarih. Bu yazıya böyle bir klişe ile başlamak istemezdim ama durum bu. Düşünmek ile ilgili tüm eylemleri gerçekleştirmiş, günümüzde bir disipline dönüşmüş nered"
+description: "Tarih. Bu yazıya böyle bir klişe ile başlamak istemezdim ama durum bu. Düşünmek ile ilgili tüm eylemleri gerçekleştirmiş, günümüzde bir disipline dönüşmüş…"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2021/05/18/yunan-insanina-ve-yunanistana-saygi-duymak-icin-sebepler/"

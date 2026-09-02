@@ -1,7 +1,7 @@
 ---
 title: "uçak kargosu ile mal göndermek (ihracat yapmak)"
 date: 2014-12-20
-description: "ticari amaçla uçak kargosu ile ihracat yapmak dünyanın en kolay şeyi. yeter ki malımızı bekleyen bir müşterimiz olsun. yazıya bu cümleyle başlayalım ki şevk ve "
+description: "ticari amaçla uçak kargosu ile ihracat yapmak dünyanın en kolay şeyi. yeter ki malımızı bekleyen bir müşterimiz olsun. yazıya bu cümleyle başlayalım ki…"
 tags: ["fas'a ihracat", "hava kargo ile ihracat", "hava yolu", "ihracat", "uçak kargo", "uçakla ihracat"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2014/12/20/ucak-kargosu-ile-mal-gondermek-ihracat-yapmak/"

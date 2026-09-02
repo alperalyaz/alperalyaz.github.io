@@ -1,7 +1,7 @@
 ---
 title: "Gelecekte tasarım: 3d Yazıcılar ve 3d Tarayıcılar"
 date: 2011-11-09
-description: "1900 lü yıllardaki gençler 2000’li yıllar için ne hayaller kuruyorlardı bilmiyorum ama 2000’li yıllarda yaşayan ben 2100 yılı için çok fazla hayal kuruyorum ve "
+description: "1900 lü yıllardaki gençler 2000’li yıllar için ne hayaller kuruyorlardı bilmiyorum ama 2000’li yıllarda yaşayan ben 2100 yılı için çok fazla hayal…"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2011/11/09/gelecekte-tasarim-3d-yazicilar-ve-3d-tarayicilar/"

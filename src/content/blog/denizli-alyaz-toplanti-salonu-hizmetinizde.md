@@ -1,7 +1,7 @@
 ---
 title: "Denizli Alyaz Toplantı Salonu hizmetinizde"
 date: 2021-01-06
-description: "Denizli’de toplantı salonu ihtiyaçlarınız için merkezi, park sorunu olmayan, 100 metre kare alana ve 40 kişi ağırlama kapasitesine sahip Alyaz Toplantı Salonu h"
+description: "Denizli’de toplantı salonu ihtiyaçlarınız için merkezi, park sorunu olmayan, 100 metre kare alana ve 40 kişi ağırlama kapasitesine sahip Alyaz Toplantı…"
 tags: ["alyaz toplantı salonu", "denizli toplantı salonu", "toplantı", "toplantı salonu"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2021/01/06/denizli-alyaz-toplanti-salonu-hizmetinizde/"
