@@ -2,7 +2,7 @@
 title: "Bu albümler varken insanlar neden başka şeyler dinler ki?*"
 date: 2024-08-09
 description: "Linkin Park – Meteora Evanescence – Fallen Thurisaz – Re-Incentive Suldusk – Lunar Falls Empyrium – A Wintersunset Empyirum – Weiland Agalloch – The…"
-tags: []
+tags: ["müzik"]
 categories: ["Music"]
 wpUrl: "https://alperaly.wordpress.com/2024/08/09/bu-albumler-varken-insanlar-neden-baska-seyler-dinler-ki/"
 cover: "/gorseller/8023ed3dac297d88d97bb9445d4a16bc-124565.webp"

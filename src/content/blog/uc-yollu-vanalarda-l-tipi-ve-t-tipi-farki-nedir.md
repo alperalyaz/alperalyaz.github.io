@@ -2,7 +2,7 @@
 title: "Üç yollu vanalarda L TİPİ ve T TİPİ farkı nedir?"
 date: 2017-10-11
 description: "Üç yollu küresel vanalarda L tipi ile T tipi arasındaki fark: hangi konumda hangi yol açık, geçiş anında ne oluyor ve hangi işte hangisini seçmeli."
-tags: ["vana", "küresel vana", "hidrolik", "tesisat"]
+tags: ["vana", "hidrolik"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2017/10/11/uc-yollu-vanalarda-l-tipi-ve-t-tipi-farki-nedir/"
 cover: "/gorseller/l-tipi-t-tipi-fark-uc-yollu-vana2-0099cb.webp"

@@ -2,7 +2,7 @@
 title: "OĞLUŞUMUZ GİF"
 date: 2020-01-30
 description: "Oğlumuzu beklerken İlk haftalar Dünyayı, nesneleri, sesleri anlama çabaları 1 Dünyayı, nesneleri, sesleri anlama çabaları 2 Anne ile takılmacalar Baba ile…"
-tags: []
+tags: ["aile", "günlük"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2020/01/30/oglusumuz-gif/"
 cover: "/gorseller/img-0312-animation-bd1bc6.webp"

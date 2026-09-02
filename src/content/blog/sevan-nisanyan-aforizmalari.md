@@ -2,7 +2,7 @@
 title: "Sevan Nişanyan Aforizmaları"
 date: 2024-08-22
 description: "İfade özgürlüğü konusu: İnsanlık, tartışılmaz olanı tartışmaya cüret edenler sayesinde ilerledi.Bu cüret edenlerin 100 tanesinden 99’u muhtemel ki salt…"
-tags: []
+tags: ["felsefe", "kitap"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2024/08/22/sevan-nisanyan-aforizmalari/"
 cover: "/gorseller/screenshot-1-b71a67.webp"

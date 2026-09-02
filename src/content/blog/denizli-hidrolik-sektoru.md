@@ -4,7 +4,7 @@ date: 2020-04-03
 description: "Hidrolikçilik diye tabir edilen bir meslek grubu var. Hidrolikçi temel olarak akışkan mekaniğini endüstriyel otomasyon uygulamalarında kullanmak için bir…"
 cover: "/gorseller/k/denizli-hidrolik-sektoru.webp"
 paylasimKarti: "/gorseller/kart/denizli-hidrolik-sektoru.png"
-tags: []
+tags: ["hidrolik", "sanayi", "denizli"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2020/04/03/denizli-hidrolik-sektoru/"
 ---

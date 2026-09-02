@@ -4,7 +4,7 @@ date: 2016-09-20
 description: "LED, ışık veren diyot demek. Işığın tam olarak nerede doğduğu, rengi neyin belirlediği, LED'in neden silisyumdan yapılmadığı ve LED'e neden direnç gerektiği — hesabıyla birlikte."
 cover: "/gorseller/k/led-lamba-nasil-calisir.webp"
 paylasimKarti: "/gorseller/kart/led-lamba-nasil-calisir.png"
-tags: ["LED", "diyot", "yarı iletken", "elektronik"]
+tags: ["elektronik", "bilim"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2016/09/20/led-lamba-nasil-calisir/"
 ---

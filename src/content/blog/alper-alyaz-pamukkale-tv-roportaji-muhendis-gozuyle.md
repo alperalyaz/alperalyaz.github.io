@@ -2,7 +2,7 @@
 title: "Alper Alyaz Pamukkale TV Röportajı – Mühendis Gözüyle"
 date: 2021-04-26
 description: "Fatih Yaşa ile birlikte keyifli sohbetimizi onca aydan sonra YouTube’da anca bulabildim. Güzel bir sohbet olmuş."
-tags: []
+tags: ["sanayi", "denizli"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2021/04/26/alper-alyaz-pamukkale-tv-roportaji-muhendis-gozuyle/"
 cover: "/gorseller/screenshot-4-338d04.webp"

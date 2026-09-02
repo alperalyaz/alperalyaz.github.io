@@ -2,7 +2,7 @@
 title: "Bach’ı keşfetmek"
 date: 2018-07-28
 description: "İshak Alaton’un bir kitabında (sanırım Gereksiz Adam’da) okuduğum ilginç bir bölümdü. Sayın Alaton okuyucusuna şöyle sesleniyordu; Gençler, öncelikli…"
-tags: []
+tags: ["müzik"]
 categories: ["Music"]
 wpUrl: "https://alperaly.wordpress.com/2018/07/28/bachi-kesfetmek/"
 cover: "/gorseller/bach-a8d2a9.webp"

@@ -2,7 +2,7 @@
 title: "Tayvan, olası dünya savaşı için yeni bir “Franz Ferdinand” olabilir mi?"
 date: 2023-12-06
 description: "Hak etmediği bir şekilde öldürülmüş olmaları Avusturya Macaristan veliahttı Franz Ferdinand’ı ve eşini anmamız için belki de yeterli bir sebeptir. Ama tüm…"
-tags: ["3. dünya savaşı", "bosna suikastı", "dünya savaşı", "tayvan"]
+tags: ["jeopolitik", "tarih"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2023/12/06/tayvan-olasi-dunya-savasi-icin-yeni-bir-franz-ferdinand-olabilir-mi/"
 cover: "/gorseller/pexels-photo-417070-9c4506.webp"

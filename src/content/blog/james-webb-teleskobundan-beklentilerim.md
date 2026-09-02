@@ -2,7 +2,7 @@
 title: "James Webb teleskobu neler yapabilir?"
 date: 2021-12-25
 description: "Hubble gibi dünya yörüngesinde tamir edilerek ancak çalışabilen dandik bir uydudan Webb uydusuna geçiş teknoloji gelişimimizi özetleyen inanılmaz bir…"
-tags: ["hubble vs webb", "james webb", "webb görevi", "webb teleskobu"]
+tags: ["uzay", "bilim"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2021/12/25/james-webb-teleskobundan-beklentilerim/"
 cover: "/gorseller/pexels-photo-256381-554848.webp"

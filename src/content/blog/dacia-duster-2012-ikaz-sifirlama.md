@@ -4,7 +4,7 @@ date: 2018-07-27
 description: "Dacia Duster'da bakım (servis) ikazını sıfırlama: gaz ve fren pedalıyla üç adımda nasıl yapılır, hangi ışıkta işe yarar, hangilerinde yaramaz."
 cover: "/gorseller/k/dacia-duster-2012-ikaz-sifirlama.webp"
 paylasimKarti: "/gorseller/kart/dacia-duster-2012-ikaz-sifirlama.png"
-tags: ["dacia", "duster", "bakım", "servis ikazı"]
+tags: ["günlük"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2018/07/27/dacia-duster-2012-ikaz-sifirlama/"
 ---

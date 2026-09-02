@@ -2,7 +2,7 @@
 title: "Antalya Arkeoloji Müzesi"
 date: 2017-10-09
 description: ""
-tags: []
+tags: ["arkeoloji", "gezi"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2017/10/09/antalya-arkeoloji-muzesi/"
 cover: "/gorseller/img-0462-0253d1.webp"

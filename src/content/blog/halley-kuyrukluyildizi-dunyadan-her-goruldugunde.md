@@ -2,7 +2,7 @@
 title: "Halley Kuyrukluyıldızı Dünya’dan her görüldüğünde"
 date: 2023-03-20
 description: "YIL Avrupa ve Ortadoğu’daki olaylar Asya’daki olaylar Diğer Olaylar -239 Kartaca, Sicilya’yı kaybediyor, büyük ekonomik sorunlar ve isyanlar baş…"
-tags: []
+tags: ["uzay", "tarih"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2023/03/20/halley-kuyrukluyildizi-dunyadan-her-goruldugunde/"
 cover: "/gorseller/pexels-photo-4858277-45b962.webp"

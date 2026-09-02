@@ -4,7 +4,7 @@ date: 2024-09-23
 description: ""
 paylasimKarti: "/gorseller/kart/koleligin-kanli-gecmisi.png"
 cover: "/gorseller/k/koleligin-kanli-gecmisi.webp"
-tags: []
+tags: ["tarih", "jeopolitik"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2024/09/23/koleligin-kanli-gecmisi/"
 ---

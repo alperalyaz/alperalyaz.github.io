@@ -2,7 +2,7 @@
 title: "VİDA DİŞİ (PASO ÖLÇÜLERİ) STANDARTLARI AKA SCREW THREAD STANDARTS"
 date: 2014-11-01
 description: "Endüstri standartları önemlidir. Teknik imalat söz konusu olduğunda ise her şeyden önemlidir. Eğer endüstride bazı standartlar belirlemiş olmasa idik her…"
-tags: []
+tags: ["imalat", "sanayi"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2014/11/01/vida-disi-paso-olculeri-standartlari-aka-screw-thread-standarts/"
 cover: "/gorseller/english-c5106c.webp"

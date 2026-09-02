@@ -2,7 +2,7 @@
 title: "Çelik nedir? Çelik sınıfları, çelik grupları ve çeliğin tarihçesi"
 date: 2019-09-05
 description: "Çelik bir element değildir. Çelik bir kaç elementin bir araya gelerek oluşturduğu bir alaşımdır. Çeliği oluşturan elementler ve oranlar değişiklik arzetse…"
-tags: []
+tags: ["çelik", "imalat", "tarih"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2019/09/05/celik-nedir-celik-siniflari-celik-gruplari-ve-celigin-tarihcesi/"
 cover: "/gorseller/periyodik-sistem-3fbfd3.webp"

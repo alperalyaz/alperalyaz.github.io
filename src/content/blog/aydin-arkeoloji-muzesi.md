@@ -4,7 +4,7 @@ date: 2016-01-27
 description: ""
 paylasimKarti: "/gorseller/kart/aydin-arkeoloji-muzesi.png"
 cover: "/gorseller/k/aydin-arkeoloji-muzesi.webp"
-tags: []
+tags: ["arkeoloji", "gezi"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2016/01/27/aydin-arkeoloji-muzesi/"
 ---

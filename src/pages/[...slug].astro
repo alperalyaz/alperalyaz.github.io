@@ -2,7 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import { href, trDate, isoDate } from '../lib/site';
-import { linkedTags } from '../lib/tags';
+import { linkedTags, etiketSlug } from '../lib/tags';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
@@ -48,7 +48,7 @@ const d = post.data;
       <div class="tags prose">
         {d.tags.map(t => (
           linked.has(t)
-            ? <a class="tag" href={href(`/etiket/${encodeURIComponent(t)}/`)}>#{t}</a>
+            ? <a class="tag" href={href(`/etiket/${etiketSlug(t)}/`)}>#{t}</a>
             : <span class="tag">#{t}</span>
         ))}
       </div>

@@ -2,7 +2,7 @@
 title: "İnsanlar neden GreenCard’a başvuruyor?"
 date: 2022-01-07
 description: "Aslında konu GreenCard değil; olması gereken soru “bir insan neden ülkesini terk etmek ister”. Bu sorunun cevabını ABD’de ders veren bir Alman, Almanya’da…"
-tags: []
+tags: ["jeopolitik", "ekonomi"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2022/01/07/insanlar-neden-greencarda-basvuruyor/"
 cover: "/gorseller/land-of-freedom-495794145-c4025a.webp"

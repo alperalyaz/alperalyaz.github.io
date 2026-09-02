@@ -4,7 +4,7 @@ date: 2019-07-06
 description: "İFLAS ETMEK İSTEYENLERE UZMANIN PARLAK FİKİRLER, VEYSEL ARABACI 2012 Veysel Arabacı’nın şahsi bloğundan çektiğim yazıları bu şekilde pdf olarak ilgililere…"
 cover: "/gorseller/k/iflas-etmek-isteyenlere-uzmanindan-parlak-fikirler-ekitap-pdf.webp"
 paylasimKarti: "/gorseller/kart/iflas-etmek-isteyenlere-uzmanindan-parlak-fikirler-ekitap-pdf.png"
-tags: []
+tags: ["ekonomi", "kitap"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2019/07/06/iflas-etmek-isteyenlere-uzmanindan-parlak-fikirler-ekitap-pdf/"
 ---

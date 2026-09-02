@@ -2,7 +2,7 @@
 title: "Varolduğuna inanamayacağınız pnömatik devre elemanları"
 date: 2021-01-28
 description: "1 – Terleyen hava hortumu Evet bu hortum terliyor. Organik materyal destekli SMC IDK serisi pnömatik hortumlar sadece havayı transfer etmiyor, aynı…"
-tags: ["hidroteknik", "pnömatik", "pnömatik sistemler", "smc", "teknoloji", "yeni icatlar"]
+tags: ["pnömatik", "sanayi"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2021/01/28/varolduguna-inanamayacaginiz-pnomatik-devre-elemanlari/"
 cover: "/gorseller/screenshot-2-1-f0b7f0.webp"

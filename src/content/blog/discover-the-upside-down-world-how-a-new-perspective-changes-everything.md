@@ -3,7 +3,7 @@ title: "Discover the Upside-Down World: How a New Perspective Changes Everything
 date: 2024-11-08
 lang: en
 description: "Hello! In today’s blog post, I want to dive into the fascinating topic of my YouTube video, “The Upside-Down World: What Happens When We Flip the Map?”…"
-tags: []
+tags: ["felsefe"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2024/11/08/discover-the-upside-down-world-how-a-new-perspective-changes-everything/"
 cover: "/gorseller/reversed-earth-map-1000x500-ae9da8.webp"

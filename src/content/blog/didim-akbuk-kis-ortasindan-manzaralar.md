@@ -2,7 +2,7 @@
 title: "Didim Akbük : kış ortasından manzaralar"
 date: 2016-01-29
 description: ""
-tags: []
+tags: ["gezi"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2016/01/29/didim-akbuk-kis-ortasindan-manzaralar/"
 cover: "/gorseller/dscn4434-2a9f77.webp"

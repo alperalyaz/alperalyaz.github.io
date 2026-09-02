@@ -2,7 +2,7 @@
 title: "90’lar favori müziklerim"
 date: 2018-11-06
 description: "Denizli’de yaşayan orta sosyo-ekonomik sınıftaki bir ailenin çocuğuna göre erken sayılabilecek bir yaşta bilgisayar sahibi olmuştum. Sanıyorum 1993…"
-tags: []
+tags: ["müzik"]
 categories: ["Music"]
 wpUrl: "https://alperaly.wordpress.com/2018/11/06/90lar-favori-muziklerim/"
 cover: "/gorseller/winamp-90s-b04dbb.webp"

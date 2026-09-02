@@ -2,7 +2,7 @@
 title: "Mehmet Alyaz (Toksoy)"
 date: 2022-09-26
 description: "Rukiye Canberi, Hayriye Özdemir, Faruk Alyaz, Fahri Toksoy, Güler Toksoy, Esma Isaksson, Mürüvvet Çiftçi ve Nihal Kağanoğlu’nun babasıdır. 1909-1990…"
-tags: ["alabaz", "alabazoğlu", "albaz mehmet", "alyaz", "denizli", "mehmet", "mehmet alabazoğlu", "toksoy"]
+tags: ["aile", "tarih", "denizli"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2022/09/26/mehmet-alyaz-toksoy/"
 cover: "/gorseller/screenshot-1-febe05.webp"

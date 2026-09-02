@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Entry from '../../components/Entry.astro';
-import { MIN_TAG_POSTS } from '../../lib/tags';
+import { MIN_TAG_POSTS, etiketSlug } from '../../lib/tags';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
@@ -16,7 +16,8 @@ export async function getStaticPaths() {
   return [...map.entries()]
     .filter(([, items]) => items.length >= MIN_TAG_POSTS)
     .map(([tag, items]) => ({
-      params: { tag },
+      // Adres ASCII slug; ekranda gorunen ad props ile tasiniyor.
+      params: { tag: etiketSlug(tag) },
       props: { tag, items: items.sort((a, b) => b.data.date.getTime() - a.data.date.getTime()) },
     }));
 }

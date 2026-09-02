@@ -2,7 +2,7 @@
 title: "Tripolis ad Maeandrum (Tripolis Antik Kenti)"
 date: 2015-01-26
 description: ""
-tags: ["tripolis", "tripolis ad maeandrum", "tripolis ancient city", "tripolis antik kenti", "tripolis antik şehri", "tripolis buldan", "tripolis denizli", "tripolis resimleri", "tripolis turkey"]
+tags: ["arkeoloji", "gezi", "tarih", "denizli"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2015/01/26/tripolis-ad-maeandrum-tripolis-antik-kenti/"
 cover: "/gorseller/img-20150125-130610-dc49ee.webp"

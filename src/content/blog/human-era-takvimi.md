@@ -2,7 +2,7 @@
 title: "Human Era Takvimi"
 date: 2022-04-07
 description: "Şu an kullandığımız takvim bilimsel ve seküler bir anlayış ile oluşturulmadı. Aslına bakarsak hiç bir takvim bilimsel bir kaygıya sahip değil; hepsi kendi…"
-tags: ["human era", "human era calendar", "insanlık takvimi", "medeniyet takvimi", "miladi takvim", "tarih"]
+tags: ["tarih", "bilim"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2022/04/07/human-era-takvimi/"
 cover: "/gorseller/01-calendar12022-front-2048x-dda0db.webp"

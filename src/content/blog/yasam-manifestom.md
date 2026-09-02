@@ -4,7 +4,7 @@ date: 2011-12-18
 description: "Tesadüfen ya da değil, hayata gelmeyi ben seçmedim, ama her tür sorumluluğunu üstlenmem gerekiyor. Karşıdan karşıya geçerken bile içgüdüsel olarak…"
 cover: "/gorseller/k/yasam-manifestom.webp"
 paylasimKarti: "/gorseller/kart/yasam-manifestom.png"
-tags: []
+tags: ["felsefe"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2011/12/18/yasam-manifestom/"
 ---

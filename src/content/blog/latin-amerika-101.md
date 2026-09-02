@@ -2,7 +2,7 @@
 title: "Latin Amerika 101"
 date: 2022-01-03
 description: "Öncelikle şu soruyu cevaplamak lazım: Neden Güney Amerika demiyoruz da Latin Amerika diyoruz. Çünkü bu yazıda bahsedilmek istenen ABD’nin güneyindeki kıta…"
-tags: ["arjantin", "bolivar", "brazilya", "güney amerika", "latin amerika", "meksika"]
+tags: ["jeopolitik", "tarih"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2022/01/03/latin-amerika-101/"
 cover: "/gorseller/morrison-0-152414.webp"

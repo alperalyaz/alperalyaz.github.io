@@ -2,7 +2,7 @@
 title: "Kur korumalı mevduat denen garabet"
 date: 2024-01-17
 description: "Bir ülkenin ekonomik sağlığını anlamak için gerekli olan tüm denklemlerde vergi politikaları merkezde yer alır. Türkiye ekonomisi kendi denkleminde…"
-tags: []
+tags: ["ekonomi"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2024/01/17/kur-korumali-mevduat-denen-garabet/"
 cover: "/gorseller/pexels-photo-8643674-5ab6ae.webp"

@@ -4,7 +4,7 @@ date: 2019-12-03
 description: "Kedilerin hep bir işi vardır. Uyudukları ya da evrenin enerjisine neşeyle karınlarını açtıkları anlar hariç, hep bir iş üzerinde gibidirler. Gündüzleri…"
 cover: "/gorseller/k/kedilerin-hep-bir-isi-vardir.webp"
 paylasimKarti: "/gorseller/kart/kedilerin-hep-bir-isi-vardir.png"
-tags: []
+tags: ["kedi"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2019/12/03/kedilerin-hep-bir-isi-vardir/"
 ---

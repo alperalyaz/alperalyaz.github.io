@@ -1,6 +1,6 @@
 ---
 import { href, trDate, isoDate } from '../lib/site';
-import { linkedTags } from '../lib/tags';
+import { linkedTags, etiketSlug } from '../lib/tags';
 import { kucukKapak } from '../lib/kapak';
 
 interface Props {
@@ -30,7 +30,7 @@ const thumb = kucukKapak(cover);
       {lang !== 'tr' && <span class="dil" title="Bu yazı İngilizce">{lang.toUpperCase()}</span>}
       {tags.slice(0, 3).map(t => (
         linked.has(t)
-          ? <a href={href(`/etiket/${encodeURIComponent(t)}/`)}>#{t}</a>
+          ? <a href={href(`/etiket/${etiketSlug(t)}/`)}>#{t}</a>
           : <span>#{t}</span>
       ))}
     </div>

@@ -4,7 +4,7 @@ date: 2014-11-11
 description: "bunu yıllar önce taslağa kaydetmişim. unutmuş gitmişim. italyanca’yı da unuttum zaten. kontrol edemedim bile aşağıda yazılanları. neyse nostalji niyetine…"
 cover: "/gorseller/k/itl-302-konusma-sinavi.webp"
 paylasimKarti: "/gorseller/kart/itl-302-konusma-sinavi.png"
-tags: ["italyanca", "konuşma sınavı", "parlare"]
+tags: ["dil"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2014/11/11/itl-302-konusma-sinavi/"
 ---

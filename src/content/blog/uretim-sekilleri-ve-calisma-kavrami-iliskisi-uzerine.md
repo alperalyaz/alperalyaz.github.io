@@ -4,7 +4,7 @@ date: 2012-05-14
 description: "İnsanın hayatta kalması için çalışarak alet üretmesi fikrinin başladığı ilk çağlardan beri insan için çalışmak bir hayatta kalma aracıdır. Bu araç…"
 cover: "/gorseller/k/uretim-sekilleri-ve-calisma-kavrami-iliskisi-uzerine.webp"
 paylasimKarti: "/gorseller/kart/uretim-sekilleri-ve-calisma-kavrami-iliskisi-uzerine.png"
-tags: []
+tags: ["felsefe", "ekonomi"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2012/05/14/uretim-sekilleri-ve-calisma-kavrami-iliskisi-uzerine/"
 ---

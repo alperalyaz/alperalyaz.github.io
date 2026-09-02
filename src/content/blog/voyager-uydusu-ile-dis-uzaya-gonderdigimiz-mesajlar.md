@@ -2,7 +2,7 @@
 title: "Voyager uydusu ile dış uzaya gönderdiğimiz mesajlar"
 date: 2014-12-20
 description: "Not: Linkler bozulduğu için kaldırmak zorunda kaldım. Lütfen ayrıntılı bilgi için wikipedia’dan istifade ediniz… Link…"
-tags: ["altın plak", "uzay sondası", "voyager", "voyager ile iletilen bilgiler", "voyager resimler"]
+tags: ["uzay", "tarih"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2014/12/20/voyager-uydusu-ile-dis-uzaya-gonderdigimiz-mesajlar/"
 cover: "/gorseller/goldrecord-6936b3.webp"

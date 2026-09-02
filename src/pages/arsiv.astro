@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import { href, isoDate } from '../lib/site';
-import { MIN_TAG_POSTS } from '../lib/tags';
+import { MIN_TAG_POSTS, etiketSlug } from '../lib/tags';
 
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
@@ -29,7 +29,7 @@ const tags = [...counts.entries()]
   {tags.length > 0 && (
     <div class="tags" style="margin-bottom:2.5rem">
       {tags.map(([t, n]) => (
-        <a class="tag" href={href(`/etiket/${encodeURIComponent(t)}/`)}>#{t} <span style="opacity:.55">{n}</span></a>
+        <a class="tag" href={href(`/etiket/${etiketSlug(t)}/`)}>#{t} <span style="opacity:.55">{n}</span></a>
       ))}
     </div>
   )}

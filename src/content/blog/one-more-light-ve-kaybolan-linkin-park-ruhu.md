@@ -2,7 +2,7 @@
 title: "“From Zero” ve Kaybolan Linkin Park Ruhu"
 date: 2024-12-11
 description: "Linkin Park benim hayatımda her zaman çok özel bir yere sahip olmuştur. “Hybrid Theory” ve “Meteora” gibi albümlerle büyüdüm; bu albümler sadece birkaç…"
-tags: []
+tags: ["müzik"]
 categories: ["Music"]
 wpUrl: "https://alperaly.wordpress.com/2024/12/11/one-more-light-ve-kaybolan-linkin-park-ruhu/"
 cover: "/gorseller/image-9fe911.webp"

@@ -4,7 +4,7 @@ date: 2011-10-05
 description: "Bu sayfalar çok sevgili Taylan hocamın teşviki ile adıma alınmış bir hesaptır. 2011-2012 Güz Dönemi’ni başarılı bir şekilde geçirmek en büyük dileğim."
 cover: "/gorseller/k/selamunhello.webp"
 paylasimKarti: "/gorseller/kart/selamunhello.png"
-tags: []
+tags: ["günlük"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2011/10/05/selamunhello/"
 ---

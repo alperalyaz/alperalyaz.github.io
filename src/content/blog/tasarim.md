@@ -4,7 +4,7 @@ date: 2011-10-06
 description: "Tasarım, dizayn, yaratış, oluşturma, var etme, kurma, inşa etme… Bir kavram üzerine düşünmek zordur. Çünkü genellikle bizim üzerinde düşünüp…"
 cover: "/gorseller/k/tasarim.webp"
 paylasimKarti: "/gorseller/kart/tasarim.png"
-tags: []
+tags: ["tasarım", "felsefe"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2011/10/06/tasarim/"
 ---
