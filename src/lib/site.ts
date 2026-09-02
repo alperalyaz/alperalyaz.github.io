@@ -7,6 +7,13 @@ export const site = {
     'aklıma takılan ve bir yerde not düşmek istediğim ne varsa.',
   author: 'Alper Alyaz',
   lang: 'tr',
+  /**
+   * Google Search Console doğrulama kodu.
+   * Search Console → URL prefix property → HTML tag yöntemi ile alınır;
+   * verdiği <meta> etiketinin content değeri buraya yazılır.
+   * Boş bırakılırsa etiket hiç basılmaz.
+   */
+  googleSiteVerification: '',
   locale: 'tr_TR',
 };
 
