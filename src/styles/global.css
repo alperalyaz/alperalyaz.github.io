@@ -123,11 +123,13 @@ a:hover { color: var(--accent-deep); }
    GIRIS METNI
    ========================================================================== */
 .intro {
-  /* Alttaki yazi kayitlariyla ayni hizada bassin: kayitlar numara
-     sutunundan (--rail) sonra basliyor, giris metni de oyle. */
-  max-width: var(--measure);
-  margin: 0 0 3.5rem;
-  padding-left: calc(var(--rail) + 1.25rem);
+  /* Kunyenin devami gibi dursun diye ortalanmis.
+     Onceden sola dayaliydi ve sagindaki kapak resmi sutunu bos kaliyordu;
+     "buraya bir sey gelecekti" hissi veriyordu. Ortalaninca bosluk
+     simetrik ve kasitli goruntu veriyor. */
+  max-width: 30rem;
+  margin: 0 auto 4rem;
+  text-align: center;
   font-size: 1.15rem; line-height: 1.6; color: var(--ink-soft);
   font-style: italic;
 }
@@ -444,7 +446,7 @@ span.tag { opacity: 0.7; }
   body { font-size: 1.05rem; }
   .site-head { padding-top: 1.5rem; margin-bottom: 2.5rem; }
   .entry, .archive li, .year-head { gap: 0.85rem; }
-  .intro { padding-left: calc(var(--rail) + 0.85rem); }
+  .intro { max-width: none; text-align: left; }
   .post-body { font-size: 1.09rem; }
   .post-title { max-width: none; }
 }
