@@ -14,7 +14,7 @@ const files = (await fs.readdir(BLOG)).filter(f => f.endsWith('.md'));
 const urls = new Set();
 for (const f of files) {
   const txt = await fs.readFile(path.join(BLOG, f), 'utf8');
-  for (const m of txt.matchAll(/https:\/\/[^\s)"'<>]+?\.(?:jpg|jpeg|png|gif)/gi)) {
+  for (const m of txt.matchAll(/https:\/\/[^\s)"'<>]+?\.(?:jpg|jpeg|png|gif|webp)/gi)) {
     const clean = m[0].split('?')[0];
     if (MINE.test(clean)) urls.add(clean);
   }

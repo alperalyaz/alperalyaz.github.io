@@ -5,7 +5,7 @@ description: "Şu an kullandığımız takvim bilimsel ve seküler bir anlayış
 tags: ["human era", "human era calendar", "insanlık takvimi", "medeniyet takvimi", "miladi takvim", "tarih"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2022/04/07/human-era-takvimi/"
-cover: "https://alperaly.wordpress.com/wp-content/uploads/2022/04/01_calendar12022_front_2048x.webp"
+cover: "/gorseller/01-calendar12022-front-2048x-dda0db.webp"
 ---
 
 Şu an kullandığımız takvim bilimsel ve seküler bir anlayış ile oluşturulmadı. Aslına bakarsak hiç bir takvim bilimsel bir kaygıya sahip değil; hepsi kendi masallarını refere ediyorlar. Tarihi anlamak ve doğru bir kronoloji için yeni bir takvime ihtiyacımız var.
