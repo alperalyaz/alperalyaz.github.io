@@ -2,6 +2,7 @@
 title: "semiyotik notları"
 date: 2012-01-20
 description: "TDK’nın zorlama Türkçeleştirmelerine hiç girmeyeceğim o yüzden semiyotik, indexical, signifier gibi terimleri kullanacağım. Nitekim nihai olarak…"
+cover: "/gorseller/k/semiyotik-notlari.webp"
 paylasimKarti: "/gorseller/kart/semiyotik-notlari.png"
 tags: []
 categories: ["Articles"]

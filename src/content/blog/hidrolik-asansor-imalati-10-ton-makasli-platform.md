@@ -2,6 +2,8 @@
 title: "Hidrolik asansör imalatı 10 ton makaslı platform"
 date: 2021-01-21
 description: "Powerlift markalı platform imalatlarımıza bir yenisi daha eklendi. Depoya forkift indirmek için hidrolik asansör ihtiyacı olan müşterimize Powerlift sabit…"
+paylasimKarti: "/gorseller/kart/hidrolik-asansor-imalati-10-ton-makasli-platform.png"
+cover: "/gorseller/k/hidrolik-asansor-imalati-10-ton-makasli-platform.webp"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2021/01/21/hidrolik-asansor-imalati-10-ton-makasli-platform/"

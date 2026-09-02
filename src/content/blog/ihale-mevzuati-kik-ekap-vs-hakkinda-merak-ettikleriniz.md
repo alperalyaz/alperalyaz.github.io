@@ -2,6 +2,8 @@
 title: "ihale mevzuatı, kik, ekap vs. hakkında merak ettikleriniz"
 date: 2012-09-13
 description: "Bu yazı Kamu İhale mevzuatları hakkında bilgi almak isteyenler için en anlaşılır (hatta fazla anlaşılır) bir dilde yazılmıştır. Öncelikle KİK nedir? KİK…"
+paylasimKarti: "/gorseller/kart/ihale-mevzuati-kik-ekap-vs-hakkinda-merak-ettikleriniz.png"
+cover: "/gorseller/k/ihale-mevzuati-kik-ekap-vs-hakkinda-merak-ettikleriniz.webp"
 tags: ["ihale mevzuatı ekap kik kamu mal hizmet"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2012/09/13/ihale-mevzuati-kik-ekap-vs-hakkinda-merak-ettikleriniz/"

@@ -2,6 +2,7 @@
 title: "kedi"
 date: 2011-10-06
 description: "koskoca gözleri olan bir kedi. sorumsuzca, sinir bozucu bir özgürlüğe sahip-serseri, ama bir o kadar da evine-sıcaklığa muhtaç. kıvrılıp sımsıcak uyuyan…"
+cover: "/gorseller/k/kedi.webp"
 paylasimKarti: "/gorseller/kart/kedi.png"
 tags: []
 categories: ["Articles"]

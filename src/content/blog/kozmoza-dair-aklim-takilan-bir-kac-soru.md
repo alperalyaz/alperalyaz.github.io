@@ -2,6 +2,7 @@
 title: "Kozmoz’a dair aklıma takılan bir kaç soru"
 date: 2012-05-14
 description: "Işık hızı neden geçilemez ? Karadeliklerin büyüklükleri neye göre oluşur? Zamanla büyüklükleri değişir mi? İki karadelik birbirinin çekim alanına…"
+cover: "/gorseller/k/kozmoza-dair-aklim-takilan-bir-kac-soru.webp"
 paylasimKarti: "/gorseller/kart/kozmoza-dair-aklim-takilan-bir-kac-soru.png"
 tags: ["atmosfer", "gezegen", "karadelik", "kozmoz", "uzay", "yıldız", "ışık hızı"]
 categories: ["Articles"]

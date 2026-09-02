@@ -2,6 +2,8 @@
 title: "pixaloop app deneme"
 date: 2018-12-30
 description: ""
+paylasimKarti: "/gorseller/kart/pixaloop-app-deneme.png"
+cover: "/gorseller/k/pixaloop-app-deneme.webp"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2018/12/30/pixaloop-app-deneme/"

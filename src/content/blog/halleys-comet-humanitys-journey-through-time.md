@@ -2,6 +2,8 @@
 title: "Halley’s Comet: Humanity’s Journey Through Time"
 date: 2024-10-21
 description: "Daha önce bu blogda paylaştığım yazıyı videoya çevirdim. “5 dakikada biter!” diye başlamıştım ama YouTube’un beni 3 gün boyunca esir almasıyla sonuçlandı…"
+paylasimKarti: "/gorseller/kart/halleys-comet-humanitys-journey-through-time.png"
+cover: "/gorseller/k/halleys-comet-humanitys-journey-through-time.webp"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2024/10/21/halleys-comet-humanitys-journey-through-time/"

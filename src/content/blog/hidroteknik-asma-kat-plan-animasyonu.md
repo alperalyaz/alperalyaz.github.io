@@ -2,6 +2,8 @@
 title: "Hidroteknik Asma Kat Plan Animasyonu"
 date: 2012-07-19
 description: "Bir animasyon denemesi"
+paylasimKarti: "/gorseller/kart/hidroteknik-asma-kat-plan-animasyonu.png"
+cover: "/gorseller/k/hidroteknik-asma-kat-plan-animasyonu.webp"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2012/07/19/hidroteknik-asma-kat-plan-animasyonu/"

@@ -33,6 +33,40 @@ const KAGIT = '#faf8f3', MUREKKEP = '#14120f', SOLUK = '#8d8477', CIZGI = '#ded5
 /** Başlık uzunluğuna göre punto — uzun başlık taşmasın. */
 const punto = (s) => s.length < 26 ? 60 : s.length < 42 ? 50 : s.length < 62 ? 42 : s.length < 85 ? 35 : 30;
 
+/* ── KÜÇÜK RESİM: tezhipli baş harf ───────────────────────────────────────
+ * İki tasarım denendi ve elendi: başlık kartı 112 pikselde okunmuyordu,
+ * numara kartı ise defter numarasını sol sütundan sonra ikinci kez
+ * söylüyordu. Baş harf ikisini de çözüyor — her boyutta okunur, her
+ * yazıda farklı harf olduğu için liste tekdüze durmaz, ve bilgi taşıma
+ * iddiası yok: eski defterlerdeki tezhipli ilk harfin karşılığı.
+ * Zemin şeritleri harfin arkasında kalır, kağıt hissini verir. */
+function basHarfKarti({ baslik, yil }, W, H) {
+  const harf = (baslik.match(/[\p{L}\p{N}]/u) || ['?'])[0].toLocaleUpperCase('tr-TR');
+  return { type: 'div', props: {
+    style: { width: W, height: H, display: 'flex', position: 'relative',
+             alignItems: 'center', justifyContent: 'center',
+             backgroundColor: KAGIT, fontFamily: 'Fraunces',
+             borderLeft: `${Math.round(W*0.022)}px solid ${MAVI}` },
+    children: [
+      // yatay tarama şeritleri — kağıt dokusu
+      ...Array.from({ length: 7 }, (_, i) => ({ type: 'div', props: {
+        style: { position: 'absolute', left: 0, right: 0,
+                 top: Math.round(H * (0.12 + i * 0.115)), height: 1,
+                 backgroundColor: CIZGI, opacity: 0.55 } } })),
+      { type: 'div', props: {
+          style: { display: 'flex', fontSize: Math.round(H * 0.72), fontWeight: 600,
+                   color: MUREKKEP, lineHeight: 1, letterSpacing: -4,
+                   marginTop: -Math.round(H * 0.06) },
+          children: harf } },
+      { type: 'div', props: {
+          style: { position: 'absolute', bottom: Math.round(H*0.07), display: 'flex',
+                   fontSize: Math.round(H * 0.085), fontWeight: 400,
+                   color: SOLUK, letterSpacing: 5 },
+          children: yil } },
+    ] } };
+}
+
+
 /* ── KÜÇÜK RESİM: defter numarası ─────────────────────────────────────────
  * Başlığı karta basmak denendi ve işe yaramadı: liste içinde 112 piksel
  * genişlikte okunmuyor, üstelik hemen yanında zaten büyük puntoyla duruyor.
@@ -118,7 +152,11 @@ for (const [i, y] of hepsi.entries()) {
   // Üretilmiş kartın imzası: kapak tam olarak kendi slug'ına işaret eder.
   // Gerçek fotoğraftan gelen kapak orijinal dosyayı gösterir, bu yüzden
   // ayırt edilebiliyor ve fotoğraflı yazılar ezilmiyor.
-  if (y.gorselli || y.kapak) { atlanan++; continue; }
+  // Sıra önemli: önce kapak-uret.mjs fotoğraflı yazılara kapak atar,
+  // sonra bu betik KAPAĞI OLMAYAN her yazıya baş harf kartı üretir.
+  // Yalnızca videosu olan yazıların da küçük resmi yoktu; onlar da dahil.
+  const kendiKarti = y.kapak === `/gorseller/k/${y.slug}.webp`;
+  if (y.kapak && !kendiKarti) { atlanan++; continue; }
 
   const icerik = {
     baslik: y.baslik.replace(/&#\d+;/g, '"'),
@@ -127,21 +165,25 @@ for (const [i, y] of hepsi.entries()) {
     etiket: 'DEFTER',
   };
 
-  // Liste için küçük resim ÜRETİLMİYOR. Denendi ve vazgeçildi: başlık
-  // 112 pikselde okunmuyor, defter numarası ise zaten sol sütunda duruyor.
-  // Metin yazısı için dürüst bir küçük resim yok; düzen boşluğu zaten
-  // düzgün karşılıyor (metin tam genişliğe yayılıyor).
+  const kucukSvg = await ciz(basHarfKarti(icerik, 900, 675), 900, 675);
+  const kucuk = await sharp(kucukSvg).resize(300, 225).webp({ quality: 90 }).toBuffer();
+  await fs.writeFile(path.join(THUMB, `${y.slug}.webp`), kucuk);
+
   const paySvg = await ciz(kart(icerik, 1200, 630), 1200, 630);          // paylaşımda: tam başlık
   const pay = await sharp(paySvg).png().toBuffer();
   await fs.writeFile(path.join(KART, `${y.slug}.png`), pay);
 
-  bayt += pay.length;
+  bayt += kucuk.length + pay.length;
 
   // frontmatter'a paylaşım kartını yaz (liste kapağı DEĞİL)
-  if (!/^paylasimKarti:/m.test(y.fm)) {
-    const yeniFm = y.fm.replace(/^(description:.*)$/m, `$1\npaylasimKarti: "/gorseller/kart/${y.slug}.png"`);
-    await fs.writeFile(path.join(BLOG, y.dosya), `---\n${yeniFm}\n---${y.govde}`);
-  }
+  // İki alan BAĞIMSIZ yazılır. Önceki sürümde ikisi tek koşula bağlıydı;
+  // paylasimKarti zaten varsa cover hiç eklenmiyordu.
+  let fm = y.fm;
+  if (!/^cover:/m.test(fm))
+    fm = fm.replace(/^(description:.*)$/m, `$1\ncover: "/gorseller/k/${y.slug}.webp"`);
+  if (!/^paylasimKarti:/m.test(fm))
+    fm = fm.replace(/^(description:.*)$/m, `$1\npaylasimKarti: "/gorseller/kart/${y.slug}.png"`);
+  if (fm !== y.fm) await fs.writeFile(path.join(BLOG, y.dosya), `---\n${fm}\n---${y.govde}`);
   uretilen++;
 }
 

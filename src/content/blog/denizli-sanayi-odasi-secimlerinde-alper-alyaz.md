@@ -2,6 +2,8 @@
 title: "Denizli Sanayi Odası seçimlerinde Alper Alyaz"
 date: 2022-10-10
 description: "Hidroteknik A.Ş. olarak girdiğimiz seçim yarışında ayaküstü verdiğim bir röportaj"
+paylasimKarti: "/gorseller/kart/denizli-sanayi-odasi-secimlerinde-alper-alyaz.png"
+cover: "/gorseller/k/denizli-sanayi-odasi-secimlerinde-alper-alyaz.webp"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2022/10/10/denizli-sanayi-odasi-secimlerinde-alper-alyaz/"

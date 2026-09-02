@@ -2,6 +2,7 @@
 title: "Led Lamba Nasıl Çalışır?"
 date: 2016-09-20
 description: "LED Light Emitting Diode cümlesinin baş harfleridir. Türkçesi: IŞIK VEREN DİYOT. LEDler görünür ışık, morötesi, kızılötesi gibi çeşitli dalga boylarında…"
+cover: "/gorseller/k/led-lamba-nasil-calisir.webp"
 paylasimKarti: "/gorseller/kart/led-lamba-nasil-calisir.png"
 tags: []
 categories: ["Articles"]
