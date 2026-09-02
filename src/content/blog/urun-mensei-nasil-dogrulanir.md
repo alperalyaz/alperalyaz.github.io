@@ -22,6 +22,38 @@ Sadece gurur meselesi değil. Menşe şunları belirler:
 - **Gümrük vergisi ve anlaşmalar.** Menşe, ödenen vergiyi doğrudan etkiler.
 - **Standart uyumu.** Ürünün hangi standarda göre üretildiği, üretim yerinden bağımsız değildir.
 
+<figure class="sema">
+<svg viewBox="0 0 466 174" role="img" aria-label="Hangi belge menşei kanıtlar, hangisi kanıtlamaz" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="ui-monospace, monospace">
+  <text x="0" y="20" font-size="11" letter-spacing="1.3" fill="currentColor" opacity="0.62">MENŞEİ KANITLAR</text>
+  <line x1="0" y1="27" x2="211" y2="27" stroke="currentColor" stroke-width="1.4" opacity="0.35"/>
+  <text x="0" y="50" font-size="12.5" fill="var(--accent, #27497e)" opacity="1">✓</text>
+  <text x="18" y="50" font-size="13" fill="currentColor">Menşe şahadetnamesi</text>
+  <text x="18" y="64" font-size="11" fill="currentColor" opacity="0.55">üretim ülkesi yazar</text>
+  <text x="0" y="84" font-size="12.5" fill="var(--accent, #27497e)" opacity="1">✓</text>
+  <text x="18" y="84" font-size="13" fill="currentColor">Gümrük beyannamesi</text>
+  <text x="18" y="98" font-size="11" fill="currentColor" opacity="0.55">menşe ülke kodu</text>
+  <text x="0" y="118" font-size="12.5" fill="var(--accent, #27497e)" opacity="1">✓</text>
+  <text x="18" y="118" font-size="13" fill="currentColor">EUR.1</text>
+  <text x="18" y="132" font-size="11" fill="currentColor" opacity="0.55">tercihli menşe</text>
+  <text x="241" y="20" font-size="11" letter-spacing="1.3" fill="currentColor" opacity="0.62">KANITLAMAZ</text>
+  <line x1="241" y1="27" x2="452" y2="27" stroke="currentColor" stroke-width="1.4" opacity="0.35"/>
+  <text x="241" y="50" font-size="12.5" fill="currentColor" opacity="0.5">✕</text>
+  <text x="259" y="50" font-size="13" fill="currentColor">CE işareti</text>
+  <text x="259" y="64" font-size="11" fill="currentColor" opacity="0.55">uygunluk beyanı</text>
+  <text x="241" y="84" font-size="12.5" fill="currentColor" opacity="0.5">✕</text>
+  <text x="259" y="84" font-size="13" fill="currentColor">A.TR belgesi</text>
+  <text x="259" y="98" font-size="11" fill="currentColor" opacity="0.55">gümrük statüsü</text>
+  <text x="241" y="118" font-size="12.5" fill="currentColor" opacity="0.5">✕</text>
+  <text x="259" y="118" font-size="13" fill="currentColor">Marka adı, “German tech”</text>
+  <text x="259" y="132" font-size="11" fill="currentColor" opacity="0.55">hukuki karşılığı yok</text>
+  <line x1="226" y1="24" x2="226" y2="144" stroke="currentColor" stroke-width="1" opacity="0.18"/>
+  <text x="0" y="166" font-size="11" fill="currentColor" opacity="0.6">A.TR serbest dolaşımı gösterir, üretim yerini değil.</text>
+  </g>
+</svg>
+<figcaption>Karışıklığın büyük kısmı sağ sütundan çıkıyor: CE ve A.TR sıkça menşe belgesi sanılıyor, oysa biri uygunluk beyanı, diğeri gümrük statüsü.</figcaption>
+</figure>
+
 ## Menşei kanıtlamayan şeyler
 
 Bunlarla başlayalım, çünkü en çok karıştırılanlar bunlar.
