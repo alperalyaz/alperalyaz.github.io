@@ -54,5 +54,10 @@ export default defineConfig({
     rehypePlugins: [rehypeBasePaths],
     shikiConfig: { themes: { light: 'github-light', dark: 'github-dark' }, wrap: true },
   },
+  // Adresi degisen yazilar. Astro statik ciktida bu adreslere
+  // yonlendirme sayfasi uretir; eski baglantiya tiklayan yeni adrese gider.
+  redirects: {
+    '/winman-pnomatik-mensei/': '/pnomatik-urunlerde-mense/',
+  },
   build: { format: 'directory' },
 });

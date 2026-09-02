@@ -113,6 +113,8 @@ Belge istemeden önce ürünün kendisine bakın:
 
 **Üreticinin resmi bayi listesi.** En kestirme yol: ürünün ait olduğunu söylediği markanın **kendi internet sitesine** girin, Türkiye distribütörleri listesine bakın. Elinizdeki ürünü satan firma o listede yoksa, sorulacak bir soru var demektir.
 
+Sektöre özel bir örnek istiyorsanız, pnömatikte menşenin neden bu kadar bulanıklaştığını ayrıca yazdım: [Pnömatik ürünlerde menşe nasıl anlaşılır?](/pnomatik-urunlerde-mense/)
+
 ## Nasıl sorulur?
 
 Sözlü cevap bağlayıcı değildir. **Yazılı isteyin** — e-posta yeter:
