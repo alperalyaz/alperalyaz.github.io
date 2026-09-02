@@ -2,6 +2,7 @@
 title: "Winman pnömatik menşei"
 date: 2019-05-09
 description: "Winman Bursa merkezli Hid-Tek firmasının oluşturduğu bir markadır. Ürünler ekseriyetle ÇİN menşelidir. Pnömatik valfler, rekorlar, hortumlar Çin veya…"
+paylasimKarti: "/gorseller/kart/winman-pnomatik-mensei.png"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2019/05/09/winman-pnomatik-mensei/"

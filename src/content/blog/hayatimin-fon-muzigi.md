@@ -2,6 +2,7 @@
 title: "hayatımın fon müziği"
 date: 2012-05-25
 description: "daha uzun yıllar sürmesini temenni ettiğim mütevazi yaşamımda şimdilik karşıma çıkan en iyi şarkılar 1) nightwish – gethsemane 2) enigma – beyond the…"
+paylasimKarti: "/gorseller/kart/hayatimin-fon-muzigi.png"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2012/05/25/hayatimin-fon-muzigi/"

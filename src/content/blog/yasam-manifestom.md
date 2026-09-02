@@ -2,6 +2,7 @@
 title: "Yaşam manifestom"
 date: 2011-12-18
 description: "Tesadüfen ya da değil, hayata gelmeyi ben seçmedim, ama her tür sorumluluğunu üstlenmem gerekiyor. Karşıdan karşıya geçerken bile içgüdüsel olarak…"
+paylasimKarti: "/gorseller/kart/yasam-manifestom.png"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2011/12/18/yasam-manifestom/"

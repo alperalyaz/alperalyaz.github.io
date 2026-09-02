@@ -2,6 +2,7 @@
 title: "kedi"
 date: 2011-10-06
 description: "koskoca gözleri olan bir kedi. sorumsuzca, sinir bozucu bir özgürlüğe sahip-serseri, ama bir o kadar da evine-sıcaklığa muhtaç. kıvrılıp sımsıcak uyuyan…"
+paylasimKarti: "/gorseller/kart/kedi.png"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2011/10/06/kedi/"

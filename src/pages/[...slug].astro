@@ -26,7 +26,7 @@ const d = post.data;
 <Base
   title={d.title}
   description={d.description}
-  image={d.cover}
+  image={d.paylasimKarti ?? d.cover}
   lang={d.lang}
   article={{ date: d.date, tags: d.tags }}
 >

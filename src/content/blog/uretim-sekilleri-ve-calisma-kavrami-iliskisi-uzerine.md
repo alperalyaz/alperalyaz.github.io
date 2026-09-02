@@ -2,6 +2,7 @@
 title: "Üretim şekilleri ve çalışma kavramı ilişkisi üzerine"
 date: 2012-05-14
 description: "İnsanın hayatta kalması için çalışarak alet üretmesi fikrinin başladığı ilk çağlardan beri insan için çalışmak bir hayatta kalma aracıdır. Bu araç…"
+paylasimKarti: "/gorseller/kart/uretim-sekilleri-ve-calisma-kavrami-iliskisi-uzerine.png"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2012/05/14/uretim-sekilleri-ve-calisma-kavrami-iliskisi-uzerine/"

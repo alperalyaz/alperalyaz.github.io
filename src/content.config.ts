@@ -16,6 +16,8 @@ const blog = defineCollection({
     categories: z.array(z.string()).default([]),
     wpUrl: z.string().optional(),   // eski WordPress adresi (arsiv icin)
     cover: z.string().optional(),
+    /** Paylaşım (OG) kartı — scripts/kart-uret.mjs üretir. */
+    paylasimKarti: z.string().optional(),
     draft: z.boolean().default(false),
   }),
 });

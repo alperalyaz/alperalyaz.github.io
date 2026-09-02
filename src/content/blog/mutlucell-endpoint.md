@@ -2,6 +2,7 @@
 title: "Mutlucell SMS API endpoint ve çalışan XML isteği"
 date: 2026-01-26
 description: "Mutlucell SMS API'sinin gerçek endpoint adresi, XML istek formatı, başarılı yanıtın nasıl göründüğü ve hata kodlarının karşılıkları."
+paylasimKarti: "/gorseller/kart/mutlucell-endpoint.png"
 tags: ["mutlucell", "sms", "api", "entegrasyon"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2026/01/26/mutlucell-endpoint/"

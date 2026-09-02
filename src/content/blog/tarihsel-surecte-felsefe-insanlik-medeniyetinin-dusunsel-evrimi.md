@@ -2,6 +2,7 @@
 title: "Tarihsel süreçte felsefe; insanlık medeniyetinin düşünsel evrimi"
 date: 2020-12-27
 description: "İlk andan beri medeniyetimizdeki zeki insanlar evreni anlamak için çeşitli teoriler geliştiriyor. Madde nedir? Gerçeklik nedir? Doğruluk nedir? Bunlar zor…"
+paylasimKarti: "/gorseller/kart/tarihsel-surecte-felsefe-insanlik-medeniyetinin-dusunsel-evrimi.png"
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2020/12/27/tarihsel-surecte-felsefe-insanlik-medeniyetinin-dusunsel-evrimi/"

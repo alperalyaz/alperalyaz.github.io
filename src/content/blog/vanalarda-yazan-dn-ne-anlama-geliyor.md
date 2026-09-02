@@ -2,6 +2,7 @@
 title: "Vanalarda Yazan “DN” Ne Anlama Geliyor?"
 date: 2014-11-05
 description: "DN, Diameter Nominal'in kısaltmasıdır. Vanalardaki DN ölçüsünün ne anlama geldiği, inç karşılıkları tablosu ve DN ile gerçek çapın neden aynı olmadığı."
+paylasimKarti: "/gorseller/kart/vanalarda-yazan-dn-ne-anlama-geliyor.png"
 tags: ["vana", "DN", "nominal çap", "tesisat"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2014/11/05/vanalarda-yazan-dn-ne-anlama-geliyor/"
