@@ -1,0 +1,36 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Entry from '../components/Entry.astro';
+import { site } from '../lib/site';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+// Yila gore grupla: "2026", "2024", ... seklinde basliklar cikar.
+const byYear: Array<[string, typeof posts]> = [];
+for (const p of posts) {
+  const y = String(p.data.date.getFullYear());
+  const last = byYear.at(-1);
+  if (last && last[0] === y) last[1].push(p);
+  else byYear.push([y, [p]]);
+}
+---
+<Base>
+  <p class="intro">{site.description}</p>
+
+  {byYear.map(([year, items]) => (
+    <section>
+      <h2 class="year-head">{year}</h2>
+      {items.map(p => (
+        <Entry
+          slug={p.id}
+          title={p.data.title}
+          date={p.data.date}
+          description={p.data.description}
+          tags={p.data.tags}
+        />
+      ))}
+    </section>
+  ))}
+</Base>

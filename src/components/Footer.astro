@@ -1,0 +1,14 @@
+---
+import { site, href } from '../lib/site';
+const year = new Date().getFullYear();
+---
+<footer class="site-foot">
+  <div class="wrap">
+    <span>© {year} {site.author}</span>
+    <span>
+      <a href={href('/rss.xml')}>RSS</a> ·
+      <a href={href('/arsiv')}>Arşiv</a> ·
+      <a href="https://github.com/alperalyaz/blog">Kaynak</a>
+    </span>
+  </div>
+</footer>

@@ -1,0 +1,89 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { href, trDate, isoDate } from '../lib/site';
+import { linkedTags } from '../lib/tags';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const sorted = posts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+  return sorted.map((post, i) => ({
+    params: { slug: post.id },
+    props: {
+      post,
+      newer: sorted[i - 1] ?? null,   // daha yeni yazi
+      older: sorted[i + 1] ?? null,   // daha eski yazi
+    },
+  }));
+}
+
+const { post, newer, older } = Astro.props;
+const { Content } = await render(post);
+const linked = await linkedTags();
+const d = post.data;
+---
+<Base
+  title={d.title}
+  description={d.description}
+  image={d.cover}
+  article={{ date: d.date, tags: d.tags }}
+>
+  <article>
+    <header class="post-head prose">
+      <h1 class="post-title">{d.title}</h1>
+      <div class="meta">
+        <time datetime={isoDate(d.date)}>{trDate(d.date)}</time>
+        {d.categories.map(c => <span>{c}</span>)}
+      </div>
+    </header>
+
+    <div class="post-body">
+      <Content />
+    </div>
+
+    {d.tags.length > 0 && (
+      <div class="tags prose">
+        {d.tags.map(t => (
+          linked.has(t)
+            ? <a class="tag" href={href(`/etiket/${encodeURIComponent(t)}/`)}>#{t}</a>
+            : <span class="tag">#{t}</span>
+        ))}
+      </div>
+    )}
+
+    <nav class="post-nav prose" aria-label="Diğer yazılar">
+      {older && (
+        <a class="post-nav-link" href={href(`/${older.id}/`)}>
+          <span>← Önceki</span><strong>{older.data.title}</strong>
+        </a>
+      )}
+      {newer && (
+        <a class="post-nav-link next" href={href(`/${newer.id}/`)}>
+          <span>Sonraki →</span><strong>{newer.data.title}</strong>
+        </a>
+      )}
+    </nav>
+  </article>
+</Base>
+
+<style>
+  .post-nav {
+    display: grid; gap: 0.75rem; margin-top: 3.5rem; padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+  }
+  @media (min-width: 34rem) { .post-nav { grid-template-columns: 1fr 1fr; } }
+  .post-nav-link {
+    display: block; text-decoration: none; padding: 0.8rem 1rem;
+    border: 1px solid var(--rule); border-radius: 4px; background: var(--bg-soft);
+  }
+  .post-nav-link:hover { border-color: var(--accent); background: var(--accent-bg); }
+  .post-nav-link.next { text-align: right; }
+  .post-nav-link span {
+    display: block; font-family: var(--mono); font-size: 0.68rem;
+    color: var(--ink-faint); letter-spacing: 0.08em; margin-bottom: 0.25rem;
+  }
+  .post-nav-link strong {
+    display: block; font-size: 0.94rem; font-weight: 600;
+    color: var(--ink); line-height: 1.35;
+  }
+</style>

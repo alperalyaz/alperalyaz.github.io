@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/site';
+---
+<Base title="Sayfa bulunamadı" noindex={true}>
+  <h1 class="post-title">Burada bir şey yok</h1>
+  <p class="intro">
+    Aradığın sayfa taşınmış ya da hiç var olmamış olabilir.
+    <a href={href('/arsiv')}>Arşive</a> göz atabilir ya da
+    <a href={href('/')}>ana sayfaya</a> dönebilirsin.
+  </p>
+</Base>

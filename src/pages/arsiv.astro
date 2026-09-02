@@ -1,0 +1,67 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { href, isoDate } from '../lib/site';
+import { MIN_TAG_POSTS } from '../lib/tags';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const byYear: Array<[string, typeof posts]> = [];
+for (const p of posts) {
+  const y = String(p.data.date.getFullYear());
+  const last = byYear.at(-1);
+  if (last && last[0] === y) last[1].push(p);
+  else byYear.push([y, [p]]);
+}
+
+// Etiket bulutu: kac yazida gectigine gore siralanmis.
+const counts = new Map<string, number>();
+for (const p of posts) for (const t of p.data.tags) counts.set(t, (counts.get(t) ?? 0) + 1);
+const tags = [...counts.entries()]
+  .filter(([, n]) => n >= MIN_TAG_POSTS)
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'tr'));
+---
+<Base title="Arşiv" description={`${posts.length} yazının tamamı, tarih sırasıyla.`}>
+  <h1 class="post-title">Arşiv</h1>
+  <p class="intro">{posts.length} yazı, {byYear.length} yıl. Hepsi burada.</p>
+
+  {tags.length > 0 && (
+    <div class="tags" style="margin-bottom:2.5rem">
+      {tags.map(([t, n]) => (
+        <a class="tag" href={href(`/etiket/${encodeURIComponent(t)}/`)}>#{t} <span style="opacity:.55">{n}</span></a>
+      ))}
+    </div>
+  )}
+
+  {byYear.map(([year, items]) => (
+    <section>
+      <h2 class="year-head">{year} · {items.length} yazı</h2>
+      <ul class="archive">
+        {items.map(p => (
+          <li>
+            <time datetime={isoDate(p.data.date)}>
+              {String(p.data.date.getDate()).padStart(2, '0')}.{String(p.data.date.getMonth() + 1).padStart(2, '0')}
+            </time>
+            <a href={href(`/${p.id}/`)}>{p.data.title}</a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>
+
+<style>
+  .archive { list-style: none; padding: 0; margin: 0; }
+  .archive li {
+    display: flex; gap: 0.9rem; align-items: baseline;
+    padding: 0.42rem 0; border-bottom: 1px solid var(--rule);
+  }
+  .archive li:last-child { border-bottom: 0; }
+  .archive time {
+    font-family: var(--mono); font-size: 0.72rem; color: var(--ink-faint);
+    flex: none; width: 3.2rem;
+  }
+  .archive a { color: var(--ink); text-decoration: none; font-size: 1rem; line-height: 1.4; }
+  .archive a:hover { color: var(--accent); background: none; text-decoration: underline; text-underline-offset: 3px; }
+</style>

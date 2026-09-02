@@ -1,0 +1,23 @@
+---
+import { href, trDate, isoDate } from '../lib/site';
+import { linkedTags } from '../lib/tags';
+
+interface Props {
+  slug: string; title: string; date: Date;
+  description?: string; tags?: string[]; showDesc?: boolean;
+}
+const { slug, title, date, description = '', tags = [], showDesc = true } = Astro.props;
+const linked = await linkedTags();
+---
+<article class="entry">
+  <h2 class="entry-title"><a href={href(`/${slug}/`)}>{title}</a></h2>
+  {showDesc && description && <p class="entry-desc">{description}</p>}
+  <div class="meta">
+    <time datetime={isoDate(date)}>{trDate(date)}</time>
+    {tags.slice(0, 4).map(t => (
+      linked.has(t)
+        ? <a href={href(`/etiket/${encodeURIComponent(t)}/`)}>#{t}</a>
+        : <span>#{t}</span>
+    ))}
+  </div>
+</article>

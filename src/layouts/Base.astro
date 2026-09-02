@@ -1,0 +1,83 @@
+---
+import { site, href } from '../lib/site';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Tekil yazi sayfalarinda arama motoruna "bu bir makale" demek icin */
+  article?: { date: Date; modified?: Date; tags?: string[] };
+  image?: string;
+  noindex?: boolean;
+}
+
+const { title, description, article, image, noindex = false } = Astro.props;
+
+const pageTitle = title ? `${title} — ${site.title}` : `${site.title} — ${site.tagline}`;
+const desc = (description || site.description).slice(0, 200);
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).toString();
+const ogImage = image ? new URL(image, canonical).toString() : undefined;
+
+const jsonLd = article
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      headline: title,
+      description: desc,
+      datePublished: article.date.toISOString(),
+      dateModified: (article.modified ?? article.date).toISOString(),
+      author: { '@type': 'Person', name: site.author },
+      inLanguage: site.lang,
+      mainEntityOfPage: canonical,
+      ...(article.tags?.length ? { keywords: article.tags.join(', ') } : {}),
+      ...(ogImage ? { image: ogImage } : {}),
+    }
+  : {
+      '@context': 'https://schema.org',
+      '@type': 'Blog',
+      name: site.title,
+      description: desc,
+      inLanguage: site.lang,
+      url: canonical,
+      author: { '@type': 'Person', name: site.author },
+    };
+---
+<!doctype html>
+<html lang={site.lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+
+    <meta property="og:type" content={article ? 'article' : 'website'} />
+    <meta property="og:title" content={title ?? site.title} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={site.title} />
+    <meta property="og:locale" content={site.locale} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#faf8f4" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#14130f" />
+
+    <link rel="alternate" type="application/rss+xml" title={site.title} href={href('/rss.xml')} />
+    <link rel="sitemap" href={href('/sitemap-index.xml')} />
+    <link rel="icon" href={href('/favicon.svg')} type="image/svg+xml" />
+
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline />
+  </head>
+  <body>
+    <a class="skip" href="#icerik">İçeriğe geç</a>
+    <Header />
+    <main id="icerik" class="wrap">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

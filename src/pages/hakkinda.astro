@@ -1,0 +1,65 @@
+---
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/site';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog', ({ data }) => !data.draft);
+const first = posts.map(p => p.data.date).sort((a, b) => a.getTime() - b.getTime())[0];
+---
+<Base
+  title="Hakkında"
+  description="Bu blog nedir, kim yazar, neden bu kadar dağınık?"
+>
+  <h1 class="post-title">Hakkında</h1>
+
+  <div class="post-body prose">
+    <p>
+      Ben Alper Alyaz. Denizli’de mühendislik ve sanayi işlerinin içindeyim.
+      Burası bir uzmanlık blogu değil — <strong>kişisel defterim</strong>.
+    </p>
+
+    <p>
+      {first?.getFullYear() ?? 2011} yılından beri buradayım ve tek bir konuda karar kılmadım:
+      hidrolik vanaların çalışma mantığı da var, Halley kuyrukluyıldızının geçiş tarihleri de;
+      Linkin Park albümü de var, Tayvan’ın bir dünya savaşını tetikleyip tetikleyemeyeceği de.
+      Bunları bir araya getiren ortak konu yok. Ortak <em>niyet</em> var.
+    </p>
+
+    <h2>Buradaki yazıların derdi ne?</h2>
+
+    <p>
+      Bir şeyi merak edip aradığında bulamamanın sinir bozukluğunu bilirsin.
+      Forumlarda üç satırlık cevaplar, birbirini kopyalamış sayfalar, sorununa değmeyen sonuçlar.
+      Sonra bir yerde tam aradığın şeyi bulursun ve içinden <em>“oh be”</em> dersin.
+    </p>
+
+    <p>
+      Buradaki yazıların çoğu o “oh be” anını üretmek için var.
+      Bir vananın L tipiyle T tipi arasındaki fark, bir SMS servisinin doğru adresi,
+      bir arabanın bakım ikazının nasıl sıfırlanacağı, bir albümün neden eskisi gibi olmadığı.
+      Küçük, spesifik, birinin gerçekten aradığı şeyler.
+    </p>
+
+    <p>
+      Düzenli yayın sözü vermiyorum. Aklıma takılan bir şey olduğunda yazıyorum.
+      Bazen ayda üç, bazen yılda hiç.
+    </p>
+
+    <h2>İletişim</h2>
+    <p>
+      Bir yazıda hata bulursan ya da eklemek istediğin bir şey varsa söyle —
+      düzeltirim. Yazılar <a href="https://github.com/alperalyaz/blog">GitHub’da</a> açık duruyor.
+    </p>
+
+    <p>
+      Yeni yazılardan haberdar olmak istersen <a href={href('/rss.xml')}>RSS</a> var.
+      Hepsini görmek istersen <a href={href('/arsiv')}>arşiv</a>.
+    </p>
+  </div>
+
+  <div class="note">
+    <strong>Not:</strong> Bu sayfayı ben senin adına taslak olarak yazdım —
+    yazılarındaki tona bakarak. Kendi cümlelerinle değiştir:
+    dosya <code>src/pages/hakkinda.astro</code>.
+  </div>
+</Base>
