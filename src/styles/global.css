@@ -359,6 +359,14 @@ span.tag { opacity: 0.7; }
 }
 .archive a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
 
+/* Ekranda gorunmeyen kayitlari tarayici hic cizmez - JavaScript yok,
+   tarayicinin kendi ozelligi. Uzun listelerde (ozellikle arsiv) yavas
+   telefonlarda ilk cizim belirgin hizlanir.
+   contain-intrinsic-size: henuz cizilmemis satirin tahmini yuksekligi;
+   olmazsa kaydirma cubugu ziplar. */
+.entry      { content-visibility: auto; contain-intrinsic-size: auto 150px; }
+.archive li { content-visibility: auto; contain-intrinsic-size: auto 40px; }
+
 /* --- "gerisi arsivde" baglantisi --- */
 .hepsi {
   display: grid; grid-template-columns: var(--rail) 1fr; gap: 1.25rem;
