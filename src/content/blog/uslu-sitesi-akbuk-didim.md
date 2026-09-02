@@ -89,8 +89,6 @@ Site içerisinde bölgenin yerlisi Mehmet Korucu’ya ait emlak ofisinde site il
 [![](/gorseller/8-954fde.webp)](/gorseller/8-954fde.webp)
 [![](/gorseller/9-52b4bf.webp)](/gorseller/9-52b4bf.webp)
 
-eJx1Um1v2jAQ/iv+AVZkJw4Jzqc1DImprKiUqnyaXDiC1WBHjqPS/fqdQxAv22Ilvti+8/NyD05Xe2+gbV9V3YHMo3FckJX5MPbTvKjqFzvmecIkL8j3Y2PbzsGLPoBkEWMivR3hiN69gmu1NVLkNGU05VTkBZnajaofwVR+L/FcaQ+NNWB8W1qz01XnlA85nMY0oawgC32E+m2CN5lTsRHDKssNGChV4wOKrwYCqmmt2r2MRUEmyvfYJrrSXv+GrYwZTyQbS54RPpI8l0lI+Nkd3sEhU8yZ6hqWtnMbkMmAclErA8/Q2roLmFZG+7B3rv6Egmmj6n8XD8QcignbB+3bBbieiERJZ8unZQOwfUampmolZ0hzro7fGnCBz0n+JEpvcLxdgMhMjPsbauuWjdr07G+zRxEXgyKNPl4ZIcY0fIOEQVBTzcHv7TbgwghcWLFbCNYs953HlR7rqWoW5deQ1n9BOjfGwtnKqYPMB//WF/8SIdjg39m4G2oIZF2+l25hWx1WEFAAh2Jjkwy9UZA7V+KLK/9zo/nq+1sSfO7aeiNUKnNGOReUsxTnEI9oltAso4wO/ZuEgOGIh5f3f2E+R4GZ3flP5UD2zadqUqoDOIX9ZQC1IC+CM4KG8Ki3HbWu5fUe0r+TY64+QE5XP2bT2eO8IMUf3QgoDA==
-
 [![](/gorseller/11-4eb7f1.webp)](/gorseller/11-4eb7f1.webp)
 [![](/gorseller/51d81f82d347e-6710a6.webp)](/gorseller/51d81f82d347e-6710a6.webp)
 [![](/gorseller/34266719-1-5bd3ea.webp)](/gorseller/34266719-1-5bd3ea.webp)
