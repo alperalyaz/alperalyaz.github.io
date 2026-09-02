@@ -1,11 +1,11 @@
 # Yedek yayin: Vercel'e ek olarak GitHub Pages'e de kurar.
 # Amac dayaniklilik - iki bagimsiz sirket, iki adres, tek kaynak.
-# Adres: https://alperalyaz.github.io/blog/
 name: GitHub Pages (yedek yayın)
 
+# Her push'ta calisir; yayin adimi sadece VARSAYILAN dalda yapilir.
+# Boylece dalin adi "main" olsun ya da baska bir sey olsun, calisir.
 on:
   push:
-    branches: [main]
   workflow_dispatch:          # Actions sekmesinden elle de calistirilabilir
 
 permissions:
@@ -30,8 +30,9 @@ jobs:
 
       - run: npm ci
 
-      # Depo adi "blog" oldugu icin site alt dizinde yayinlanir.
-      # Baglantilarin kirilmamasi icin adresi burada bildiriyoruz.
+      # Depo adi "blog" oldugu icin site alt dizinde yayinlanir:
+      # https://alperalyaz.github.io/blog/
+      # Gorsel ve baglantilarin kirilmamasi icin adresi burada bildiriyoruz.
       - run: npm run build
         env:
           SITE_URL: https://alperalyaz.github.io
@@ -43,6 +44,8 @@ jobs:
 
   deploy:
     needs: build
+    # Sadece varsayilan dal yayinlanir - deneme dallari siteyi bozmasin.
+    if: github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
     environment:
       name: github-pages
