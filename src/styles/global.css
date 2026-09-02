@@ -263,6 +263,14 @@ section:first-of-type > .year-head { margin-top: 0; }
   border: 1px solid var(--rule-soft);
 }
 .post-body figure { margin: 2rem 0; max-width: 100%; }
+
+/* .sema = yazi icine elle cizilen SVG semalar (DN, vana, boru, LED...).
+   Bu SVG'lerin width/height niteligi yok, sadece viewBox var; kurala
+   baglanmayinca tarayici onlari kapsayicinin tamamina yayiyordu ve
+   semalar 2 kat buyuyup icindeki yazilar govde metninden iri
+   gorunuyordu. Metin sutunuyla ayni genislige sabitlendiler. */
+.post-body figure.sema { max-width: var(--measure); margin-inline: auto; }
+.post-body figure.sema svg { width: 100%; height: auto; display: block; }
 .post-body figcaption {
   font-family: var(--mono); font-size: 0.72rem; line-height: 1.5;
   color: var(--ink-faint); margin-top: 0.6rem; letter-spacing: 0.02em;
