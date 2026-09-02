@@ -17,7 +17,6 @@ wpUrl: "https://alperaly.wordpress.com/2011/11/09/gelecekte-tasarim-3d-yazicilar
 ![3d printer](http://t0.gstatic.com/images?q=tbn:ANd9GcSvOzEdTha0OLRnvwwIogm9eRuV3DTHKgEZ3pObKowD-AJZalPl)
 
 Bu devrimsel araç şimdilik geliştirilme aşamasında ve bu araçla birlikte gelişen pek çok ürün de aynı zamanda gelişmekte. Buna en iyi örnek 3 boyutlu tarayıcılar. Taranan objeyi 3 boyutlu olarak tarayabilen ve bunu vektörel çizime aktaran bu güzel cihaz biz tasarımcılar için sadece kolaylık anlamına gelmekle kalmıyor; yakın gelecekte pek çok yerde kendine uygulama alanı bulabilecek bir teknoloji.  
-![3d scanner](https://i0.wp.com/www.electronics-lab.com/blog/wp-content/uploads/2008/02/exascan.jpg)
 
 Bu üç gözlü şirin cihaz 3d printer teknolojisi ile birlikte kullanıldığında elimizde tuttuğumuz her hangi bir objeyi endüstriyel olarak saatler belki de günün birinde saniyeler içerisinde üretme imkanı sunacak.
 

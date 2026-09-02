@@ -112,7 +112,7 @@ Batı dünyası için önemi büyük olan, tarihi boyunca ihracatçı özelliği
 
 Kaynak excel:
 
-[2021-gdp-1](https://alperaly.wordpress.com/wp-content/uploads/2022/01/2021-gdp-1.xlsx)[İndir](https://alperaly.wordpress.com/wp-content/uploads/2022/01/2021-gdp-1.xlsx)
+**2021-gdp-1****İndir**
 
 [![](/gorseller/image-4-479919.webp)](/gorseller/image-4-479919.webp)
 

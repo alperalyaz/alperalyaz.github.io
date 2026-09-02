@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import Yorumlar from '../components/Yorumlar.astro';
 import { href, trDate, isoDate } from '../lib/site';
 import { linkedTags, etiketSlug } from '../lib/tags';
 
@@ -53,6 +54,8 @@ const d = post.data;
         ))}
       </div>
     )}
+
+    <Yorumlar />
 
     <nav class="post-nav prose" aria-label="Diğer yazılar">
       {older && (

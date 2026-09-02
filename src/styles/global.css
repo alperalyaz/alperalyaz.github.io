@@ -462,3 +462,12 @@ span.tag { opacity: 0.7; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Yorumlar (giscus). Kurulum tamamlanmadiysa bilesen hic basilmaz. */
+.yorumlar { margin: 3.5rem auto 0; padding-top: 2rem; border-top: 1px solid var(--rule); }
+.yorum-baslik {
+  font-family: var(--display); font-variation-settings: 'opsz' 42, var(--wonk);
+  font-weight: 600; font-size: 1.19rem; margin: 0 0 0.4rem;
+}
+.yorum-not { font-size: 0.86rem; color: var(--ink-faint); margin: 0 0 1.2rem; }
+.yorum-not a { color: var(--accent); }

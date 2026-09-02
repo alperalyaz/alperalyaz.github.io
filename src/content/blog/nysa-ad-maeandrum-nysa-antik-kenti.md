@@ -508,30 +508,30 @@ yağmur sebebiyle nysa’dan hızla uzaklaşırken sağda solda gördüğüm mü
 
 Nysa anacaddeden son bir görüntü ile nysa resimlerini bitiriyorum. Nysa öyle mükemmel bir yer ki 5 metrekarelik bir alanda 1500 yılık tarih var. Coğrafi olarak eşsizliği, doğasının bulunmazlığı Nysa’yı apayrı bir yere koyuyor. Umarım bir kaç yıl sonra bu resimlerdeki çoğu antik materyali müzelerde güvenli evlerinde görür detaylı açıklamalarla ne olduklarını öğreniriz. Ve de bu antik yolun bir turizm cennetine dönüştüğünü ve Sultanhisar ilçesine can verdiğini görürüz.
 
-[![IMG_2179](/gorseller/img-2179-778e0e.webp "IMG_2179")](https://alperaly.wordpress.com/2015/02/11/nysa-ad-maeandrum-nysa-antik-kenti/img_2179/)
+![IMG_2179](/gorseller/img-2179-778e0e.webp "IMG_2179")
 
-[![IMG_2182](/gorseller/img-2182-cf92d2.webp "IMG_2182")](https://alperaly.wordpress.com/2015/02/11/nysa-ad-maeandrum-nysa-antik-kenti/img_2182/)
+![IMG_2182](/gorseller/img-2182-cf92d2.webp "IMG_2182")
 
-[![IMG_2184](/gorseller/img-2184-b3faff.webp "IMG_2184")](https://alperaly.wordpress.com/2015/02/11/nysa-ad-maeandrum-nysa-antik-kenti/img_2184/)
+![IMG_2184](/gorseller/img-2184-b3faff.webp "IMG_2184")
 
-[![IMG_2187](/gorseller/img-2187-6d9733.webp "IMG_2187")](https://alperaly.wordpress.com/2015/02/11/nysa-ad-maeandrum-nysa-antik-kenti/img_2187/)
+![IMG_2187](/gorseller/img-2187-6d9733.webp "IMG_2187")
 
-[![IMG_2200](/gorseller/img-2200-83c0e9.webp "IMG_2200")](https://alperaly.wordpress.com/2015/02/11/nysa-ad-maeandrum-nysa-antik-kenti/img_2200/)
+![IMG_2200](/gorseller/img-2200-83c0e9.webp "IMG_2200")
 
-[![IMG_2201](/gorseller/img-2201-8b9c56.webp "IMG_2201")](https://alperaly.wordpress.com/2015/02/11/nysa-ad-maeandrum-nysa-antik-kenti/img_2201/)
+![IMG_2201](/gorseller/img-2201-8b9c56.webp "IMG_2201")
 
-[![IMG_2202](/gorseller/img-2202-d363dd.webp "IMG_2202")](https://alperaly.wordpress.com/2015/02/11/nysa-ad-maeandrum-nysa-antik-kenti/img_2202/)
+![IMG_2202](/gorseller/img-2202-d363dd.webp "IMG_2202")
 
-[![IMG_2203](/gorseller/img-2203-3097a2.webp "IMG_2203")](https://alperaly.wordpress.com/2015/02/11/nysa-ad-maeandrum-nysa-antik-kenti/img_2203/)
+![IMG_2203](/gorseller/img-2203-3097a2.webp "IMG_2203")
 
-[![IMG_2204](/gorseller/img-2204-5ee6e1.webp "IMG_2204")](https://alperaly.wordpress.com/2015/02/11/nysa-ad-maeandrum-nysa-antik-kenti/img_2204/)
+![IMG_2204](/gorseller/img-2204-5ee6e1.webp "IMG_2204")
 
-[![IMG_2212](/gorseller/img-2212-56a969.webp "IMG_2212")](https://alperaly.wordpress.com/2015/02/11/nysa-ad-maeandrum-nysa-antik-kenti/img_2212/)
+![IMG_2212](/gorseller/img-2212-56a969.webp "IMG_2212")
 
-[![IMG_2222](/gorseller/img-2222-673744.webp "IMG_2222")](https://alperaly.wordpress.com/2015/02/11/nysa-ad-maeandrum-nysa-antik-kenti/img_2222/)
+![IMG_2222](/gorseller/img-2222-673744.webp "IMG_2222")
 
-[![IMG_2226](/gorseller/img-2226-f5761e.webp "IMG_2226")](https://alperaly.wordpress.com/2015/02/11/nysa-ad-maeandrum-nysa-antik-kenti/img_2226/)
+![IMG_2226](/gorseller/img-2226-f5761e.webp "IMG_2226")
 
-[![IMG_2227](/gorseller/img-2227-72e85f.webp "IMG_2227")](https://alperaly.wordpress.com/2015/02/11/nysa-ad-maeandrum-nysa-antik-kenti/img_2227/)
+![IMG_2227](/gorseller/img-2227-72e85f.webp "IMG_2227")
 
-[![IMG_2228](/gorseller/img-2228-bb90b5.webp "IMG_2228")](https://alperaly.wordpress.com/2015/02/11/nysa-ad-maeandrum-nysa-antik-kenti/img_2228/)
+![IMG_2228](/gorseller/img-2228-bb90b5.webp "IMG_2228")

@@ -14,6 +14,27 @@ export const site = {
    * Boş bırakılırsa etiket hiç basılmaz.
    */
   googleSiteVerification: '',
+
+  /**
+   * Yorumlar — giscus. Yorumlar GitHub Discussions'ta, yani BU DEPONUN
+   * icinde saklanir. Ucuncu bir sirkette degil; blog tasinirsa yorumlar
+   * da beraber gelir. Ucretsiz, reklamsiz, takip kodsuz.
+   *
+   * Calismasi icin depoda iki sey gerekir:
+   *   1. Settings > General > Features > Discussions isaretli olmali
+   *   2. https://github.com/apps/giscus uygulamasi bu depoya kurulmali
+   *
+   * Sonra kategori kimligi https://giscus.app adresinden alinir.
+   * `kategoriId` BOSSA yorum kutusu HIC BASILMAZ - yarim kurulumla
+   * ziyaretciye kirik bir kutu gostermemek icin.
+   */
+  yorumlar: {
+    depo: 'alperalyaz/alperalyaz.github.io',
+    depoId: 'R_kgDOUMLwWQ',
+    kategori: 'Announcements',
+    kategoriId: '',
+  },
+
   locale: 'tr_TR',
 };
 

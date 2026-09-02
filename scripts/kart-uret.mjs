@@ -30,6 +30,11 @@ const fonts = [
 ];
 
 const KAGIT = '#faf8f3', MUREKKEP = '#14120f', SOLUK = '#8d8477', CIZGI = '#ded5c6', MAVI = '#27497e';
+// Kucuk resim zemini SAYFADAN KOYU olmak zorunda (--paper-deep). Onceki surumde
+// kucuk kart da #faf8f3 idi, yani listedeki zeminle ayni: kart gorunmuyor,
+// geriye yalnizca soldaki mavi serit kaliyor ve bosluga cizilmis bir hata
+// gibi duruyordu. Serit kaldirildi, zemin ayrildi; kart artik kart gibi duruyor.
+const KAGIT_KOYU = '#f1ebe0';
 
 /** Başlık uzunluğuna göre punto — uzun başlık taşmasın. */
 const punto = (s) => s.length < 26 ? 60 : s.length < 42 ? 50 : s.length < 62 ? 42 : s.length < 85 ? 35 : 30;
@@ -46,8 +51,7 @@ function basHarfKarti({ baslik, yil }, W, H) {
   return { type: 'div', props: {
     style: { width: W, height: H, display: 'flex', position: 'relative',
              alignItems: 'center', justifyContent: 'center',
-             backgroundColor: KAGIT, fontFamily: 'Fraunces',
-             borderLeft: `${Math.round(W*0.022)}px solid ${MAVI}` },
+             backgroundColor: KAGIT_KOYU, fontFamily: 'Fraunces' },
     children: [
       // yatay tarama şeritleri — kağıt dokusu
       ...Array.from({ length: 7 }, (_, i) => ({ type: 'div', props: {
