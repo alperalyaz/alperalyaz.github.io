@@ -5,6 +5,7 @@ description: "Not: Linkler bozulduğu için kaldırmak zorunda kaldım. Lütfen 
 tags: ["altın plak", "uzay sondası", "voyager", "voyager ile iletilen bilgiler", "voyager resimler"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2014/12/20/voyager-uydusu-ile-dis-uzaya-gonderdigimiz-mesajlar/"
+cover: "/gorseller/goldrecord-6936b3.webp"
 ---
 
 [![goldrecord](/gorseller/goldrecord-6936b3.webp)](/gorseller/goldrecord-6936b3.webp)

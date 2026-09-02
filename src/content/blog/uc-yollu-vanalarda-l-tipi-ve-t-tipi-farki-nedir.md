@@ -5,6 +5,7 @@ description: "3 yollu küresel vanalarda karşımıza çıkan T tipi L tipi fark
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2017/10/11/uc-yollu-vanalarda-l-tipi-ve-t-tipi-farki-nedir/"
+cover: "/gorseller/l-tipi-t-tipi-fark-uc-yollu-vana2-0099cb.webp"
 ---
 
 3 yollu küresel vanalarda karşımıza çıkan T tipi L tipi farkı konusu biraz kafa karıştırıcı. O yüzden yazmak istedim.

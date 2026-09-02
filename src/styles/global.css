@@ -164,6 +164,17 @@ section:first-of-type > .year-head { margin-top: 0; }
 }
 .entry:last-child { border-bottom: 0; }
 
+/* Kapak resmi olan kayitlarda sagda bir sutun daha acilir.
+   Gorseli olmayan yazilar metin tam genisligi kullanir - bosluk kalmaz. */
+.entry.has-thumb { grid-template-columns: var(--rail) 1fr 7.5rem; }
+.entry-thumb { display: block; line-height: 0; align-self: start; margin-top: 0.3rem; }
+.entry-thumb img {
+  width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover;
+  border: 1px solid var(--rule-soft);
+  filter: saturate(0.92);
+}
+.entry-thumb:hover img { filter: none; border-color: var(--accent); }
+
 .entry-num {
   font-family: var(--mono); font-size: 0.7rem; font-weight: 500;
   color: var(--ink-faint); padding-top: 0.5rem; letter-spacing: 0.04em;
@@ -388,6 +399,7 @@ span.tag { opacity: 0.7; }
    ========================================================================== */
 @media (max-width: 40rem) {
   :root { --rail: 2.6rem; }
+  .entry.has-thumb { grid-template-columns: var(--rail) 1fr 4.5rem; }
   body { font-size: 1.05rem; }
   .site-head { padding-top: 1.5rem; margin-bottom: 2.5rem; }
   .entry, .archive li, .year-head { gap: 0.85rem; }

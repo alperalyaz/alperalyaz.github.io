@@ -5,6 +5,7 @@ description: "Günümüzde temel bir belediye hizmeti olan çöp kamyonu ile ç�
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2021/12/21/cop-kamyonu-tarihi/"
+cover: "/gorseller/image-ffd568.webp"
 ---
 
 Günümüzde temel bir belediye hizmeti olan çöp kamyonu ile çöplerin toplanması işi aslında tarihi en fazla 100 sene olan yeni bir şey.

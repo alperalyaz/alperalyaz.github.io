@@ -5,6 +5,7 @@ description: "Antalya çok güzel bir şehir. Hadrian kapısı şehir merkezine 
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2017/10/09/antalya-hadrian-kapisi/"
+cover: "/gorseller/img-0525-f23820.webp"
 ---
 
 Antalya çok güzel bir şehir. Hadrian kapısı şehir merkezine Romalı kimliğini hatırlatıyor.

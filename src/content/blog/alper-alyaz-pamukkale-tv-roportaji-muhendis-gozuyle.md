@@ -5,6 +5,7 @@ description: "Fatih Yaşa ile birlikte keyifli sohbetimizi onca aydan sonra YouT
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2021/04/26/alper-alyaz-pamukkale-tv-roportaji-muhendis-gozuyle/"
+cover: "/gorseller/screenshot-4-338d04.webp"
 ---
 
 [![](/gorseller/screenshot-4-338d04.webp)](/gorseller/screenshot-4-338d04.webp)

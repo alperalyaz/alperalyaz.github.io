@@ -28,6 +28,6 @@ const { tag, items } = Astro.props;
   <p class="intro">{items.length} yazı.</p>
   {items.map(p => (
     <Entry slug={p.id} title={p.data.title} date={p.data.date}
-           description={p.data.description} tags={p.data.tags} />
+           description={p.data.description} tags={p.data.tags} cover={p.data.cover} />
   ))}
 </Base>

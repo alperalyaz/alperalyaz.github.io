@@ -5,6 +5,7 @@ description: "Denizli’de toplantı salonu ihtiyaçlarınız için merkezi, par
 tags: ["alyaz toplantı salonu", "denizli toplantı salonu", "toplantı", "toplantı salonu"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2021/01/06/denizli-alyaz-toplanti-salonu-hizmetinizde/"
+cover: "/gorseller/screenshot-1-7c2b5f.webp"
 ---
 
 * [![](/gorseller/screenshot-1-7c2b5f.webp)](/gorseller/screenshot-1-7c2b5f.webp)

@@ -5,6 +5,7 @@ description: "Endüstri standartları önemlidir. Teknik imalat söz konusu oldu
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2014/11/01/vida-disi-paso-olculeri-standartlari-aka-screw-thread-standarts/"
+cover: "/gorseller/english-c5106c.webp"
 ---
 
 Endüstri standartları önemlidir. Teknik imalat söz konusu olduğunda ise her şeyden önemlidir. Eğer endüstride bazı standartlar belirlemiş olmasa idik her ülke, her şehir ve her insan birbirine asla uymayan ve bir başka yerde asla kullanılamayacak ürünler üretirdi.

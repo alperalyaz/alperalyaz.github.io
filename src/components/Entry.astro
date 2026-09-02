@@ -1,6 +1,7 @@
 ---
 import { href, trDate, isoDate } from '../lib/site';
 import { linkedTags } from '../lib/tags';
+import { kucukKapak } from '../lib/kapak';
 
 interface Props {
   slug: string;
@@ -8,15 +9,18 @@ interface Props {
   date: Date;
   description?: string;
   tags?: string[];
+  cover?: string;
   /** Defter kaydi numarasi - en eski yazi 001. */
   num?: number;
 }
-const { slug, title, date, description = '', tags = [], num } = Astro.props;
+const { slug, title, date, description = '', tags = [], cover, num } = Astro.props;
 const linked = await linkedTags();
+const thumb = kucukKapak(cover);
 ---
-<article class="entry">
+<article class:list={['entry', thumb && 'has-thumb']}>
   <div class="entry-num">{num !== undefined ? String(num).padStart(3, '0') : ''}</div>
-  <div>
+
+  <div class="entry-main">
     <h2 class="entry-title"><a href={href(`/${slug}/`)}>{title}</a></h2>
     {description && <p class="entry-desc">{description}</p>}
     <div class="meta">
@@ -28,4 +32,10 @@ const linked = await linkedTags();
       ))}
     </div>
   </div>
+
+  {thumb && (
+    <a class="entry-thumb" href={href(`/${slug}/`)} tabindex="-1" aria-hidden="true">
+      <img src={href(thumb)} alt="" width="300" height="225" loading="lazy" decoding="async" />
+    </a>
+  )}
 </article>

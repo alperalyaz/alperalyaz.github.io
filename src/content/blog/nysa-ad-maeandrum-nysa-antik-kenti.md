@@ -5,6 +5,7 @@ description: ""
 tags: ["antik", "nysa", "nysa ancient city", "nysa ancient site", "nysa antik şehri", "nysa sultanhisar", "sultanhisar"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2015/02/11/nysa-ad-maeandrum-nysa-antik-kenti/"
+cover: "/gorseller/img-2004-791529.webp"
 ---
 
 [![IMG_2004](/gorseller/img-2004-791529.webp)](/gorseller/img-2004-791529.webp)

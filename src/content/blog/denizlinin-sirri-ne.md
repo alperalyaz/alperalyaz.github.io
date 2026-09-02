@@ -5,6 +5,7 @@ description: "Endüstriyel kalkınma denilince Türkiye’de belli başlı 10-15
 tags: ["ahmet nuri sözkesen", "akçakoca akça", "babadağlı girişimciler", "denizli", "denizli büyükşehir mi", "denizli cem sineması", "denizli ekonomisi", "denizli haddehaneleri", "denizli sümerbank", "denizli sırrı ne", "denizli tarihi", "denizli tekstili", "denizli'nin ekonomisi", "denizlili olmak", "denizlinin kalkınması", "nazilli sümerbank", "sümerbank tarihi", "ıspanakçı"]
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2014/11/11/denizlinin-sirri-ne/"
+cover: "/gorseller/27978-1131399141538-1203550-n-c3d925.webp"
 ---
 
 Endüstriyel kalkınma denilince Türkiye’de belli başlı 10-15 adet şehir sayıyoruz. Bunlardan biri Denizli. Denizli’nin sırrı ne? Neden komşuları Afyon, Uşak gibi tarımsal – içe kapalı bir şehir değil de, yılda milyonlarca dolar ihracat gerçekleştiren bir şehir oldu? Bu konuda fikirlerimi yazacağım. Şöyle ki:

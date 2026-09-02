@@ -5,6 +5,7 @@ description: "Kediyle yaşamak hakkında bir şeyler yazabilirdim. Ancak zaten f
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2017/09/12/kedo/"
+cover: "/gorseller/2-9702dc.webp"
 ---
 
 ![2](/gorseller/2-9702dc.webp)

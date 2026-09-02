@@ -5,6 +5,7 @@ description: "Çelik bir element değildir. Çelik bir kaç elementin bir araya 
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2019/09/05/celik-nedir-celik-siniflari-celik-gruplari-ve-celigin-tarihcesi/"
+cover: "/gorseller/periyodik-sistem-3fbfd3.webp"
 ---
 
 Çelik bir element değildir. Çelik bir kaç elementin bir araya gelerek oluşturduğu bir alaşımdır.

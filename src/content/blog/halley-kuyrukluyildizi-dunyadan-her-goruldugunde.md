@@ -5,6 +5,7 @@ description: "YIL Avrupa ve Ortadoğu’daki olaylar Asya’daki olaylar Diğer 
 tags: []
 categories: ["Articles"]
 wpUrl: "https://alperaly.wordpress.com/2023/03/20/halley-kuyrukluyildizi-dunyadan-her-goruldugunde/"
+cover: "/gorseller/pexels-photo-4858277-45b962.webp"
 ---
 
 [![](/gorseller/pexels-photo-4858277-45b962.webp)](/gorseller/pexels-photo-4858277-45b962.webp)
