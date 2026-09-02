@@ -53,18 +53,3 @@ const tags = [...counts.entries()]
     </section>
   ))}
 </Base>
-
-<style>
-  .archive { list-style: none; padding: 0; margin: 0; }
-  .archive li {
-    display: flex; gap: 0.9rem; align-items: baseline;
-    padding: 0.42rem 0; border-bottom: 1px solid var(--rule);
-  }
-  .archive li:last-child { border-bottom: 0; }
-  .archive time {
-    font-family: var(--mono); font-size: 0.72rem; color: var(--ink-faint);
-    flex: none; width: 3.2rem;
-  }
-  .archive a { color: var(--ink); text-decoration: none; font-size: 1rem; line-height: 1.4; }
-  .archive a:hover { color: var(--accent); background: none; text-decoration: underline; text-underline-offset: 3px; }
-</style>

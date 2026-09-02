@@ -2,13 +2,22 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Entry from '../components/Entry.astro';
-import { site } from '../lib/site';
+import { site, href } from '../lib/site';
 
-const posts = (await getCollection('blog', ({ data }) => !data.draft))
+/* Ana sayfada kac yazi gorunsun?
+   Tamami burada listelenince sayfa 2011'e kadar iniyordu ve kimse
+   o kadar asagi inmiyor. Gerisi arsivde - orada tek satirlik
+   kayitlar halinde, yillara bolunmus olarak duruyor. */
+const SON_YAZI = 15;
+
+const hepsi = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
-// Defter numarasi: en eski yazi 001, en yenisi en buyuk numara.
-const numOf = new Map(posts.map((p, i) => [p.id, posts.length - i]));
+// Defter numarasi tum arsive gore verilir (en eski 001), kesilse bile degismez.
+const numOf = new Map(hepsi.map((p, i) => [p.id, hepsi.length - i]));
+
+const posts = hepsi.slice(0, SON_YAZI);
+const kalan = hepsi.length - posts.length;
 
 const byYear: Array<[string, typeof posts]> = [];
 for (const p of posts) {
@@ -40,4 +49,14 @@ for (const p of posts) {
       ))}
     </section>
   ))}
+
+  {kalan > 0 && (
+    <a class="hepsi" href={href('/arsiv/')}>
+      <span class="hepsi-sayi">{kalan}</span>
+      <span class="hepsi-metin">
+        yazı daha var — {hepsi[hepsi.length - 1].data.date.getFullYear()} yılına kadar
+        <strong>Arşivin tamamı →</strong>
+      </span>
+    </a>
+  )}
 </Base>
