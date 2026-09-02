@@ -27,7 +27,6 @@ Bu yazıda formülün kendisi var. Kopyalayın, kullanın.
       <path d="M0,1 L10,5 L0,9 z" fill="currentColor"/>
     </marker>
   </defs>
-
   <g fill="none" stroke="currentColor">
     <circle cx="120" cy="108" r="78" fill="url(#celik)" stroke-width="1.7"/>
     <circle cx="120" cy="108" r="56" fill="var(--paper)" stroke-width="1.7"/>
@@ -36,7 +35,6 @@ Bu yazıda formülün kendisi var. Kopyalayın, kullanın.
     <line x1="176" y1="108" x2="198" y2="108" stroke-width="1.4" marker-start="url(#ok)" marker-end="url(#ok)"/>
     <line x1="187" y1="102" x2="228" y2="60" stroke-width="1" opacity="0.5"/>
   </g>
-
   <g fill="currentColor" font-family="ui-monospace, monospace">
     <rect x="109" y="97" width="22" height="21" fill="var(--paper)"/>
     <text x="120" y="113" text-anchor="middle" font-size="17">D</text>

@@ -46,6 +46,33 @@ En sık yapılan hata budur. **DN bir ölçü değil, bir isimdir.** Kumpasla ö
 - İç çapı et kalınlığına göre yaklaşık **27 mm** civarındadır
 - Hiçbir yeri 25 mm değildir
 
+<figure class="sema">
+<svg viewBox="0 0 486 214" role="img" aria-label="DN25 borunun gerçek ölçüleri: dış çap 33,7 mm, iç çap 27,3 mm; 25 mm diye bir ölçü yok" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dnCelik" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="2" opacity="0.26"/>
+    </pattern>
+  </defs>
+  <circle cx="108" cy="106" r="84.0" fill="url(#dnCelik)" stroke="currentColor" stroke-width="1.7"/>
+  <circle cx="108" cy="106" r="68.0" fill="var(--paper)" stroke="currentColor" stroke-width="1.7"/>
+  <circle cx="108" cy="106" r="62.3" fill="none" stroke="var(--accent, #27497e)" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <line x1="156.2" y1="37.2" x2="232" y2="34" stroke="currentColor" stroke-width="1" opacity="0.4"/>
+  <line x1="171.9" y1="82.7" x2="232" y2="74" stroke="currentColor" stroke-width="1" opacity="0.4"/>
+  <line x1="108.0" y1="168.3" x2="232" y2="150" stroke="currentColor" stroke-width="1" opacity="0.4"/>
+  <g font-family="ui-monospace, monospace" fill="currentColor">
+    <text x="238" y="30" font-size="14">Ø33,7 mm</text>
+    <text x="238" y="46" font-size="11.5" opacity="0.65">dış çap</text>
+    <text x="238" y="78" font-size="14">Ø27,3 mm</text>
+    <text x="238" y="94" font-size="11.5" opacity="0.65">iç çap (et 3,2 mm)</text>
+    <text x="238" y="146" font-size="14" fill="var(--accent, #27497e)">Ø25 mm</text>
+    <text x="238" y="162" font-size="11.5" opacity="0.65">böyle bir ölçü YOK —</text>
+    <text x="238" y="177" font-size="11.5" opacity="0.65">kesik çizgi nerede kalırdı</text>
+    <text x="108" y="111" text-anchor="middle" font-size="17" font-weight="600">DN25</text>
+  </g>
+</svg>
+<figcaption>DN25 bir borunun kesiti. Kesik mavi çizgi, "25 mm" olsaydı nerede kalacağını gösteriyor: iç çapın bile içinde. DN bir ölçü değil, o ölçü ailesinin adı.</figcaption>
+</figure>
+
 DN sayısı, o ölçü ailesine verilmiş bir etikettir. Sipariş verirken, katalog okurken ve parça eşleştirirken bu etiketi kullanırsınız; ağırlık ya da hacim hesabı yapacaksanız **gerçek ölçülere** bakmanız gerekir. (Ağırlık hesabını [şurada anlatmıştım](/celik-boru-agirlik-hesabi-excel-formul/).)
 
 ## Yanındaki PN nedir?
