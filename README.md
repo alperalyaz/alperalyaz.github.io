@@ -10,10 +10,24 @@ Amaç **kalıcılık**. Bunun için üç karar verildi:
    sürüm uyumsuzluğu yok. 30 yıl sonra bir metin editöründe açılır.
 2. **Görseller depo içinde.** 486 görsel WordPress'ten indirilip küçültüldü
    (494 MB → 108 MB). WordPress hesabı kapansa bile blog eksiksiz çalışır.
-3. **İki ayrı yerde yayınlanıyor.** Vercel ve GitHub Pages. Biri çökerse diğeri ayakta.
+3. **GitHub Pages'te yayınlanıyor.** Kaynak ve yayın aynı hesapta; ayrı bir
+   servis hesabı, ayrı fatura ilişkisi, plan kademesi yok.
 
 Yani host değiştirmek 10 dakikalık iş. Kaybolma riski olan tek şey **adres** —
 kendi alan adını alırsan (yılda ~10-15 dolar) o risk de biter.
+
+## Yayın adresi
+
+`.github/workflows/github-pages.yml` her push'ta siteyi derler ve yayınlar.
+Adresi depo adından kendisi hesaplar:
+
+| Depo adı | Yayın adresi |
+|---|---|
+| `blog` | `https://alperalyaz.github.io/blog/` |
+| `alperalyaz.github.io` | `https://alperalyaz.github.io/` |
+
+Depoyu yeniden adlandırırsan yapılandırmada hiçbir şey değiştirmen gerekmez —
+görsel yolları, sitemap ve canonical etiketleri otomatik uyar.
 
 ## Yeni yazı nasıl eklenir?
 
@@ -28,7 +42,7 @@ npm run dev      # http://localhost:4321 adresinde önizle
 git add -A && git commit -m "yeni yazı" && git push
 ```
 
-Push ettiğin an her iki site de kendini günceller. Başka hiçbir şey yapman gerekmez.
+Push ettiğin an site kendini günceller. Başka hiçbir şey yapman gerekmez.
 
 ### Yazı dosyasının başındaki alanlar
 
@@ -80,18 +94,23 @@ public/gorseller/   ← Görseller
 scripts/            ← Yardımcı betikler
 ```
 
-## Adres değiştirmek
+## Kendi alan adını alırsan
 
-Kendi alan adını alırsan `astro.config.mjs` dosyasındaki tek satırı değiştir:
-
-```js
-const SITE = process.env.SITE_URL ?? 'https://alperalyaz.vercel.app';
-```
+1. Alan adını satın al, DNS'te GitHub Pages'e yönlendir.
+2. Depo → Settings → Pages → Custom domain kısmına yaz.
+3. `astro.config.mjs` içindeki tek satırı değiştir:
+   ```js
+   const SITE = process.env.SITE_URL ?? 'https://alperalyaz.github.io';
+   ```
+4. `.github/workflows/github-pages.yml` içindeki `site=` satırını da alan adına çevir.
 
 Sitemap, RSS ve canonical etiketleri otomatik olarak yeni adrese göre üretilir.
 
 ## Teknik
 
-Astro 7 · statik HTML üretir · JavaScript çalıştırmaz · harici font yüklemez.
-Ana sayfa gzip'li 12 KB. Hız doğrudan arama sıralamasını etkilediği için
-bilerek bu kadar yalın tutuldu.
+Astro 7 · statik HTML üretir · JavaScript çalıştırmaz · harici sunucuya istek atmaz.
+
+Yazı tipi: Fraunces (başlıklar), `src/fonts/` içinde. Orijinali 220 KB'dı;
+kullanılmayan eksenler sabitlenip gereksiz alfabeler atılarak 94 KB'a indirildi
+(`scripts/fontlari-kirp.py`). Gövde metni ve rakamlar sistem yazı tiplerini
+kullanır — sıfır indirme, gerçek italik ve kalın kesimler.

@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Yazi tipi tanimlari.
+   Dosyalar src/fonts/ icinde - harici sunucuya istek YOK.
+   Yollar goreli: boylece site alt dizinde yayinlansa da (GitHub Pages)
+   dogru adres kendiliginden olusur.
+   scripts/fontlari-kirp.py ile uretildi.
+   ========================================================================== */
+
+/* Fraunces: basliklar. opsz ekseni sayesinde ayni yazi tipi kucuk boyutta
+   daha kalin/okunakli, buyuk boyutta daha ince/zarif ciziliyor. */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;      /* metin hemen gorunur, font gelince yerine gecer */
+  src: url('../fonts/fraunces-latinext.woff2') format('woff2');
+  unicode-range: U+0100-017F;                       /* ğ ı ş İ Ğ Ş */
+}
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('../fonts/fraunces-latin.woff2') format('woff2');
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2000-206F,
+                 U+2122, U+2190-2193, U+20A0-20BF;
+}

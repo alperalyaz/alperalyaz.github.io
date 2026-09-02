@@ -1,9 +1,11 @@
-# Yedek yayin: Vercel'e ek olarak GitHub Pages'e de kurar.
-# Amac dayaniklilik - iki bagimsiz sirket, iki adres, tek kaynak.
-name: GitHub Pages (yedek yayın)
+# Siteyi GitHub Pages'e kurar.
+#
+# Adres depo adindan OTOMATIK hesaplanir:
+#   depo adi "blog"                -> https://alperalyaz.github.io/blog/
+#   depo adi "alperalyaz.github.io" -> https://alperalyaz.github.io/
+# Yani depoyu yeniden adlandirirsan burada hicbir sey degistirmen gerekmez.
+name: GitHub Pages
 
-# Her push'ta calisir; yayin adimi sadece VARSAYILAN dalda yapilir.
-# Boylece dalin adi "main" olsun ya da baska bir sey olsun, calisir.
 on:
   push:
   workflow_dispatch:          # Actions sekmesinden elle de calistirilabilir
@@ -30,13 +32,26 @@ jobs:
 
       - run: npm ci
 
-      # Depo adi "blog" oldugu icin site alt dizinde yayinlanir:
-      # https://alperalyaz.github.io/blog/
-      # Gorsel ve baglantilarin kirilmamasi icin adresi burada bildiriyoruz.
+      - name: Yayın adresini hesapla
+        id: adres
+        run: |
+          owner=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
+          repo="${{ github.event.repository.name }}"
+          repo_lc=$(echo "$repo" | tr '[:upper:]' '[:lower:]')
+          site="https://${owner}.github.io"
+          if [ "$repo_lc" = "${owner}.github.io" ]; then
+            base="/"                 # kullanici sitesi: kok dizinde yayinlanir
+          else
+            base="/${repo}/"         # proje sitesi: alt dizinde yayinlanir
+          fi
+          echo "site=$site" >> "$GITHUB_OUTPUT"
+          echo "base=$base" >> "$GITHUB_OUTPUT"
+          echo "Yayın adresi: ${site}${base}"
+
       - run: npm run build
         env:
-          SITE_URL: https://alperalyaz.github.io
-          BASE_PATH: /blog/
+          SITE_URL: ${{ steps.adres.outputs.site }}
+          BASE_PATH: ${{ steps.adres.outputs.base }}
 
       - uses: actions/upload-pages-artifact@v3
         with:

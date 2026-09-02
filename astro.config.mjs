@@ -5,11 +5,11 @@ import sitemap from '@astrojs/sitemap';
 /* ------------------------------------------------------------------
    Yayin adresi.
    Hicbir sey ayarlamazsan Vercel adresi kullanilir.
-   GitHub Pages kurulumunda .github/workflows/github-pages.yml bu iki
+   Vercel gibi baska bir yere kurarsan .github/workflows/github-pages.yml bu iki
    degiskeni otomatik degistirir - sen ugrasmazsin.
    Kendi alan adini alirsan: asagidaki SITE varsayilanini degistir, yeter.
    ------------------------------------------------------------------ */
-const SITE = process.env.SITE_URL ?? 'https://alperalyaz.vercel.app';
+const SITE = process.env.SITE_URL ?? 'https://alperalyaz.github.io';
 const BASE = process.env.BASE_PATH ?? '/';
 
 /**

@@ -20,6 +20,7 @@ export async function getStaticPaths() {
 const { post, newer, older } = Astro.props;
 const { Content } = await render(post);
 const linked = await linkedTags();
+const postCount = (await getCollection('blog', ({ data }) => !data.draft)).length;
 const d = post.data;
 ---
 <Base
@@ -29,11 +30,12 @@ const d = post.data;
   article={{ date: d.date, tags: d.tags }}
 >
   <article>
-    <header class="post-head prose">
+    <header class="post-head">
+      <div class="post-kicker">{d.date.getFullYear()}</div>
       <h1 class="post-title">{d.title}</h1>
-      <div class="meta">
+      <div class="meta prose">
         <time datetime={isoDate(d.date)}>{trDate(d.date)}</time>
-        {d.categories.map(c => <span>{c}</span>)}
+        {older && <><span class="sep">·</span><span>{postCount} yazıdan biri</span></>}
       </div>
     </header>
 

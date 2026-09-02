@@ -7,7 +7,9 @@ import { site } from '../lib/site';
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
-// Yila gore grupla: "2026", "2024", ... seklinde basliklar cikar.
+// Defter numarasi: en eski yazi 001, en yenisi en buyuk numara.
+const numOf = new Map(posts.map((p, i) => [p.id, posts.length - i]));
+
 const byYear: Array<[string, typeof posts]> = [];
 for (const p of posts) {
   const y = String(p.data.date.getFullYear());
@@ -21,10 +23,14 @@ for (const p of posts) {
 
   {byYear.map(([year, items]) => (
     <section>
-      <h2 class="year-head">{year}</h2>
+      <div class="year-head">
+        <span class="year-num">{year}</span>
+        <span class="year-note">{items.length} yazı</span>
+      </div>
       {items.map(p => (
         <Entry
           slug={p.id}
+          num={numOf.get(p.id)}
           title={p.data.title}
           date={p.data.date}
           description={p.data.description}

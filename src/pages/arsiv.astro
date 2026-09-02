@@ -36,7 +36,10 @@ const tags = [...counts.entries()]
 
   {byYear.map(([year, items]) => (
     <section>
-      <h2 class="year-head">{year} · {items.length} yazı</h2>
+      <div class="year-head">
+        <span class="year-num">{year}</span>
+        <span class="year-note">{items.length} yazı</span>
+      </div>
       <ul class="archive">
         {items.map(p => (
           <li>

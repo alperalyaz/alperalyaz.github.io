@@ -1,8 +1,11 @@
 ---
 import { site, href } from '../lib/site';
+
 const path = Astro.url.pathname.replace(/\/+$/, '') || '/';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const on = (p: string) => (path === (base + p).replace(/\/+$/, '') || (p === '/' && path === base));
+const on = (p: string) =>
+  path === (base + p).replace(/\/+$/, '') || (p === '/' && path === base);
+
 const links = [
   { p: '/',         label: 'Yazılar' },
   { p: '/arsiv',    label: 'Arşiv' },
@@ -11,10 +14,10 @@ const links = [
 ---
 <header class="site-head">
   <div class="wrap">
-    <a class="brand" href={href('/')}>
-      {site.title}
-      <small>{site.tagline}</small>
-    </a>
+    <div class="masthead">
+      <a class="wordmark" href={href('/')}>{site.title}</a>
+      <div class="masthead-rule">{site.tagline}</div>
+    </div>
     <nav class="nav" aria-label="Ana menü">
       {links.map(l => (
         <a href={href(l.p)} aria-current={on(l.p) ? 'page' : undefined}>{l.label}</a>
