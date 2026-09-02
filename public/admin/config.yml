@@ -17,6 +17,12 @@ backend:
   repo: alperalyaz/alperalyaz.github.io
   # "branch" bilerek yazılmadı: GitHub'daki varsayılan dal kullanılır.
   # Dalı ileride "main" diye yeniden adlandırırsan burada bir şey değişmez.
+  #
+  # Sadece anahtarla (token) giriş. Panelin varsayılanında bir de
+  # "Sign In with GitHub" düğmesi çıkıyor ama o yol Netlify'ın OAuth
+  # sunucusuna gidiyor; bizde öyle bir sunucu yok, "Not Found" veriyor.
+  # Boşuna tıklanan bir tuzak olmasın diye o düğme kapatıldı.
+  auth_methods: [token]
   commit_messages:
     create: 'Yeni yazı: {{slug}}'
     update: 'Yazı güncellendi: {{slug}}'
