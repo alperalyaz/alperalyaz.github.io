@@ -51,6 +51,7 @@ Push ettiğin an site kendini günceller. Başka hiçbir şey yapman gerekmez.
 title: "Başlık"              # zorunlu
 date: 2026-09-02             # zorunlu
 description: "..."           # Google sonuçlarında görünen satır — MUTLAKA doldur
+lang: en                     # yazı İngilizceyse; yazmazsan Türkçe sayılır
 tags: ["vana", "hidrolik"]   # isteğe bağlı
 categories: []               # isteğe bağlı
 draft: true                  # varsa yazı yayınlanmaz

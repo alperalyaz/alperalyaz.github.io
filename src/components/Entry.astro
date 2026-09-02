@@ -10,10 +10,12 @@ interface Props {
   description?: string;
   tags?: string[];
   cover?: string;
+  /** Yazinin dili; Turkce disindaysa listede rozet gosterilir. */
+  lang?: 'tr' | 'en';
   /** Defter kaydi numarasi - en eski yazi 001. */
   num?: number;
 }
-const { slug, title, date, description = '', tags = [], cover, num } = Astro.props;
+const { slug, title, date, description = '', tags = [], cover, lang = 'tr', num } = Astro.props;
 const linked = await linkedTags();
 const thumb = kucukKapak(cover);
 ---
@@ -25,6 +27,7 @@ const thumb = kucukKapak(cover);
     {description && <p class="entry-desc">{description}</p>}
     <div class="meta">
       <time datetime={isoDate(date)}>{trDate(date)}</time>
+      {lang !== 'tr' && <span class="dil" title="Bu yazı İngilizce">{lang.toUpperCase()}</span>}
       {tags.slice(0, 3).map(t => (
         linked.has(t)
           ? <a href={href(`/etiket/${encodeURIComponent(t)}/`)}>#{t}</a>

@@ -9,6 +9,9 @@ const blog = defineCollection({
     title: z.string(),
     date: z.coerce.date(),
     description: z.string().default(''),
+    // Yazinin dili. Yazmazsan Turkce sayilir.
+    // Ingilizce bir yazi icin: lang: en
+    lang: z.enum(['tr', 'en']).default('tr'),
     tags: z.array(z.string()).default([]),
     categories: z.array(z.string()).default([]),
     wpUrl: z.string().optional(),   // eski WordPress adresi (arsiv icin)

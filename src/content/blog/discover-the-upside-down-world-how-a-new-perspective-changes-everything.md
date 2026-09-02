@@ -1,6 +1,7 @@
 ---
 title: "Discover the Upside-Down World: How a New Perspective Changes Everything"
 date: 2024-11-08
+lang: en
 description: "Hello! In today’s blog post, I want to dive into the fascinating topic of my YouTube video, “The Upside-Down World: What Happens When We Flip the Map?”…"
 tags: []
 categories: ["Articles"]

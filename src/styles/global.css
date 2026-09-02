@@ -123,8 +123,11 @@ a:hover { color: var(--accent-deep); }
    GIRIS METNI
    ========================================================================== */
 .intro {
+  /* Alttaki yazi kayitlariyla ayni hizada bassin: kayitlar numara
+     sutunundan (--rail) sonra basliyor, giris metni de oyle. */
   max-width: var(--measure);
   margin: 0 0 3.5rem;
+  padding-left: calc(var(--rail) + 1.25rem);
   font-size: 1.15rem; line-height: 1.6; color: var(--ink-soft);
   font-style: italic;
 }
@@ -204,6 +207,15 @@ section:first-of-type > .year-head { margin-top: 0; }
 .meta a { color: var(--ink-faint); text-decoration: none; }
 .meta a:hover { color: var(--accent); }
 .meta .sep { opacity: 0.4; }
+
+/* Dil rozeti: Turkce disindaki yazilarda listede gorunur, boylece
+   okuyucu tiklamadan once yazinin dilini bilir. */
+.dil {
+  font-family: var(--mono); font-size: 0.6rem; font-weight: 600;
+  letter-spacing: 0.1em; color: var(--accent);
+  border: 1px solid var(--accent); border-radius: 2px;
+  padding: 0.05rem 0.28rem; line-height: 1.4;
+}
 
 /* ==========================================================================
    TEKIL YAZI
@@ -432,6 +444,7 @@ span.tag { opacity: 0.7; }
   body { font-size: 1.05rem; }
   .site-head { padding-top: 1.5rem; margin-bottom: 2.5rem; }
   .entry, .archive li, .year-head { gap: 0.85rem; }
+  .intro { padding-left: calc(var(--rail) + 0.85rem); }
   .post-body { font-size: 1.09rem; }
   .post-title { max-width: none; }
 }

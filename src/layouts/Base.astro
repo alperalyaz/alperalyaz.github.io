@@ -12,9 +12,12 @@ interface Props {
   article?: { date: Date; modified?: Date; tags?: string[] };
   image?: string;
   noindex?: boolean;
+  /** Sayfanin dili. Ingilizce yazilarda 'en'. */
+  lang?: 'tr' | 'en';
 }
 
-const { title, description, article, image, noindex = false } = Astro.props;
+const { title, description, article, image, noindex = false, lang = 'tr' } = Astro.props;
+const locale = lang === 'en' ? 'en_US' : site.locale;
 
 const pageTitle = title ? `${title} — ${site.title}` : `${site.title} — ${site.tagline}`;
 const desc = (description || site.description).slice(0, 200);
@@ -30,7 +33,7 @@ const jsonLd = article
       datePublished: article.date.toISOString(),
       dateModified: (article.modified ?? article.date).toISOString(),
       author: { '@type': 'Person', name: site.author },
-      inLanguage: site.lang,
+      inLanguage: lang,
       mainEntityOfPage: canonical,
       ...(article.tags?.length ? { keywords: article.tags.join(', ') } : {}),
       ...(ogImage ? { image: ogImage } : {}),
@@ -46,7 +49,7 @@ const jsonLd = article
     };
 ---
 <!doctype html>
-<html lang={site.lang}>
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -60,7 +63,7 @@ const jsonLd = article
     <meta property="og:description" content={desc} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content={site.title} />
-    <meta property="og:locale" content={site.locale} />
+    <meta property="og:locale" content={locale} />
     {ogImage && <meta property="og:image" content={ogImage} />}
     <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
 

@@ -1,6 +1,7 @@
 ---
 title: "Could Taiwan Ignite World War III? Lessons from Franz Ferdinand and 1914"
 date: 2024-11-29
+lang: en
 description: "No one’s watched this video. Not a single soul.I uploaded it ages ago, and it’s just been sitting there… untouched, unloved.Is the algorithm ghosting me…"
 tags: []
 categories: ["Articles"]

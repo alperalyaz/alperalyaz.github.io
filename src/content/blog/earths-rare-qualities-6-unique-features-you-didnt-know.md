@@ -1,6 +1,7 @@
 ---
 title: "Earth’s Rare Qualities: 6 Unique Features You Didn’t Know About"
 date: 2024-11-08
+lang: en
 description: "We all know Earth is a special place, but what makes it truly unique in the universe? In my latest YouTube video, I explore six fascinating and…"
 tags: []
 categories: ["Articles"]
