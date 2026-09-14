@@ -32,7 +32,7 @@ export const site = {
     depo: 'alperalyaz/alperalyaz.github.io',
     depoId: 'R_kgDOUMLwWQ',
     kategori: 'Announcements',
-    kategoriId: '',
+    kategoriId: 'DIC_kwDOUMLwWc4DFkX6',
   },
 
   locale: 'tr_TR',
