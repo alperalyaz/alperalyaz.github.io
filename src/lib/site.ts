@@ -13,7 +13,7 @@ export const site = {
    * verdiği <meta> etiketinin content değeri buraya yazılır.
    * Boş bırakılırsa etiket hiç basılmaz.
    */
-  googleSiteVerification: '',
+  googleSiteVerification: 'qI5ugueunq3n_STULfJu2I2Rm3Wp6kCCM1Haq4tVfdo',
 
   /**
    * Yorumlar — giscus. Yorumlar GitHub Discussions'ta, yani BU DEPONUN
