@@ -1,7 +1,6 @@
 ---
 title: "Hakkında"
 description: "Bu blog nedir, kim yazar, neden bu kadar dağınık?"
-portre: "/gorseller/gemini_generated_ımage_110iy9110iy9110i-1.webp"
 fotograflar:
   - gorsel: "/gorseller/gemini_generated_ımage_110iy9110iy9110i-1.webp"
 ---
