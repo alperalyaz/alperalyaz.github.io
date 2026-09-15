@@ -22,4 +22,28 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog };
+// Yazi olmayan tek sayfalar (hakkinda gibi). Blogdan AYRI bir koleksiyon:
+// bunlarin tarihi, etiketi, paylasim karti olmaz ve arsivde/RSS'te gorunmezler.
+// Amac hakkinda sayfasini /admin/ panelinden duzenlenebilir yapmak; onceki
+// surumde metin dogrudan .astro sablonunun icindeydi ve panel goremiyordu.
+const sayfa = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/sayfa' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string().default(''),
+    /** Sayfanin basindaki portre. Bos birakilabilir. */
+    portre: z.string().optional(),
+    portreAciklama: z.string().default(''),
+    /** Sayfanin sonundaki fotograf seridi. Bos birakilabilir. */
+    fotograflar: z
+      .array(
+        z.object({
+          gorsel: z.string(),
+          aciklama: z.string().default(''),
+        })
+      )
+      .default([]),
+  }),
+});
+
+export const collections = { blog, sayfa };

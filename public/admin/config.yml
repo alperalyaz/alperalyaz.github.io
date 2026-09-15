@@ -153,3 +153,60 @@ collections:
       # yani eski yazılardaki değerleri kaybolmuyor. Tanımlasaydım YENİ
       # yazılara boş bir 'paylasimKarti: ""' satırı düşerdi ve kart üreten
       # betik o satırı dolu sanıp gerçeğini hiç yazmazdı.
+
+  # ── SAYFALAR ────────────────────────────────────────────────────────────
+  # Yazı olmayan tek sayfalar. Yenisini eklemek istersen buraya bir satır
+  # daha eklemen VE src/content/sayfa/ altına dosyayı açman gerekir.
+  - name: sayfalar
+    label: Sayfalar
+    description: Yazı olmayan sabit sayfalar.
+    files:
+      - name: hakkinda
+        label: Hakkında sayfası
+        file: /src/content/sayfa/hakkinda.md
+        format: yaml-frontmatter
+        fields:
+          - name: title
+            label: Sayfa başlığı
+            widget: string
+            required: true
+
+          - name: description
+            label: Özet
+            widget: text
+            required: true
+            hint: Google sonuçlarında ve paylaşımlarda görünen satır.
+
+          - name: portre
+            label: Portre fotoğrafı
+            widget: image
+            required: false
+            choose_url: false
+            hint: >-
+              Sayfanın en üstünde, metinden önce çıkar. Boş bırakabilirsin.
+              Yüklediğin fotoğraf tarayıcıda WebP'ye çevrilip küçültülür.
+
+          - name: portreAciklama
+            label: Portre altyazısı
+            widget: string
+            required: false
+            hint: Fotoğrafın altında küçük puntoyla çıkar. Boş bırakılabilir.
+
+          - name: body
+            label: Sayfa metni
+            widget: markdown
+            required: true
+            modes: [raw, rich_text]
+
+          - name: fotograflar
+            label: Fotoğraf şeridi
+            widget: list
+            required: false
+            label_singular: Fotoğraf
+            summary: '{{fields.aciklama}}'
+            hint: >-
+              Metnin altında yan yana dizilir; ekran daraldıkça alt alta iner.
+              Üç ya da dört tane iyi durur. Hiç eklemezsen bölüm hiç çıkmaz.
+            fields:
+              - { name: gorsel, label: Fotoğraf, widget: image, choose_url: false }
+              - { name: aciklama, label: Altyazı, widget: string, required: false }
