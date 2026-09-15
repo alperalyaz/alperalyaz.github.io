@@ -23,7 +23,7 @@ When we flip the map, our geographical perception shifts completely. With South 
 
 **How This Perspective Affects Our Daily Lives**
 
-Seeing the world differently is not just a matter of geography—it’s about opening our minds to new ideas and perspectives. This simple act of flipping a map can be a powerful exercise in expanding our thinking. The video isn’t just about altering a map; it’s an invitation to look at ourselves and the world from a fresh viewpoint.
+Seeing the world differently is not just a matter of geography - it’s about opening our minds to new ideas and perspectives. This simple act of flipping a map can be a powerful exercise in expanding our thinking. The video isn’t just about altering a map; it’s an invitation to look at ourselves and the world from a fresh viewpoint.
 
 If this different perspective piques your interest, check out my video “The Upside-Down World” on my YouTube channel. I dive deeper into this concept with more visuals and explanations, and I think you’ll find it both surprising and thought-provoking!
 

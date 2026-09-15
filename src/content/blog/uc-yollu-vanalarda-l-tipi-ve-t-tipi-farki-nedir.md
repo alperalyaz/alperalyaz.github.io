@@ -78,12 +78,12 @@ T tipi ve L tipi küresel vanalardaki farkları şu iki grupta toplamalıyız:
     <line x1="392.0" y1="205.0" x2="366.0" y2="205.0" stroke="var(--accent, #27497e)" stroke-width="7" opacity="1" stroke-linecap="round"/>
     <text x="392.0" y="266" text-anchor="middle" font-size="10.5" fill="currentColor" opacity="0.72" font-family="ui-monospace, monospace">sol ↔ sağ</text>
 </svg>
-<figcaption>Mavi olan yollar açık. L tipinde delik iki kollu olduğu için aynı anda en fazla iki ağız birleşir; T tipinde üç kol olduğu için üçü birden açık olabilir — ve bir konumda giriş kapanıp iki çıkış birbirine bağlanır.</figcaption>
+<figcaption>Mavi olan yollar açık. L tipinde delik iki kollu olduğu için aynı anda en fazla iki ağız birleşir; T tipinde üç kol olduğu için üçü birden açık olabilir - ve bir konumda giriş kapanıp iki çıkış birbirine bağlanır.</figcaption>
 </figure>
 
-**L tipinde** küredeki delik 90 derecelik bir dirsektir. Bu yüzden aynı anda **yalnızca iki yolu** birleştirebilir. Girişi ya sağdaki çıkışa verir ya soldakine. İkisine birden veremez. Tasarımına göre, hiçbir yolun açık olmadığı bir kapalı konumu da bulunabilir — bu her üründe yoktur, kataloğundan bakmak gerekir.
+**L tipinde** küredeki delik 90 derecelik bir dirsektir. Bu yüzden aynı anda **yalnızca iki yolu** birleştirebilir. Girişi ya sağdaki çıkışa verir ya soldakine. İkisine birden veremez. Tasarımına göre, hiçbir yolun açık olmadığı bir kapalı konumu da bulunabilir - bu her üründe yoktur, kataloğundan bakmak gerekir.
 
-**T tipinde** delik T harfi gibidir; üç kola da uzanır. Bu yüzden girişi tek bir çıkışa verebildiği gibi, **ikisine birden** de verebilir. Yani T tipi ayırma (bir hattı ikiye bölme) ve karıştırma (iki hattı birleştirme) işlerini yapabilir. Buna karşılık T tipinde genellikle **tam kapalı konum yoktur** — kolu nereye çevirirseniz çevirin bir yol açık kalır.
+**T tipinde** delik T harfi gibidir; üç kola da uzanır. Bu yüzden girişi tek bir çıkışa verebildiği gibi, **ikisine birden** de verebilir. Yani T tipi ayırma (bir hattı ikiye bölme) ve karıştırma (iki hattı birleştirme) işlerini yapabilir. Buna karşılık T tipinde genellikle **tam kapalı konum yoktur** - kolu nereye çevirirseniz çevirin bir yol açık kalır.
 
 Özet olarak:
 
@@ -99,7 +99,7 @@ T tipi ve L tipi küresel vanalardaki farkları şu iki grupta toplamalıyız:
 
 Asıl kafa karıştıran ve sahada başa iş açan kısım burasıdır. Çünkü vana yalnızca durduğu konumda değil, **kolu çevirdiğiniz o birkaç saniyede de** bir şeyler yapar.
 
-**L tipinde** bir çıkıştan diğerine geçerken küre, arada her iki yolu da kısan bir noktadan geçer. Yani akış bir an için **kısılır, hatta tamamen kesilebilir.** Hattın ucunda çalışan bir pompa varsa bu, pompanın bir anlığına kapalı hatta basması demektir — basınç sıçraması, gürültü, kötü ihtimalle hasar.
+**L tipinde** bir çıkıştan diğerine geçerken küre, arada her iki yolu da kısan bir noktadan geçer. Yani akış bir an için **kısılır, hatta tamamen kesilebilir.** Hattın ucunda çalışan bir pompa varsa bu, pompanın bir anlığına kapalı hatta basması demektir - basınç sıçraması, gürültü, kötü ihtimalle hasar.
 
 **T tipinde** ise geçiş sırasında küre bir noktada **her iki çıkışı da açık** bırakır. Pompa hiçbir an kapalı hatta basmaz. Buna karşılık iki hat o an birbirine bağlanır; iki farklı akışkanın karışmaması gerekiyorsa bu istemediğiniz bir şeydir.
 

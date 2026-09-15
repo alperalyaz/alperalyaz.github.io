@@ -11,13 +11,13 @@ Benim kuşağımın strateji oyunuyla tanışması **Civilization 3** ile oldu. 
 
 Yıllarca onu oynadım, üstüne başka strateji oyunları koydum, sonra bir noktada şunu düşündüm: benim istediğim oyun tam olarak yok. Ya çok ağır, kurulumu yarım saat sürüyor. Ya çok hafif, iki hamlede tükeniyor. Aradaki yeri kendim doldurayım dedim.
 
-**[War of Flags](https://play.google.com/store/apps/details?id=com.hidroteknik.wof)** — Play Store'da, ücretsiz.
+**[War of Flags](https://play.google.com/store/apps/details?id=com.hidroteknik.wof)** - Play Store'da, ücretsiz.
 
 ![War of Flags oyun ekranı: rastgele üretilmiş harita, her ülke kendi bayrağıyla](/gorseller/war-of-flags-harita.png)
 
 ## Ne tür bir oyun
 
-Sıra tabanlı harita savaşı. Her oyunda harita yeniden üretilir — ülkelerin sınırları, denizler, boğazlar, kimin kiminle komşu olduğu her seferinde başkadır. Ezberlenecek bir harita yok.
+Sıra tabanlı harita savaşı. Her oyunda harita yeniden üretilir - ülkelerin sınırları, denizler, boğazlar, kimin kiminle komşu olduğu her seferinde başkadır. Ezberlenecek bir harita yok.
 
 Bir ülke seçersin (gerçek bayraklar ya da fantezi modu), zorluğu seçersin, başlarsın. Sıra sana gelince ya saldırırsın ya turu bitirirsin. Kurallar beş dakikada öğrenilir.
 
@@ -29,11 +29,11 @@ Saldırının temel kazanma şansı **yüzde 50**. Yani düz kafayla saldırırs
 
 **Savunma duruşu.** Turunu savunarak bitirirsen sana saldıranın şansı yüzde 50'den **yüzde 25'e** düşer. Ama savunurken saldıramazsın. Bir tur kaybetmeyi göze alıyor musun?
 
-**Pusu.** Üç tur üst üste pas geçersen ve o süre boyunca dokunmadığın birine sonunda saldırırsan, **yüzde 17 bonus** alırsın. Yani sessiz durmak korkaklık değil, hazırlıktır. Sessiz kalan komşunuz muhtemelen size hazırlanıyordur. (Hedef savunma duruşundaysa bu bonus yarıya iner — yani tetikte olmak pusuyu da kırar.)
+**Pusu.** Üç tur üst üste pas geçersen ve o süre boyunca dokunmadığın birine sonunda saldırırsan, **yüzde 17 bonus** alırsın. Yani sessiz durmak korkaklık değil, hazırlıktır. Sessiz kalan komşunuz muhtemelen size hazırlanıyordur. (Hedef savunma duruşundaysa bu bonus yarıya iner - yani tetikte olmak pusuyu da kırar.)
 
 **Gurur.** Birine barış teklif edip reddedilirsen, bir sonraki saldırında ona karşı **yüzde 12** fazla şansın olur. Reddedilmenin bir bedeli var, ama reddedenin de.
 
-**Kıdem.** Sıralamada yükseldikçe saldırı gücün artıyor — ama bir tavanı var, liderlik tek başına kazandırmıyor.
+**Kıdem.** Sıralamada yükseldikçe saldırı gücün artıyor - ama bir tavanı var, liderlik tek başına kazandırmıyor.
 
 **Kıta hakimiyeti.** Bir kıtanın neredeyse tamamını alırsan bonus kazanırsın. Sırt sağlamsa öne atılmak daha kolay.
 
@@ -54,11 +54,11 @@ Kaybedersen oyun bitmiyor: kalan botları izleyebiliyor, oyunu geri sarabiliyors
 
 Bir oyunun iyi olup olmadığını anlamanın yolları var ama bende en iyi işe yarayanı şu oldu:
 
-**Oğlum oynuyor.** Sevdi, kendi kendine açıp oynuyor. Çocuk bir oyunu sevmiyorsa kibarlık etmez, bırakır — bırakmadı.
+**Oğlum oynuyor.** Sevdi, kendi kendine açıp oynuyor. Çocuk bir oyunu sevmiyorsa kibarlık etmez, bırakır - bırakmadı.
 
 **Babam oynuyor.** 80 yaşında. Ve sevdi. Bu benim için daha önemli, çünkü bir oyunun kurallarını anlatmak zorunda kalmadan oynatabilmek, tasarımın en zor kısmıdır.
 
-Aynı oyunu bir çocuk da, bir 80 yaşındaki de, ben de oynayabiliyorsak — aradığım dengeyi tutturmuşum demektir. İşte bu yüzden umutluyum.
+Aynı oyunu bir çocuk da, bir 80 yaşındaki de, ben de oynayabiliyorsak - aradığım dengeyi tutturmuşum demektir. İşte bu yüzden umutluyum.
 
 ## Devam ediyor
 
@@ -72,7 +72,7 @@ Aklımdaki listede duranlar var ama söz vermeyeyim; söz verilen özellik gelmi
 
 Ücretsiz. Türkçe ve İngilizce. İnternet gerekmiyor, oyun tamamen cihazda çalışıyor.
 
-Oynarsanız — özellikle takıldığınız, sıkıldığınız ya da "bu niye böyle" dediğiniz bir yer olursa — bana yazın. Aşağıda yorum kutusu var, Play Store'da da yorum bırakabilirsiniz. Tek kişilik bir iş olduğu için her geri bildirim doğrudan bir sonraki sürüme giriyor.
+Oynarsanız - özellikle takıldığınız, sıkıldığınız ya da "bu niye böyle" dediğiniz bir yer olursa - bana yazın. Aşağıda yorum kutusu var, Play Store'da da yorum bırakabilirsiniz. Tek kişilik bir iş olduğu için her geri bildirim doğrudan bir sonraki sürüme giriyor.
 
 ---
 

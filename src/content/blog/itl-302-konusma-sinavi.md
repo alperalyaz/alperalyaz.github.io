@@ -11,7 +11,7 @@ wpUrl: "https://alperaly.wordpress.com/2014/11/11/itl-302-konusma-sinavi/"
 
 bunu yıllar önce taslağa kaydetmişim. unutmuş gitmişim. italyanca’yı da unuttum zaten. kontrol edemedim bile aşağıda yazılanları. neyse nostalji niyetine, buyrun:
 
-—–
+---
 
 pek çok hata var, ancak İtalyanca  konuşma sınavına girecekler için idare eder. belki birilerinin işine yarar.
 

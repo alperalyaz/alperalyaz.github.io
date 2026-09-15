@@ -1,5 +1,5 @@
 /* ==========================================================================
-   ALPER ALYAZ — tasarim sistemi
+   ALPER ALYAZ - tasarim sistemi
    Yon: almanak / musvedde defteri (commonplace book).
    Renkler ve olculer asagidaki degiskenlerde. Baska yere dokunmana gerek yok.
    ========================================================================== */
@@ -75,7 +75,7 @@ a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset:
 a:hover { color: var(--accent-deep); }
 
 /* ==========================================================================
-   MASTHEAD — gazete kunyesi gibi
+   MASTHEAD - gazete kunyesi gibi
    ========================================================================== */
 .site-head { padding-top: 2.5rem; margin-bottom: 3.5rem; }
 
@@ -136,7 +136,7 @@ a:hover { color: var(--accent-deep); }
 .intro em, .intro strong { font-style: normal; color: var(--ink); }
 
 /* ==========================================================================
-   YIL BASLIGI — buyuk rakam, kenarda
+   YIL BASLIGI - buyuk rakam, kenarda
    ========================================================================== */
 .year-head {
   display: grid; grid-template-columns: var(--rail) 1fr; align-items: center;
@@ -160,7 +160,7 @@ section:first-of-type > .year-head { margin-top: 0; }
 }
 
 /* ==========================================================================
-   YAZI GIRDISI — numarali, defter kaydi gibi
+   YAZI GIRDISI - numarali, defter kaydi gibi
    ========================================================================== */
 .entry {
   display: grid; grid-template-columns: var(--rail) 1fr; gap: 1.25rem;

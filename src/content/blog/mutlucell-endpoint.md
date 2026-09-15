@@ -25,7 +25,7 @@ https://smsgw.mutlucell.com/smsgw-ws/sndblkex
 | Content-Type | `text/xml; charset=UTF-8` |
 | Gövde | XML (aşağıda) |
 
-Form-data değil, JSON değil — **XML.** Bu da aramakla geçen zamanın diğer yarısıydı.
+Form-data değil, JSON değil - **XML.** Bu da aramakla geçen zamanın diğer yarısıydı.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -39,10 +39,10 @@ Form-data değil, JSON değil — **XML.** Bu da aramakla geçen zamanın diğer
 
 Alanlar:
 
-- **`ka`** — kullanıcı adınız
-- **`pwd`** — panelden aldığınız API anahtarı (hesap şifreniz değil)
-- **`aboneid`** — abone numaranız
-- **`org`** — originatör, yani SMS'in "kimden" kısmında görünecek ad. En fazla 11 karakter, Türkçe karakter yok. **Tanımlı değilse bu parametreyi hiç göndermeyin** — tanımsız bir originatör göndermek hata döndürür.
+- **`ka`** - kullanıcı adınız
+- **`pwd`** - panelden aldığınız API anahtarı (hesap şifreniz değil)
+- **`aboneid`** - abone numaranız
+- **`org`** - originatör, yani SMS'in "kimden" kısmında görünecek ad. En fazla 11 karakter, Türkçe karakter yok. **Tanımlı değilse bu parametreyi hiç göndermeyin** - tanımsız bir originatör göndermek hata döndürür.
 
 Birden fazla kişiye gönderecekseniz `<mesaj>` bloğunu çoğaltırsınız. Her bloğun kendi metni ve numarası olur, yani herkese farklı mesaj gönderebilirsiniz.
 
@@ -72,7 +72,7 @@ Hata durumunda yanıt yalnızca bir sayıdır. Karşılıkları:
 | 22 | Kontörünüz yetersiz |
 | 23 | Kullanıcı adı ya da parolanız hatalı |
 | 24 | Şu anda size ait başka bir işlem aktif |
-| 25 | SMSC durdurulmuş — 1-2 dakika sonra tekrar deneyin |
+| 25 | SMSC durdurulmuş - 1-2 dakika sonra tekrar deneyin |
 | 30 | Hesap aktivasyonu sağlanmamış |
 | 34 | Hesabınız API erişimine kapalı |
 

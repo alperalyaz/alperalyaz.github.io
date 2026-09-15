@@ -8,7 +8,7 @@ tags: ["ihracat", "sanayi"]
 categories: ["Articles"]
 ---
 
-Sanayide en sık duyduğum cümlelerden biri: "Bu Alman malı." Bazen doğrudur. Bazen markanın adı Almanca'dır, kataloğu Almanca'dır, kutusunda Almanca yazar — ama ürünün kendisi bambaşka bir yerde üretilmiştir.
+Sanayide en sık duyduğum cümlelerden biri: "Bu Alman malı." Bazen doğrudur. Bazen markanın adı Almanca'dır, kataloğu Almanca'dır, kutusunda Almanca yazar - ama ürünün kendisi bambaşka bir yerde üretilmiştir.
 
 Bu yazı kimseyi suçlamak için değil. **Kendiniz bakabilesiniz diye.** Menşe, tahmin edilecek bir şey değil; belgeye bağlanabilen bir bilgidir.
 
@@ -62,7 +62,7 @@ Bunlarla başlayalım, çünkü en çok karıştırılanlar bunlar.
 
 **CE bir menşe işareti değildir. Kalite işareti de değildir.**
 
-CE, ürünün ilgili Avrupa Birliği direktiflerine uygun olduğunun **beyanıdır** — ve pek çok ürün grubunda bu beyanı üreticinin veya ithalatçının kendisi yapar. Bağımsız bir kurum test edip vermez. Çin'de üretilmiş bir ürün de pekâlâ CE taşıyabilir ve bu tamamen yasaldır.
+CE, ürünün ilgili Avrupa Birliği direktiflerine uygun olduğunun **beyanıdır** - ve pek çok ürün grubunda bu beyanı üreticinin veya ithalatçının kendisi yapar. Bağımsız bir kurum test edip vermez. Çin'de üretilmiş bir ürün de pekâlâ CE taşıyabilir ve bu tamamen yasaldır.
 
 CE gördüğünüzde bilmeniz gereken tek şey şudur: birileri "bu ürün şu direktiflere uygundur" demiştir. Nerede üretildiği hakkında hiçbir şey söylemez.
 
@@ -72,20 +72,20 @@ Bu, işin en çok yanlış bilinen kısmı. **A.TR menşe belgesi değildir.**
 
 A.TR, malın Türkiye–AB gümrük birliği içinde **serbest dolaşımda** olduğunu gösterir. Yani: Uzak Doğu'da üretilmiş bir ürün Avrupa'da bir limana girip gümrüğünü ödediğinde artık AB'de serbest dolaşımdadır. Oradan Türkiye'ye A.TR ile gelebilir.
 
-Evrak tertemizdir, işlem tamamen yasaldır — **ama ürün Avrupa'da üretilmemiştir.** A.TR gümrük statüsünü gösterir, üretim yerini değil.
+Evrak tertemizdir, işlem tamamen yasaldır - **ama ürün Avrupa'da üretilmemiştir.** A.TR gümrük statüsünü gösterir, üretim yerini değil.
 
 Menşe için bakmanız gereken belge **EUR.1**'dir; o, tercihli menşe kurallarına göre malın gerçekten anlaşmaya taraf ülkede üretildiğini gösterir.
 
 ### Marka adı, katalog ve dil
 
-Almanca bir marka adı, Almanca katalog, "German Engineering" ibaresi — hiçbiri menşe değildir. Marka tescili bir ülkede, üretim başka bir ülkede olabilir ve bu son derece yaygındır.
+Almanca bir marka adı, Almanca katalog, "German Engineering" ibaresi - hiçbiri menşe değildir. Marka tescili bir ülkede, üretim başka bir ülkede olabilir ve bu son derece yaygındır.
 
 Özellikle şu ifadelere dikkat edin, hepsi menşe beyanı **değildir:**
 
-- "Designed in Germany" — tasarım orada, üretim belirsiz
-- "German technology" — hiçbir hukuki karşılığı yok
-- "Alman lisansı ile üretilmiştir" — açıkça "burada üretilmedi" demektir
-- "Avrupa standartlarında" — standardın adı, üretim yeri değil
+- "Designed in Germany" - tasarım orada, üretim belirsiz
+- "German technology" - hiçbir hukuki karşılığı yok
+- "Alman lisansı ile üretilmiştir" - açıkça "burada üretilmedi" demektir
+- "Avrupa standartlarında" - standardın adı, üretim yeri değil
 
 ## Menşei kanıtlayan şeyler
 
@@ -117,13 +117,13 @@ Sektöre özel bir örnek istiyorsanız, pnömatikte menşenin neden bu kadar bu
 
 ## Nasıl sorulur?
 
-Sözlü cevap bağlayıcı değildir. **Yazılı isteyin** — e-posta yeter:
+Sözlü cevap bağlayıcı değildir. **Yazılı isteyin** - e-posta yeter:
 
 > "Teklifini aldığımız ürünün menşe şahadetnamesini ve gümrük beyannamesinin menşe ülke bilgisini içeren sayfasını paylaşabilir misiniz?"
 
 Ürün gerçekten beyan edildiği yerde üretilmişse bu belgeler zaten vardır ve paylaşılmasında bir sakınca olmaz. Bir dakikalık iştir.
 
-Belge gelmiyorsa, konu değiştiriliyorsa ya da "biz zaten yıllardır bu işi yapıyoruz" gibi bir cevap alıyorsanız — sorunuzun cevabını almış sayılırsınız.
+Belge gelmiyorsa, konu değiştiriliyorsa ya da "biz zaten yıllardır bu işi yapıyoruz" gibi bir cevap alıyorsanız - sorunuzun cevabını almış sayılırsınız.
 
 ## Siparişe yazın
 

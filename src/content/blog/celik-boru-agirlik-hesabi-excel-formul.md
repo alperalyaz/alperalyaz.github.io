@@ -13,7 +13,7 @@ Nedense internette böyle basit bir bilgiyi bile şeffaf haliyle bulmak çok gü
 
 Bu yazıda formülün kendisi var. Kopyalayın, kullanın.
 
-> Bu yazıyı ilk yazdığımda bir Excel dosyası bağlantısı paylaşmıştım. O bağlantı artık ölü. Tam da bu yüzden formülü doğrudan buraya yazıyorum — link çürür, sayfadaki metin çürümez.
+> Bu yazıyı ilk yazdığımda bir Excel dosyası bağlantısı paylaşmıştım. O bağlantı artık ölü. Tam da bu yüzden formülü doğrudan buraya yazıyorum - link çürür, sayfadaki metin çürümez.
 
 ## Boru (içi boş) ağırlığı
 

@@ -10,7 +10,7 @@ paylasimKarti: "/gorseller/kart/pnomatik-urunlerde-mense.png"
 
 Sektörde en sık duyulan soru şu: "Bu ürün nereli?"
 
-Cevap çoğu zaman sanıldığından farklıdır. Türkiye'de satılan pnömatik valflerin, rekorların, hortumların ve silindirlerin **büyük kısmı Çin veya Tayvan'dan ithal edilir.** Markanın adı Almanca, İtalyanca ya da İngilizce olabilir — bu, üretim yerini göstermez.
+Cevap çoğu zaman sanıldığından farklıdır. Türkiye'de satılan pnömatik valflerin, rekorların, hortumların ve silindirlerin **büyük kısmı Çin veya Tayvan'dan ithal edilir.** Markanın adı Almanca, İtalyanca ya da İngilizce olabilir - bu, üretim yerini göstermez.
 
 ## Önce şunu netleştirelim
 
@@ -46,7 +46,7 @@ Pnömatik, menşe karışıklığının en yoğun olduğu ürün gruplarından b
 
 Ürüne bakmak ipucu verir; belge kesin sonuç verir. İstemeniz gerekenler **menşe şahadetnamesi** ile **gümrük beyannamesinin menşe ülke bilgisini içeren sayfasıdır.** A.TR belgesi menşe belgesi değildir, gümrük statüsünü gösterir. CE işareti de menşe göstermez, uygunluk beyanıdır.
 
-Hangi belge neyi kanıtlar, nasıl istenir, siparişe ne yazılır — hepsini ayrıca yazdım: **[Bir ürünün menşei nasıl doğrulanır?](/urun-mensei-nasil-dogrulanir/)**
+Hangi belge neyi kanıtlar, nasıl istenir, siparişe ne yazılır - hepsini ayrıca yazdım: **[Bir ürünün menşei nasıl doğrulanır?](/urun-mensei-nasil-dogrulanir/)**
 
 ---
 

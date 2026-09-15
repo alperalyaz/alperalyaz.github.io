@@ -19,7 +19,7 @@ interface Props {
 const { title, description, article, image, noindex = false, lang = 'tr' } = Astro.props;
 const locale = lang === 'en' ? 'en_US' : site.locale;
 
-const pageTitle = title ? `${title} — ${site.title}` : `${site.title} — ${site.tagline}`;
+const pageTitle = title ? `${title} - ${site.title}` : `${site.title} - ${site.tagline}`;
 const desc = (description || site.description).slice(0, 200);
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).toString();
 const ogImage = image ? new URL(image, canonical).toString() : undefined;

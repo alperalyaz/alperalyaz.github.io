@@ -1,7 +1,7 @@
 ---
 title: "Led Lamba Nasıl Çalışır?"
 date: 2016-09-20
-description: "LED, ışık veren diyot demek. Işığın tam olarak nerede doğduğu, rengi neyin belirlediği, LED'in neden silisyumdan yapılmadığı ve LED'e neden direnç gerektiği — hesabıyla birlikte."
+description: "LED, ışık veren diyot demek. Işığın tam olarak nerede doğduğu, rengi neyin belirlediği, LED'in neden silisyumdan yapılmadığı ve LED'e neden direnç gerektiği - hesabıyla birlikte."
 cover: "/gorseller/k/led-lamba-nasil-calisir.webp"
 paylasimKarti: "/gorseller/kart/led-lamba-nasil-calisir.png"
 tags: ["elektronik", "bilim"]
@@ -11,7 +11,7 @@ wpUrl: "https://alperaly.wordpress.com/2016/09/20/led-lamba-nasil-calisir/"
 
 **LED**, İngilizce *Light Emitting Diode*'un baş harfleridir. Türkçesi: **ışık veren diyot.**
 
-Adı zaten mekanizmayı söylüyor. LED bir ampul değildir; içinden akım geçince ışıyan bir **diyottur**. Ampulde ışık, telin akkor hâline gelene kadar kızmasından çıkar. LED'de ışık ısınmanın sonucu değildir — akımın kendisinden doğar.
+Adı zaten mekanizmayı söylüyor. LED bir ampul değildir; içinden akım geçince ışıyan bir **diyottur**. Ampulde ışık, telin akkor hâline gelene kadar kızmasından çıkar. LED'de ışık ısınmanın sonucu değildir - akımın kendisinden doğar.
 
 > Bu yazının 2016'daki ilk hâlinde ciddi hatalar vardı: "elektronlar fotona dönüşür", "LED'ler silikondandır", "bilim bunu henüz açıklayamıyor" gibi. Hiçbiri doğru değil. Aşağısı düzeltilmiş hâli; o yanlışlar yaygın olduğu için en sonda ayrıca ele aldım.
 
@@ -116,7 +116,7 @@ dalga boyu (nm) ≈ 1240 / bant aralığı (eV)
 
 Mavi bir LED'in bant aralığı yaklaşık 2,75 eV'tur: 1240 / 2,75 ≈ **450 nm**, yani mavi. Kırmızı için yaklaşık 1,95 eV: 1240 / 1,95 ≈ **635 nm**.
 
-Bant aralığını da **malzemenin kendisi** belirler — hangi elementlerden, hangi oranda yapıldığı:
+Bant aralığını da **malzemenin kendisi** belirler - hangi elementlerden, hangi oranda yapıldığı:
 
 | Malzeme | Verdiği ışık |
 |---|---|
@@ -146,7 +146,7 @@ Kırmızı LED 1962'de çıktı. Sarı ve yeşil 1970'lerde geldi. Mavi ise **19
 
 Sebebi teorik bir bilinmezlik değildi. Mavi için geniş bant aralıklı bir malzeme gerekiyordu ve tek ciddi aday olan galyum nitrürden yeterince kusursuz kristal büyütmek onlarca yıl çözülemedi. Sorun fizik değil, imalattı.
 
-Bu çözülünce **beyaz LED** mümkün oldu — çünkü beyaz, maviden üretiliyor. Akasaki, Amano ve Nakamura bu iş için 2014 Nobel Fizik Ödülü'nü aldı. Evindeki bütün LED aydınlatma o geciken buluşun sonucudur.
+Bu çözülünce **beyaz LED** mümkün oldu - çünkü beyaz, maviden üretiliyor. Akasaki, Amano ve Nakamura bu iş için 2014 Nobel Fizik Ödülü'nü aldı. Evindeki bütün LED aydınlatma o geciken buluşun sonucudur.
 
 ## Pratik: LED'e neden direnç gerekir?
 
@@ -160,7 +160,7 @@ Bu yüzden LED'e ya seri bir direnç ya da bir akım kaynağı gerekir. Direnç 
 R = (Vkaynak − Vled) / I
 ```
 
-Örnek — 5 V besleme, kırmızı LED (Vled ≈ 2,0 V), hedef akım 20 mA:
+Örnek - 5 V besleme, kırmızı LED (Vled ≈ 2,0 V), hedef akım 20 mA:
 
 ```
 R = (5 − 2,0) / 0,02 = 150 Ω
@@ -183,7 +183,7 @@ Yeşilde iki aile var: eski GaP yeşilleri 2,1 V civarında, parlak InGaN yeşil
 
 Ve şu tuzağa dikkat: **3 V'luk bir LED'i 3 V pille dirençsiz sürmek de güvenli değildir.** Taze pilin gerilimi eşiğin üstündedir ve akımı sınırlayan tek şey pilin iç direnci olur.
 
-Son olarak, "LED ısınmaz" doğru değildir. LED ışığı ısıdan üretmez ama harcadığı gücün önemli bir kısmı yine ısıya gider. Ampul gibi cam yüzeyi kızmaz, ısı lehim tarafından çıkar — LED ampullerin dibindeki o kalın alüminyum gövde tam olarak bunun içindir. Isıyı atamayan LED önce sararır, sonra söner.
+Son olarak, "LED ısınmaz" doğru değildir. LED ışığı ısıdan üretmez ama harcadığı gücün önemli bir kısmı yine ısıya gider. Ampul gibi cam yüzeyi kızmaz, ısı lehim tarafından çıkar - LED ampullerin dibindeki o kalın alüminyum gövde tam olarak bunun içindir. Isıyı atamayan LED önce sararır, sonra söner.
 
 ## Yaygın üç yanlış
 

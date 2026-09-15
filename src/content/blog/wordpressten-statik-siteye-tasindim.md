@@ -1,5 +1,5 @@
 ---
-title: "WordPress'ten statik siteye taşındım — ne kazandım, ne kaybettim"
+title: "WordPress'ten statik siteye taşındım - ne kazandım, ne kaybettim"
 date: 2026-09-02
 description: "15 yıllık WordPress bloğumu Astro ve GitHub Pages'e taşıdım. Nasıl yaptım, aylık maliyeti neden sıfır, taşırken neyi kaybettim ve sizin yapmanız gerekenler."
 tags: ["yazılım", "günlük"]
@@ -18,7 +18,7 @@ WordPress.com'un ücretsiz planında sayfamın üstünde bir reklam bandı vard�
 
 Bundan daha çok rahatsız eden şey şuydu: **hiçbir şeye dokunamıyordum.** Ücretsiz planda eklenti yok, temanın kodu kilitli, yönlendirme kuramıyorsun, veritabanına erişemiyorsun. Yazıyı yazıyorsun, gerisi kapalı kutu.
 
-Ve arkasında bir soru duruyor: on yıl sonra o kutu hâlâ orada mı olacak? Şirket satılırsa, ücretsiz plan kalkarsa, kurallar değişirse — 15 yıllık yazı ne olacak?
+Ve arkasında bir soru duruyor: on yıl sonra o kutu hâlâ orada mı olacak? Şirket satılırsa, ücretsiz plan kalkarsa, kurallar değişirse - 15 yıllık yazı ne olacak?
 
 ## Nereye
 
@@ -31,9 +31,9 @@ Bu üçlüde kilitlenme yok. Yarın GitHub'dan çıkmak istesem, elimde 86 tane 
 
 ## Nasıl taşıdım
 
-1. **Yazıları çektim.** WordPress.com'un halka açık API'si her yazıyı HTML olarak veriyor. `public-api.wordpress.com/rest/v1.1/sites/<site>/posts/` — hesap gerektirmiyor.
+1. **Yazıları çektim.** WordPress.com'un halka açık API'si her yazıyı HTML olarak veriyor. `public-api.wordpress.com/rest/v1.1/sites/<site>/posts/` - hesap gerektirmiyor.
 2. **HTML'i Markdown'a çevirdim.**
-3. **Görselleri indirdim.** 486 görsel WordPress'in sunucusunda duruyordu. Hepsi indirilip 1600 piksele küçültüldü ve WebP'ye çevrildi: 494 MB'lık yığın 111 MB'a indi. Artık depo içindeler; WordPress kapansa bile duruyorlar. **Bu adımı atlamayın** — atlarsanız blog kalır, resimleri gider.
+3. **Görselleri indirdim.** 486 görsel WordPress'in sunucusunda duruyordu. Hepsi indirilip 1600 piksele küçültüldü ve WebP'ye çevrildi: 494 MB'lık yığın 111 MB'a indi. Artık depo içindeler; WordPress kapansa bile duruyorlar. **Bu adımı atlamayın** - atlarsanız blog kalır, resimleri gider.
 4. **Yazı adreslerini korudum.** Eski adres `/2014/11/05/vanalarda-yazan-dn-ne-anlama-geliyor/` idi; yenisi `/vanalarda-yazan-dn-ne-anlama-geliyor/`. Tarih kısmını attım ama slug'a dokunmadım.
 
 ## Ne kaybettim
@@ -42,7 +42,7 @@ Bu kısmı yazmasam da olurdu ama işe yarayan kısım burası.
 
 **Videolar neredeyse sessizce gitti.** HTML'i Markdown'a çeviren araç `<iframe>` etiketlerini destekleyip desteklemediğini söylemeden atıyordu. 22 gömülü video kayboldu ve fark etmesem haberim bile olmayacaktı. Sonradan iframe'leri çevirme öncesi kenara alıp sonra geri koyarak çözdüm.
 
-**"Özel" yazılar hiç aktarılmadı.** WordPress'te üç durum var: yayımlanmış, taslak, bir de **özel** (private). Özel yazı sana görünür, ziyaretçiye görünmez — ve halka açık API onu döndürmez. Bende bir tane vardı, farkına varmadan geride kaldı, siteyi silince gitti. Siz taşımadan önce **Yazılar → Özel** filtresine bakın.
+**"Özel" yazılar hiç aktarılmadı.** WordPress'te üç durum var: yayımlanmış, taslak, bir de **özel** (private). Özel yazı sana görünür, ziyaretçiye görünmez - ve halka açık API onu döndürmez. Bende bir tane vardı, farkına varmadan geride kaldı, siteyi silince gitti. Siz taşımadan önce **Yazılar → Özel** filtresine bakın.
 
 **WordPress'e yüklediğim dosyalar gitti.** Bir PDF, bir sunum, iki Excel dosyası. Bunlar yazının içinde değil, WordPress'in medya kütüphanesindeydi; ben yalnızca görselleri indirmiştim. Site silinince dördü de öldü. Aynı şey WordPress'in kendi video servisine (VideoPress) yüklediğim video için de geçerli.
 

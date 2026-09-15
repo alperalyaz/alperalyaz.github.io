@@ -3,7 +3,7 @@ export const site = {
   title: 'Alper Alyaz',
   tagline: 'Aklıma takılan neyse o.',
   description:
-    'Alper Alyaz’ın kişisel defteri. Sanayi ve mühendislikten uzaya, tarihten yazılıma — ' +
+    'Alper Alyaz’ın kişisel defteri. Sanayi ve mühendislikten uzaya, tarihten yazılıma - ' +
     'aklıma takılan ve bir yerde not düşmek istediğim ne varsa.',
   author: 'Alper Alyaz',
   lang: 'tr',
@@ -16,7 +16,7 @@ export const site = {
   googleSiteVerification: 'qI5ugueunq3n_STULfJu2I2Rm3Wp6kCCM1Haq4tVfdo',
 
   /**
-   * Yorumlar — giscus. Yorumlar GitHub Discussions'ta, yani BU DEPONUN
+   * Yorumlar - giscus. Yorumlar GitHub Discussions'ta, yani BU DEPONUN
    * icinde saklanir. Ucuncu bir sirkette degil; blog tasinirsa yorumlar
    * da beraber gelir. Ucretsiz, reklamsiz, takip kodsuz.
    *

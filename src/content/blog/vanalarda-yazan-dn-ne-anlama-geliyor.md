@@ -65,7 +65,7 @@ En sık yapılan hata budur. **DN bir ölçü değil, bir isimdir.** Kumpasla ö
     <text x="238" y="78" font-size="14">Ø27,3 mm</text>
     <text x="238" y="94" font-size="11.5" opacity="0.65">iç çap (et 3,2 mm)</text>
     <text x="238" y="146" font-size="14" fill="var(--accent, #27497e)">Ø25 mm</text>
-    <text x="238" y="162" font-size="11.5" opacity="0.65">böyle bir ölçü YOK —</text>
+    <text x="238" y="162" font-size="11.5" opacity="0.65">böyle bir ölçü YOK -</text>
     <text x="238" y="177" font-size="11.5" opacity="0.65">kesik çizgi nerede kalırdı</text>
     <text x="108" y="111" text-anchor="middle" font-size="17" font-weight="600">DN25</text>
   </g>

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * DETERMİNİSTİK KAPAK KARTI ÜRETİCİ — yapay zekâ yok, maliyet sıfır.
+ * DETERMİNİSTİK KAPAK KARTI ÜRETİCİ - yapay zekâ yok, maliyet sıfır.
  *
  * Görseli olmayan yazılar için tipografik kapak kartı üretir. Aynı yazı
  * her seferinde aynı kartı verir; uydurma fotoğraf yok, sadece yazının
@@ -36,13 +36,13 @@ const KAGIT = '#faf8f3', MUREKKEP = '#14120f', SOLUK = '#8d8477', CIZGI = '#ded5
 // gibi duruyordu. Serit kaldirildi, zemin ayrildi; kart artik kart gibi duruyor.
 const KAGIT_KOYU = '#f1ebe0';
 
-/** Başlık uzunluğuna göre punto — uzun başlık taşmasın. */
+/** Başlık uzunluğuna göre punto - uzun başlık taşmasın. */
 const punto = (s) => s.length < 26 ? 60 : s.length < 42 ? 50 : s.length < 62 ? 42 : s.length < 85 ? 35 : 30;
 
 /* ── KÜÇÜK RESİM: tezhipli baş harf ───────────────────────────────────────
  * İki tasarım denendi ve elendi: başlık kartı 112 pikselde okunmuyordu,
  * numara kartı ise defter numarasını sol sütundan sonra ikinci kez
- * söylüyordu. Baş harf ikisini de çözüyor — her boyutta okunur, her
+ * söylüyordu. Baş harf ikisini de çözüyor - her boyutta okunur, her
  * yazıda farklı harf olduğu için liste tekdüze durmaz, ve bilgi taşıma
  * iddiası yok: eski defterlerdeki tezhipli ilk harfin karşılığı.
  * Zemin şeritleri harfin arkasında kalır, kağıt hissini verir. */
@@ -53,7 +53,7 @@ function basHarfKarti({ baslik, yil }, W, H) {
              alignItems: 'center', justifyContent: 'center',
              backgroundColor: KAGIT_KOYU, fontFamily: 'Fraunces' },
     children: [
-      // yatay tarama şeritleri — kağıt dokusu
+      // yatay tarama şeritleri - kağıt dokusu
       ...Array.from({ length: 7 }, (_, i) => ({ type: 'div', props: {
         style: { position: 'absolute', left: 0, right: 0,
                  top: Math.round(H * (0.12 + i * 0.115)), height: 1,
@@ -75,7 +75,7 @@ function basHarfKarti({ baslik, yil }, W, H) {
 /* ── KÜÇÜK RESİM: defter numarası ─────────────────────────────────────────
  * Başlığı karta basmak denendi ve işe yaramadı: liste içinde 112 piksel
  * genişlikte okunmuyor, üstelik hemen yanında zaten büyük puntoyla duruyor.
- * Yani hem görünmez hem de bilgi tekrarı. Onun yerine defter numarası —
+ * Yani hem görünmez hem de bilgi tekrarı. Onun yerine defter numarası -
  * her boyutta okunur, uydurma değil (yazının gerçek sırası) ve listeye
  * arşiv ritmi veriyor. */
 function numaraKarti({ yil, no }, W, H) {

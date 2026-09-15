@@ -17,7 +17,7 @@ O masa kurulamaz. Kurulamayan masayı kurmak için bir şey yaptım.
 
 ## Ne yapıyor
 
-Bir konu yazıyorsunuz. Konuya gerçekten ilgili isimler öneriliyor — beğenmezseniz kendiniz ekliyorsunuz, kim olursa. Sokrates, Marie Curie, Fatih Sultan Mehmet, Nasreddin Hoca, hatta Ötzi. Sonra tartışıyorlar.
+Bir konu yazıyorsunuz. Konuya gerçekten ilgili isimler öneriliyor - beğenmezseniz kendiniz ekliyorsunuz, kim olursa. Sokrates, Marie Curie, Fatih Sultan Mehmet, Nasreddin Hoca, hatta Ötzi. Sonra tartışıyorlar.
 
 Ama işin aslı şu: **siz izleyici değilsiniz, spikersiniz.** Söz veriyorsunuz, "durun" diyorsunuz, konuyu değiştiriyorsunuz, birini ismiyle çağırıp cevap vermeye zorluyorsunuz. Masa sizin yönetiminizde.
 
@@ -27,9 +27,9 @@ Konu: *"İyi niyetli bir diktatör mü, kararsız bir demokrasi mi?"* Masada Pla
 
 > **Platon:** Doğru karar sayıyla değil, bilgiyle verilir. Bin cahilin el kaldırması, tek bir bilgenin isabetli hükmünden aşağıdır. Halk meclisi kendisine yalan söyleyeni değil, kulağına hoş geleni alkışlar; adalet ise hoş değildir, doğrudur.
 >
-> **Sevan Nişanyan:** Ben ömrümü kelimelerin soyağacını çıkarmakla geçirmiş bir sözlükçüyüm. O yüzden açık konuşayım: iyi niyetli diktatör diye bir hayvan yoktur. Çünkü iyi niyet dediğin şey tek bir elde biriktiği gün bozulur — tıpkı bir kelimenin tek başına dolaşınca anlamını kaydırması gibi.
+> **Sevan Nişanyan:** Ben ömrümü kelimelerin soyağacını çıkarmakla geçirmiş bir sözlükçüyüm. O yüzden açık konuşayım: iyi niyetli diktatör diye bir hayvan yoktur. Çünkü iyi niyet dediğin şey tek bir elde biriktiği gün bozulur - tıpkı bir kelimenin tek başına dolaşınca anlamını kaydırması gibi.
 >
-> **Platon:** "İyi niyetli diktatör diye bir hayvan yoktur" — güzel laf, sözlükçüye yakışır. Ama kelimelerin soyağacını bilmek, adaletin ne olduğunu bilmek değildir. Sen kusurlu demokrasiyi övüyorsun; peki o kusur kimi gömdü? Benim hocam Sokrates'i, o senin "hesap sorulabilen" dediğin meclis, çoğunluk oyuyla zehre yolladı.
+> **Platon:** "İyi niyetli diktatör diye bir hayvan yoktur" - güzel laf, sözlükçüye yakışır. Ama kelimelerin soyağacını bilmek, adaletin ne olduğunu bilmek değildir. Sen kusurlu demokrasiyi övüyorsun; peki o kusur kimi gömdü? Benim hocam Sokrates'i, o senin "hesap sorulabilen" dediğin meclis, çoğunluk oyuyla zehre yolladı.
 
 Oturumun tamamı burada: **[İyi niyetli bir diktatör mü, kararsız bir demokrasi mi?](https://debate.be/s/6ugj2ensr)**
 
@@ -39,7 +39,7 @@ Nişanyan'ı o masaya çağırmam tesadüf değil; [aforizmalarını buraya da y
 
 Dürüst soru, cevabı da somut:
 
-**Sözünü kesiyorlar.** Tansiyon yükselince rakip konuk konuşanın lafını ortasından kesiyor — ses gerçekten yarıda kesiliyor. Kesilen tersliyor, spiker araya giriyor.
+**Sözünü kesiyorlar.** Tansiyon yükselince rakip konuk konuşanın lafını ortasından kesiyor - ses gerçekten yarıda kesiliyor. Kesilen tersliyor, spiker araya giriyor.
 
 **Herkesin kendi sesi var.** Her konuğa cinsiyetine, dönemine ve üslubuna göre ayrı bir ses atanıyor. Spikerin de kendi sesi var.
 
@@ -49,15 +49,15 @@ Dürüst soru, cevabı da somut:
 
 ## İki mod
 
-**Siyaset Meydanı** — derin, çekişmeli, felsefî. Reyting çatışmayla yükseliyor.
+**Siyaset Meydanı** - derin, çekişmeli, felsefî. Reyting çatışmayla yükseliyor.
 
-**Sohbet Meydanı** — gündüz kuşağı magazin tonu. Spiker "canlarım tatlılarım" kıvamında, yıldızlar masada. Reyting kahkahayla yükseliyor. Bu modu şaka olsun diye ekledim, sonra en çok onu açar oldum.
+**Sohbet Meydanı** - gündüz kuşağı magazin tonu. Spiker "canlarım tatlılarım" kıvamında, yıldızlar masada. Reyting kahkahayla yükseliyor. Bu modu şaka olsun diye ekledim, sonra en çok onu açar oldum.
 
 ## Çizdiğim sınır
 
-Kutsal figürlere ve Atatürk'e hakaret içeren konular **hiç açılmıyor** — konuk bile çağrılmıyor.
+Kutsal figürlere ve Atatürk'e hakaret içeren konular **hiç açılmıyor** - konuk bile çağrılmıyor.
 
-Bunu yapay zekânın insafına bırakmadım. Yapay zekâ moderasyonu sonuçta bir API çağrısıdır; kota dolunca, hata alınca "izin ver"e düşer. En bariz karalama kalıpları bu yüzden doğrudan kodun içinde, anahtarsız ve şaşmaz biçimde duruyor. Meşru tartışmayı engellemek için değil — birini karalamak üzere kurulmuş başlıkları durdurmak için.
+Bunu yapay zekânın insafına bırakmadım. Yapay zekâ moderasyonu sonuçta bir API çağrısıdır; kota dolunca, hata alınca "izin ver"e düşer. En bariz karalama kalıpları bu yüzden doğrudan kodun içinde, anahtarsız ve şaşmaz biçimde duruyor. Meşru tartışmayı engellemek için değil - birini karalamak üzere kurulmuş başlıkları durdurmak için.
 
 ## Şunu net söyleyeyim
 
@@ -67,7 +67,7 @@ Bunu küçültmek için söylemiyorum, yanlış anlaşılmasın diye söylüyoru
 
 ## Altında ne var
 
-Meraklısına: arayüz React + Vite, sunucu tarafı Vercel'de birkaç serverless fonksiyon. Dil modeli DeepSeek üzerinden gidiyor, sesler Google Cloud TTS. Görünmeyen bir "yönetmen" her turda transkripti okuyup sırayı, rolü ve anlık reytingi tek çağrıda belirliyor. Sıradaki tur, mevcut konuşma çalarken arkada hazırlanıyor — o yüzden sıra gelince bekleme olmuyor.
+Meraklısına: arayüz React + Vite, sunucu tarafı Vercel'de birkaç serverless fonksiyon. Dil modeli DeepSeek üzerinden gidiyor, sesler Google Cloud TTS. Görünmeyen bir "yönetmen" her turda transkripti okuyup sırayı, rolü ve anlık reytingi tek çağrıda belirliyor. Sıradaki tur, mevcut konuşma çalarken arkada hazırlanıyor - o yüzden sıra gelince bekleme olmuyor.
 
 Anahtarlar sunucuda tutulmuyor; kendi anahtarınızı girerseniz yalnızca tarayıcınızda kalıyor.
 

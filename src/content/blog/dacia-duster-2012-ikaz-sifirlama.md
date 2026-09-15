@@ -13,7 +13,7 @@ Bakımı yaptırdınız, ekrandaki **anahtar (İngiliz anahtarı) simgesi** ya d
 
 ## Sıfırlama adımları
 
-1. **Kontak açılır** (motor çalıştırılmaz — sadece kontak)
+1. **Kontak açılır** (motor çalıştırılmaz - sadece kontak)
 2. **Gaz pedalına** sonuna kadar basılır ve basılı tutulur
 3. Aynı anda **fren pedalına 3 kez** ardarda, sonuna kadar basılır
 
@@ -27,7 +27,7 @@ Doğru yaptıysanız ekrandaki bakım sayacı sıfırlanır ve bir sonraki bakı
 
 **Motoru çalıştırmayın.** Kontak açık, motor kapalı olacak. Motor çalışırken denerseniz olmaz.
 
-**Basış sayısı modele göre değişebilir.** Bende 3 ile oldu. Olmazsa aynı işlemi 5 basışla deneyin — model yılına ve donanıma göre farklılık gösterebiliyor.
+**Basış sayısı modele göre değişebilir.** Bende 3 ile oldu. Olmazsa aynı işlemi 5 basışla deneyin - model yılına ve donanıma göre farklılık gösterebiliyor.
 
 **Sırayı bozmayın.** Önce gaz basılı tutulacak, fren basışları bunun *üstüne* gelecek.
 

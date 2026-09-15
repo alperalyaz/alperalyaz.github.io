@@ -1,4 +1,4 @@
-# alperalyaz.com — kişisel blog
+# alperalyaz.com - kişisel blog
 
 WordPress'ten taşınmış statik blog. 86 yazı, 486 görsel, sıfır aylık maliyet.
 
@@ -13,7 +13,7 @@ Amaç **kalıcılık**. Bunun için üç karar verildi:
 3. **GitHub Pages'te yayınlanıyor.** Kaynak ve yayın aynı hesapta; ayrı bir
    servis hesabı, ayrı fatura ilişkisi, plan kademesi yok.
 
-Yani host değiştirmek 10 dakikalık iş. Kaybolma riski olan tek şey **adres** —
+Yani host değiştirmek 10 dakikalık iş. Kaybolma riski olan tek şey **adres** -
 kendi alan adını alırsan (yılda ~10-15 dolar) o risk de biter.
 
 ## Yayın adresi
@@ -26,7 +26,7 @@ Adresi depo adından kendisi hesaplar:
 | `blog` | `https://alperalyaz.github.io/blog/` |
 | `alperalyaz.github.io` | `https://alperalyaz.github.io/` |
 
-Depoyu yeniden adlandırırsan yapılandırmada hiçbir şey değiştirmen gerekmez —
+Depoyu yeniden adlandırırsan yapılandırmada hiçbir şey değiştirmen gerekmez -
 görsel yolları, sitemap ve canonical etiketleri otomatik uyar.
 
 ## Yönetim paneli
@@ -39,13 +39,13 @@ Terminal, git, dosya yükleme yok. Yazıyı yazıp **Save** dersin; panel deği�
 doğrudan GitHub'a commit'ler, GitHub Actions siteyi derler, ~2 dakika sonra
 yazı canlıdadır.
 
-### İlk giriş — erişim anahtarı (token) alma
+### İlk giriş - erişim anahtarı (token) alma
 
 Panel senin adına GitHub'a yazacağı için bir anahtara ihtiyacı var. Bir kere
 alınır, tarayıcıda saklanır.
 
 1. Panelde **Sign In Using Access Token** düğmesine bas.
-2. Açılan kutudaki bağlantıya tıkla — GitHub'ın token sayfasını gerekli
+2. Açılan kutudaki bağlantıya tıkla - GitHub'ın token sayfasını gerekli
    yetkiler seçili hâlde açar.
 3. Depo erişimi: **Only select repositories → alperalyaz.github.io**.
    Yetki: **Contents → Read and write**. Başka yetkiye gerek yok.
@@ -56,17 +56,17 @@ Anahtar yalnızca senin tarayıcının hafızasında (localStorage) durur; depoy
 yazılmaz, kimseyle paylaşılmaz. Tarayıcı verilerini silersen ya da token'ın
 süresi dolarsa aynı adımlarla yenisini alırsın.
 
-> Panel arayüzü İngilizce — Sveltia CMS'in Türkçe çevirisi yok. Alan adları
+> Panel arayüzü İngilizce - Sveltia CMS'in Türkçe çevirisi yok. Alan adları
 > (Başlık, Özet, Etiketler…) Türkçe; çevresindeki düğmeler İngilizce.
 
 ### Panelde dikkat edilecek üç şey
 
 **1. Slug = yazının adresi.** Yeni yazı açarken en üstte çıkan kutu, yazının
 kalıcı internet adresidir. Türkçe karakter kullanma; `uc-yollu-vana` gibi yaz.
-(Otomatik bırakılsaydı "üç" kelimesini `uec` yapardı — mevcut adreslerle
+(Otomatik bırakılsaydı "üç" kelimesini `uec` yapardı - mevcut adreslerle
 uyuşmazdı, o yüzden elle yazılıyor.)
 
-**2. "Yazı" alanı ham Markdown açılır — öyle bıraksan iyi olur.** Üstteki
+**2. "Yazı" alanı ham Markdown açılır - öyle bıraksan iyi olur.** Üstteki
 düğmeden zengin metin (rich text) moduna geçebilirsin, ama o mod tabloları,
 kod bloklarını ve elle çizilmiş SVG şemaları kendi biçimine çevirip bozabilir.
 Şema içeren yazılarda (DN, üç yollu vana, boru ağırlığı, menşe) zengin moda
@@ -79,11 +79,11 @@ yani 5 MB'lık telefon fotoğrafı depoya öyle gitmez.
 
 ### Panelin ayarları
 
-`public/admin/config.yml` — hangi alanların görüneceğini, görsellerin nereye
+`public/admin/config.yml` - hangi alanların görüneceğini, görsellerin nereye
 gideceğini ve commit mesajlarını burası belirler. Dosyanın içi yorum satırlarıyla
 açıklanmış.
 
-`public/admin/index.html` — panelin kendisi. Sveltia CMS sürümü **sabitlenmiş**
+`public/admin/index.html` - panelin kendisi. Sveltia CMS sürümü **sabitlenmiş**
 (`@0.205.1`). Sebebi: yazılım 1.0 öncesi ve bu sayfa GitHub yazma yetkisi olan
 bir anahtar tutuyor; "her zaman son sürüm" demek istemedik. Yükseltmek için
 o satırdaki numarayı değiştirmen yeterli.
@@ -112,7 +112,7 @@ Push ettiğin an site kendini günceller. Başka hiçbir şey yapman gerekmez.
 ---
 title: "Başlık"              # zorunlu
 date: 2026-09-02             # zorunlu
-description: "..."           # Google sonuçlarında görünen satır — MUTLAKA doldur
+description: "..."           # Google sonuçlarında görünen satır - MUTLAKA doldur
 lang: en                     # yazı İngilizceyse; yazmazsan Türkçe sayılır
 tags: ["vana", "hidrolik"]   # isteğe bağlı
 categories: []               # isteğe bağlı
@@ -179,4 +179,4 @@ Astro 7 · statik HTML üretir · JavaScript çalıştırmaz · harici sunucuya 
 Yazı tipi: Fraunces (başlıklar), `src/fonts/` içinde. Orijinali 220 KB'dı;
 kullanılmayan eksenler sabitlenip gereksiz alfabeler atılarak 94 KB'a indirildi
 (`scripts/fontlari-kirp.py`). Gövde metni ve rakamlar sistem yazı tiplerini
-kullanır — sıfır indirme, gerçek italik ve kalın kesimler.
+kullanır - sıfır indirme, gerçek italik ve kalın kesimler.
