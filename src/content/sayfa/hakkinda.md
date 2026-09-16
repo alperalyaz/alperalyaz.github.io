@@ -21,3 +21,13 @@ Düzenli yayın sözü vermiyorum. Aklıma takılan bir şey olduğunda yazıyor
 Bir yazıda hata bulursan ya da eklemek istediğin bir şey varsa söyle, düzeltirim. Yazıların altındaki yorum kutusunu kullanabilirsin. Yazılar [GitHub'da](https://github.com/alperalyaz/alperalyaz.github.io) açık duruyor.
 
 Yeni yazılardan haberdar olmak istersen [RSS](/rss.xml) var. Hepsini görmek istersen [arşiv](/arsiv/).
+
+## Çerezler ve ziyaretçi ölçümü
+
+Bu sitede Google Analytics var. Tek derdi şu: hangi yazı okunuyor, insanlar nereden geliyor. Bunun için tarayıcınıza bir çerez bırakılıyor ve ziyaretin bilgisi Google'a gidiyor.
+
+Reklam yok, kimseye veri satılmıyor, kim olduğunuzu bilmiyorum ve bilmek de istemiyorum. Bana ulaşan şey "şu yazı bu hafta şu kadar açılmış" gibi toplu sayılardan ibaret.
+
+İki yerde daha dışarıya bağlanılıyor: yazıların altındaki yorum kutusu GitHub üzerinden çalışıyor (yorum yazmasanız da kutu yüklenir) ve bazı yazılarda gömülü YouTube videoları var. İkisi de kendi çerezlerini bırakır.
+
+İstemiyorsanız tarayıcınızın izleme engelleyicisini açmanız yeterli; sayfalar yine sorunsuz açılır, yazıların hiçbiri kapanmaz.
