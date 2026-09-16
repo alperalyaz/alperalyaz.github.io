@@ -61,6 +61,23 @@ const jsonLd = article
     )}
     {noindex && <meta name="robots" content="noindex, follow" />}
 
+    {/*
+      Google Analytics 4. is:inline SART: Astro normalde <script> etiketlerini
+      toplayip kendi paketine katiyor; ucuncu taraf betigi oldugu gibi
+      basilmali. Kimlik site.ts'te; orayi bosaltirsan burasi hic basilmaz.
+    */}
+    {site.googleAnalytics && (
+      <>
+        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${site.googleAnalytics}`}></script>
+        <script is:inline set:html={`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${site.googleAnalytics}');
+        `}></script>
+      </>
+    )}
+
     <meta property="og:type" content={article ? 'article' : 'website'} />
     <meta property="og:title" content={title ?? site.title} />
     <meta property="og:description" content={desc} />

@@ -58,15 +58,23 @@ Yani gündelik kullanımda WordPress'ten farkı yok. Fark, altındaki şeyin ban
 
 | | |
 |---|---|
-| Yazı | 86 (2011 – 2026) |
-| Üretilen sayfa | 113 |
-| Görsel | 111 MB, depo içinde |
+| Yazı | 89 (2011 – 2026) |
+| Üretilen sayfa | 116 |
+| Görsel | 114 MB, depo içinde |
 | Bir yazı sayfası | ortalama 9 KB HTML |
 | Sitenin kendi JavaScript'i | yok |
-| Takip kodu, çerez, reklam | yok |
+| Ziyaretçi ölçümü | Google Analytics |
+| Reklam | yok |
 | Aylık maliyet | 0 TL |
 
 GitHub Pages'in ücretsiz sınırları: depo için 1 GB, aylık 100 GB trafik, saatte 10 derleme. Kişisel bir blog bu sınırların yanından geçmiyor.
+
+> **Sonradan not:** Bu yazıyı ilk yazdığımda sitede hiçbir takip kodu yoktu ve
+> bununla övünüyordum. Sonra basit bir gerçekle karşılaştım: kimsenin girip
+> girmediğini bilmiyordum. Tahmin yürütmek yerine Google Analytics ekledim.
+> Yani artık bu sayfa bir çerez bırakıyor ve ziyaret bilgisi Google'a gidiyor.
+> Reklam yok, satılan veri yok, ama "hiç takip yok" demek artık doğru değil;
+> yukarıdaki tabloyu da bu yüzden güncelledim.
 
 ## Kime tavsiye ederim
 

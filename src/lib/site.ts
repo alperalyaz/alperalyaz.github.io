@@ -16,6 +16,16 @@ export const site = {
   googleSiteVerification: 'qI5ugueunq3n_STULfJu2I2Rm3Wp6kCCM1Haq4tVfdo',
 
   /**
+   * Google Analytics 4 olcum kimligi (G- ile baslar).
+   * Bos birakilirsa betik HIC basilmaz - yani analitigi kapatmak icin
+   * bu satiri bosaltmak yeterli, sablonda kod aramaya gerek yok.
+   *
+   * DIKKAT: bu betik cerez birakir ve ziyaretcinin verisini Google'a
+   * gonderir. Sitede "takip kodu yok" diyen yerler bu yuzden guncellendi.
+   */
+  googleAnalytics: 'G-VZ2BNS36NC',
+
+  /**
    * Yorumlar - giscus. Yorumlar GitHub Discussions'ta, yani BU DEPONUN
    * icinde saklanir. Ucuncu bir sirkette degil; blog tasinirsa yorumlar
    * da beraber gelir. Ucretsiz, reklamsiz, takip kodsuz.

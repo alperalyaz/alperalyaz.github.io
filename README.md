@@ -174,7 +174,11 @@ Sitemap, RSS ve canonical etiketleri otomatik olarak yeni adrese göre üretilir
 
 ## Teknik
 
-Astro 7 · statik HTML üretir · JavaScript çalıştırmaz · harici sunucuya istek atmaz.
+Astro 7 · statik HTML üretir · sitenin kendi JavaScript'i yoktur.
+
+Tek istisna ziyaretçi ölçümü: sayfalara Google Analytics betiği basılıyor
+(`src/lib/site.ts` içindeki `googleAnalytics`). O satırı boşaltırsan betik
+hiç basılmaz ve site yeniden sıfır harici istek yapar hâle gelir.
 
 Yazı tipi: Fraunces (başlıklar), `src/fonts/` içinde. Orijinali 220 KB'dı;
 kullanılmayan eksenler sabitlenip gereksiz alfabeler atılarak 94 KB'a indirildi
