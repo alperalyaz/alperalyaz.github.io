@@ -2,7 +2,7 @@
 title: "Led Lamba Nasıl Çalışır?"
 date: 2016-09-20
 description: "LED, ışık veren diyot demek. Işığın tam olarak nerede doğduğu, rengi neyin belirlediği, LED'in neden silisyumdan yapılmadığı ve LED'e neden direnç gerektiği - hesabıyla birlikte."
-cover: "/gorseller/k/led-lamba-nasil-calisir.webp"
+cover: "/gorseller/sema/led-lamba-nasil-calisir.png"
 paylasimKarti: "/gorseller/kart/led-lamba-nasil-calisir.png"
 tags: ["elektronik", "bilim"]
 categories: ["Articles"]

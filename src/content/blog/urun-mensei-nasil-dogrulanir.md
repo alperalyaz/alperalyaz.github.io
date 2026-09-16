@@ -2,7 +2,7 @@
 title: "Bir ürünün menşei nasıl doğrulanır?"
 date: 2026-09-02
 description: "Ürünün gerçekten hangi ülkede üretildiğini belgeyle anlamanın yolları: menşe şahadetnamesi, gümrük beyannamesi, A.TR ile EUR.1 farkı ve CE işaretinin neyi göstermediği."
-cover: "/gorseller/k/urun-mensei-nasil-dogrulanir.webp"
+cover: "/gorseller/sema/urun-mensei-nasil-dogrulanir.png"
 paylasimKarti: "/gorseller/kart/urun-mensei-nasil-dogrulanir.png"
 tags: ["ihracat", "sanayi"]
 categories: ["Articles"]

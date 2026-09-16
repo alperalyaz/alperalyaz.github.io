@@ -2,7 +2,7 @@
 title: "ÇELİK BORU AĞIRLIK HESABI EXCEL FORMÜL"
 date: 2019-05-10
 description: "Çelik boru ve dolu milin metre başına ağırlığı nasıl hesaplanır: formülün kendisi, Excel karşılığı, nereden geldiği ve sık kullanılan ölçüler tablosu."
-cover: "/gorseller/k/celik-boru-agirlik-hesabi-excel-formul.webp"
+cover: "/gorseller/sema/celik-boru-agirlik-hesabi-excel-formul.png"
 paylasimKarti: "/gorseller/kart/celik-boru-agirlik-hesabi-excel-formul.png"
 tags: ["çelik", "imalat"]
 categories: ["Articles"]
