@@ -1,17 +1,17 @@
 ---
 title: "Mezar taşına QR kod koyduk"
 description: "Kayınbabamın mezar taşında bir QR kod var. Zor kısım kodu taşa kazıtmak değildi. Taş kadar uzun yaşayacak bir sistem kurmaktı."
-date: 2026-09-16
+date: 2026-09-16T11:56
 tags: ["yazılım", "aile", "felsefe"]
 categories: ["Articles"]
 cover: "/gorseller/qr-kodlu-mezar-tasi.webp"
 ---
 
-Kayınbabam Mustafa Ertan'ı Ocak 2025'te kaybettik.
+Kayınbabam Mustafa Ertan 12 Ocak 2025'te öldü.
 
-Mezar taşını yaptırırken bir şey denedik. Taşın sağ üst köşesine, adın hemen üstüne, bir QR kod kazıttık. Telefonu tutuyorsunuz, bir sayfa açılıyor: hayatı, ailesi, elli küsur fotoğrafı, bir de ziyaretçi defteri.
+Mezar taşını yaptırırken bir şey denedik. Taşın üst ortasına, adın hemen üstüne, bir QR kod kazıttık. Telefonu tutuyorsunuz, bir sayfa açılıyor: hayatı, ailesi, elli küsur fotoğrafı, bir de ziyaretçi defteri.
 
-![Mustafa Ertan'ın mezar taşı. Adın hemen üstünde, sağ köşede kazınmış bir QR kod duruyor.](/gorseller/qr-kodlu-mezar-tasi.webp)
+![Mustafa Ertan'ın mezar taşı. Taşın üst ortasında, adın hemen üstünde kazınmış bir QR kod duruyor.](/gorseller/qr-kodlu-mezar-tasi.webp)
 
 Bu yazı o QR kodla ilgili değil aslında. Kodun arkasındaki soruyla ilgili.
 

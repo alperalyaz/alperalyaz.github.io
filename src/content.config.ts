@@ -7,6 +7,12 @@ const blog = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
   schema: z.object({
     title: z.string(),
+    /* Tarih. Ayni GUNE iki yazi dusuyorsa saat de yaz:
+         date: 2026-09-16T14:30
+       Saat yoksa ikisi berabere kalir ve sirayi DOSYA ADI belirler
+       (alfabetik) - yani yeni yazi eskinin altinda kalabilir.
+       Saatin sonuna Z veya +03:00 EKLEME: gosterilen gun kayabilir.
+       Saat hicbir yerde gorunmez, sadece siralamada kullanilir. */
     date: z.coerce.date(),
     description: z.string().default(''),
     // Yazinin dili. Yazmazsan Turkce sayilir.

@@ -1,7 +1,7 @@
 ---
 title: "“Okul” kelimesi Fransızcadan geliyor"
 description: "Dil korunacak bir çiçek mi, kullanılacak bir alet mi? Dil Devrimi'nin en bilinen kelimesinin hikâyesi bu sorunun iki tarafını da zora sokuyor."
-date: 2026-09-16
+date: 2026-09-16T10:55
 tags: ["dil", "tarih", "felsefe"]
 categories: ["Articles"]
 cover: "/gorseller/k/okul-kelimesi-nereden-geliyor-dil-devrimi.webp"
