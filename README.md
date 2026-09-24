@@ -1,4 +1,4 @@
-# alperalyaz.com - kişisel blog
+# alperalyaz.github.io - kişisel blog
 
 WordPress'ten taşınmış statik blog. 86 yazı, 486 görsel, sıfır aylık maliyet.
 
