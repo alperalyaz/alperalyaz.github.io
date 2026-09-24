@@ -4,7 +4,8 @@ date: 2026-09-24T14:15
 description: "Hayat sigortası riski devretmek içindir. Piyasadaki ürünlerin çoğu bunu birikimle harmanlıyor ve harman, iki tarafın da fiyatını görünmez kılıyor. Teklifin içinde neye bakmak gerektiği üzerine."
 tags: ["ekonomi", "aile"]
 categories: ["Articles"]
-draft: true
+cover: "/gorseller/k/hayat-sigortasi-yatirim-urunu-degildir.webp"
+paylasimKarti: "/gorseller/kart/hayat-sigortasi-yatirim-urunu-degildir.png"
 ---
 
 Hayat sigortası tek bir iş yapar: sen öldüğünde geride kalanların parasız kalmamasını sağlar. Riski senden alıp şirkete devreder. Yaptığı şey budur ve başka bir şey değildir.
