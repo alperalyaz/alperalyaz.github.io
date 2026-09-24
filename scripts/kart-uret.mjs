@@ -142,6 +142,8 @@ for (const f of dosyalar) {
   const son = t.indexOf('\n---', 4);
   if (!t.startsWith('---') || son < 0) continue;
   const fm = t.slice(4, son), govde = t.slice(son + 4);
+  // Taslak yazilar icin kart uretme - bkz. kapak-uret.mjs'teki ayni not.
+  if (fmOku(fm, 'draft') === 'true') continue;
   hepsi.push({
     dosya: f, slug: f.replace(/\.md$/, ''), fm, govde, tam: t, son,
     // fmOku tirnakli da tirnaksiz da okur: yazi elle de yazilabiliyor,

@@ -31,6 +31,11 @@ for (const f of files) {
   let fm = txt.slice(4, end);
   const body = txt.slice(end + 4);
 
+  // Taslaklara dokunma. draft: true olan yazi sitede yayinlanmiyor; ona
+  // kapak uretirsek kart /gorseller/ altina kopyalanir ve yazinin BASLIGI
+  // herkese acik olur. Yayina alindiginda burasi kendiliginden calisir.
+  if (fmOku(fm, 'draft') === 'true') { none++; continue; }
+
   // Kapak: once frontmatter, yoksa govdedeki ilk gorsel.
   // fmOku tirnakli da tirnaksiz da okur; /admin/ paneli tirnaksiz yazabilir.
   let cover = fmOku(fm, 'cover') || undefined;
