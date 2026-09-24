@@ -24,12 +24,24 @@ OUT = pathlib.Path("src/fonts"); OUT.mkdir(parents=True, exist_ok=True)
 LATIN = ",".join([
     "U+0020-007E",   # temel latin
     "U+00A0-00FF",   # é ü ö ç ñ ß ° « »
+    "U+0131",        # ı  <- DIKKAT, asagidaki nota bak
     "U+2000-206F",   # tire, tirnak, uc nokta, ⁂
-    "U+2190-2193",   # ← ↑ → ↓
     "U+20A0-20BF",   # ₺ €
     "U+2122",        # ™
 ])
-LATIN_EXT = "U+0100-017F"   # ğ ı ş İ Ğ Ş + diger Avrupa dilleri
+# U+0131 (noktasiz i) NEDEN BURADA:
+# Google Fonts bu harfi "latin" alt kumesine koyuyor, "latin-ext"e degil.
+# Yani latin-ext kaynak dosyasinda hic yok. Once U+0100-017F araligina
+# guvenilmisti; o aralik ı'yi KAPSIYOR ama latin-ext dosyasinda glif
+# olmadigi icin tarayici her ı'da yedek yazi tipine dusuyordu. Turkce bir
+# sitede bu, kelimenin ortasinda yazi tipi degismesi demek.
+# Cozum: ı'yi glifin gercekten bulundugu latin dosyasindan al ve asagida
+# latin-ext araligindan cikar. fonts.css'teki unicode-range da ayni.
+LATIN_EXT = "U+0100-0130,U+0132-017F"   # ğ ş İ Ğ Ş + diger Avrupa dilleri (ı haric)
+
+# NOT: ← ↑ → ↓ (U+2190-2193) ve ― (U+2015) araliktan cikarildi.
+# Fraunces'te bu glifler HIC YOK; bildirmek tarayiciyi bos yere bu dosyaya
+# yonlendiriyordu. Simdi dogrudan yedek yazi tipine gidiyorlar, gorunum ayni.
 
 PINS = {"SOFT": 0, "WONK": 1}   # WONK=1: Fraunces'in karakterli hali
 
