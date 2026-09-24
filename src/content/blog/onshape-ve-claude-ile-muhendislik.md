@@ -4,8 +4,7 @@ date: 2026-09-24T12:50
 description: "Bir asansör iskeletini tarif ettim, karşıma 88 parçalı model, kesim listesi ve lazere verilebilecek dosya çıktı. Devrim çizimde değil, tasarımın kaynak koduna dönüşmesinde."
 tags: ["yazılım", "imalat", "sanayi"]
 categories: ["Articles"]
-cover: "/gorseller/k/onshape-ve-claude-ile-muhendislik.webp"
-paylasimKarti: "/gorseller/kart/onshape-ve-claude-ile-muhendislik.png"
+cover: "/gorseller/onshape-claude-kapak.webp"
 ---
 
 İddiam şu: bugün bir şeyi tasarlayıp ürettirmek için iki şey yetiyor. Onshape ve Claude.
@@ -23,6 +22,8 @@ Yani Onshape’i artık çizmek için kullanmıyorum. Sadece bakmak, döndürmek
 En son bir asansör iskeleti yaptım. 88 parça: dikmeler, kirişler, çaprazlar, kılavuzlar, cıvatalar, kaynak somunları. Tarif ettim, kod yazıldı, STEP çıktı, Onshape’te açtım, karşımda duruyordu.
 
 Yanında da şunlar çıktı: kesim listesi (Excel’in Türkçe ayracıyla, noktalı virgüllü), parça ağırlıkları ve toplam kilo, izometrik önizleme, bir de kodun kendisi.
+
+![Solda Onshape’te açılmış asansör iskeleti: 88 parçalık mavi çelik konstrüksiyon. Sağda Claude paneli, NPU 40 profilinin hangi ölçü olduğunu soruyor ve üretilen dosyaları listeliyor: önizleme, STEP, kesim listesi, kaynak kodu.](/gorseller/onshape-claude-asansor-iskeleti.webp)
 
 ## Asıl devrim çizim değil
 
