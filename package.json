@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "npm run gorseller && astro dev",
-    "build": "npm run gorseller && astro build",
+    "build": "npm run gorseller && astro build && node scripts/sitemap-kopyala.mjs",
     "preview": "astro preview",
     "yeni": "node scripts/yeni-yazi.mjs",
     "gorseller": "node scripts/kapak-uret.mjs && node scripts/kart-uret.mjs"
