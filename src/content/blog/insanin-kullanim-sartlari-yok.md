@@ -4,15 +4,11 @@ date: 2026-10-08T09:45
 description: "Süper zekânın insanla bir insan gibi bağ kurmasından korkuyoruz. Bence korkuyu yanlış yere yöneltiyoruz: Asıl öngörülemez olan karşımızdaki makine değil, insanın kendisi."
 tags: ["süper zekâ", "felsefe"]
 categories: ["Articles"]
-cover: "/gorseller/yahudanin-opucugu-kapak.webp"
-paylasimKarti: "/gorseller/yahudanin-opucugu-paylasim.jpg"
+cover: "/gorseller/k/insanin-kullanim-sartlari-yok.webp"
+paylasimKarti: "/gorseller/kart/insanin-kullanim-sartlari-yok.png"
 ---
 
 Süper zekânın insanla bir insan gibi bağ kurmasından korkuyoruz. Bence korkuyu yanlış yere yöneltiyoruz: Asıl öngörülemez olan karşımızdaki makine değil, insanın kendisi.
-
-![Giotto’nun freski: Kalabalığın ortasında, sarı pelerinli Yahuda, İsa’yı kucaklayıp öperken; çevrelerinde meşaleler, sopalar ve mızraklar.](/gorseller/yahudanin-opucugu.webp)
-
-*Giotto, Yahuda’nın Öpücüğü, yaklaşık 1305, Scrovegni Şapeli, Padova. Görsel: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg), kamu malı.*
 
 ## Panellerdeki korku
 
