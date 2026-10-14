@@ -4,7 +4,7 @@ date: 2026-10-14T18:00
 description: "Oğlum GarageBand’de sesini uzaylı sesine çevirip dinliyordu. Kaydet, bul, oynat; çocuk için fazla uzun bir yol. Telefonu evdeki Bluetooth hoparlöre bağlanan bir megafona çeviren, reklamsız, tek ekranlık bir uygulama yaptım."
 tags: ["aile", "yazılım", "tasarım"]
 categories: ["Articles"]
-draft: true
+cover: "/gorseller/megafon-kapak.webp"
 ---
 
 Oğlum bir süre iPad’de GarageBand’le oynadı. Sesini kaydediyor, uzaylı sesine çeviriyor, sonra dinleyip gülüyordu. Çocukça bir uğraş. Ama bakarken bir şey dikkatimi çekti.
