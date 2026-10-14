@@ -28,6 +28,8 @@ Bu sitede Google Analytics var. Tek derdi şu: hangi yazı okunuyor, insanlar ne
 
 Reklam yok, kimseye veri satılmıyor, kim olduğunuzu bilmiyorum ve bilmek de istemiyorum. Bana ulaşan şey "şu yazı bu hafta şu kadar açılmış" gibi toplu sayılardan ibaret.
 
+Bir de basit bir sayaç var: her sayfa açılışında ücretsiz bir sayaç servisinde (abacus.jasoncameron.dev) o günün ve o sayfanın sayısı bir artıyor. Adınız, adresiniz ya da başka bir bilginiz gönderilmiyor. Aynı gün ikinci kez sayılmamak için tarayıcınıza yalnızca tarihi yazan küçük bir not bırakılıyor.
+
 İki yerde daha dışarıya bağlanılıyor: yazıların altındaki yorum kutusu GitHub üzerinden çalışıyor (yorum yazmasanız da kutu yüklenir) ve bazı yazılarda gömülü YouTube videoları var. İkisi de kendi çerezlerini bırakır.
 
 İstemiyorsanız tarayıcınızın izleme engelleyicisini açmanız yeterli; sayfalar yine sorunsuz açılır, yazıların hiçbiri kapanmaz.

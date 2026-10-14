@@ -82,6 +82,41 @@ const jsonLd = article
       </>
     )}
 
+    {/*
+      Ziyaret sayaci. Analytics paneline yalniz sahibi bakabiliyor; bu sayaclar
+      herkese acik okunuyor, boylece "giren var mi" sorusu bir betikle
+      cevaplanir (scripts/sayac-oku.mjs). Servis hesapsiz ve ucretsiz
+      (abacus.jasoncameron.dev); 6 ay hic sayilmayan anahtar silinir.
+      Cerez yok, kisisel veri yok: yalniz uc sayac artiyor.
+        g-YYYY-MM-DD  o gunun sayfa goruntulemesi
+        t-YYYY-MM-DD  o gunun tekil ziyaretcisi (tarayici basina gunde bir)
+        s-<adres>     sayfa basina toplam
+      Yalniz gercek adreste sayar: onizleme, yerel derleme ve otomatik
+      tarayicilar (navigator.webdriver) sayilmaz.
+    */}
+    <script is:inline set:html={`
+      (function () {
+        try {
+          if (location.hostname !== '${Astro.site?.hostname ?? ''}' || navigator.webdriver) return;
+          var ns = 'alperalyaz-blog';
+          var gun = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Istanbul' }).format(new Date());
+          var yol = location.pathname.replace(/^\\/+|\\/+$/g, '').toLowerCase()
+            .replace(/[^a-z0-9-]+/g, '-').slice(0, 60) || 'anasayfa';
+          var vur = function (k) {
+            fetch('https://abacus.jasoncameron.dev/hit/' + ns + '/' + k, { keepalive: true }).catch(function () {});
+          };
+          vur('g-' + gun);
+          vur('s-' + yol);
+          var isaret = null;
+          try { isaret = localStorage.getItem('sayac-gun'); } catch (e) {}
+          if (isaret !== gun) {
+            vur('t-' + gun);
+            try { localStorage.setItem('sayac-gun', gun); } catch (e) {}
+          }
+        } catch (e) {}
+      })();
+    `}></script>
+
     <meta property="og:type" content={article ? 'article' : 'website'} />
     <meta property="og:title" content={title ?? site.title} />
     <meta property="og:description" content={desc} />
