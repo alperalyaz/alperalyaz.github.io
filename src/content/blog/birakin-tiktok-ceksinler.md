@@ -8,7 +8,7 @@ cover: "/gorseller/tiktok-kapak.webp"
 paylasimKarti: "/gorseller/tiktok-paylasim.jpg"
 ---
 
-![Yan yana on sekiz telefon; on yedisinde “izliyor”, birinde “çekiyor” yazıyor.](/gorseller/tiktok-kapak.webp)
+![Odasında, masasına kurduğu telefon ve ışığın karşısında video çeken bir çocuk; kapı aralığında onu izleyen bir ebeveyn.](/gorseller/tiktok-kapak.webp)
 
 Çocuklarımızın video çekmesinden, fenomen olmaya özenmesinden korkuyoruz. Bence korkuyu yanlış yere yöneltiyoruz: Kaptırmaktan korktuğumuz o yapay dünya, belki de geleceğin gerçek dünyası.
 
