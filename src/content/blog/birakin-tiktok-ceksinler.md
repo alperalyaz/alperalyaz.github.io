@@ -4,8 +4,11 @@ date: 2026-11-13T09:00
 description: "Çocuklarımızı kaptırmaktan korktuğumuz o yapay dünya belki de geleceğin gerçek dünyası. Video çeken çocuğun elinden telefonu almak yerine, orada ne öğrendiğine bakmak lazım."
 tags: ["toplum", "aile", "ekonomi"]
 categories: ["Articles"]
-draft: true
+cover: "/gorseller/tiktok-kapak.webp"
+paylasimKarti: "/gorseller/tiktok-paylasim.jpg"
 ---
+
+![Yan yana on sekiz telefon; on yedisinde “izliyor”, birinde “çekiyor” yazıyor.](/gorseller/tiktok-kapak.webp)
 
 Çocuklarımızın video çekmesinden, fenomen olmaya özenmesinden korkuyoruz. Bence korkuyu yanlış yere yöneltiyoruz: Kaptırmaktan korktuğumuz o yapay dünya, belki de geleceğin gerçek dünyası.
 
