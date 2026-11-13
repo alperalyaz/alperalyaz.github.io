@@ -21,7 +21,7 @@ Hiçbir çocuk “matematiğe âşığım, trigonometri öğrenmek istiyorum” 
 
 İşin parasına bakmadan bir mesleğin bilimine gönül verenler de var. Çok azlar, ve dünyada fark yaratanlar çoğunlukla onlar. Keşke eğitim sistemimiz onlardan daha fazla yetiştirse. Ama kurduğumuz düzenin tamamı kâr etmek üzerine.
 
-Bu yüzden “video çekmek boş iş, insan ciddi bir şeyle uğraşmalı” itirazı bana samimi gelmiyor. Çocuğa meslek seçtirirken kazanca bakan biziz. Geriye tek dürüst itiraz kalıyor: “bu iş tutmaz.” Onu da aşağıda konuşacağım.
+Bu yüzden “video çekmek boş iş, insan ciddi bir şeyle uğraşmalı” itirazı bana samimi gelmiyor. Çocuğa meslek seçtirirken kazanca bakan biziz. Geriye tek dürüst itiraz kalıyor: “bu iş tutmaz.” Ona aşağıda geleceğim.
 
 ## İzleyen çocuk ile çeken çocuk aynı şeyi yapmıyor
 
@@ -43,7 +43,7 @@ Bu yüzden ben bunu okulun yerine değil, yanına koyuyorum. Dersi bırakıp fen
 
 ## Gerçek dünya da pek temiz değil
 
-Burada kendi tecrübemden konuşacağım. Gerçek dünyada ticaret yapmaya, bir şey alıp satmaya kalkan bir genç o kadar çok yanlışla karşılaşıyor ki. Sermaye lazım, tanıdık lazım. Söz veren sözünü tutmuyor, alacağını tahsil edemiyorsun.
+Burada kendi tecrübeme dayanıyorum. Gerçek dünyada ticaret yapmaya, bir şey alıp satmaya kalkan bir genç o kadar çok yanlışla karşılaşıyor ki. Sermaye lazım, tanıdık lazım. Söz veren sözünü tutmuyor, alacağını tahsil edemiyorsun.
 
 Platform da masum değil. Kuralı tek taraflı değiştiriyor, geliri kesiyor, hesabı kapatıyor ve çoğu zaman muhatap bulamıyorsun. Bunu görmezden gelmek saflık olur.
 
